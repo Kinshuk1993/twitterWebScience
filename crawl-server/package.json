@@ -1,0 +1,14 @@
+{
+  "name": "crawl-server",
+  "version": "1.0.0",
+  "description": "The server part of the twitter crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kinshuk Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.3.4"
+  }
+}
