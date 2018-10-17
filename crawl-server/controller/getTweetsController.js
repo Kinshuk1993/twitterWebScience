@@ -11,6 +11,8 @@ var twitModule = new twit({
     access_token: keys.access_token,
     access_token_secret: keys.access_secret_token
 });
+//include async module
+var async = require('async');
 
 //export the methods
 module.exports = {
@@ -22,8 +24,8 @@ module.exports = {
             if (err) {
                 console.log('Error in finding in the database: ', err);
                 return handleError(res, err);
-            } else { //handle sucess case of tweets found with response code and body
-                console.log('The tweets are: ', tweetList);
+            } else { //handle success case of tweets found with response code and body
+                console.log('The number of tweets found  in the database using findAllTweets API are: ', tweetList.length);
                 //express deprecated res.send(status, body): Use res.status(status).send(body)
                 //got to know from the exception of deprecated thrown while testing
                 return res.status(200).send(tweetList);
@@ -31,7 +33,7 @@ module.exports = {
         })
     },
 
-    //Function to save a new tweet to the database
+    //Function to save a new tweet to the database - SAMPLE
     saveNewTweet: function (req, res) {
         //build the tweet object to save
         var newTweet = new TweetsDB({
@@ -59,19 +61,49 @@ module.exports = {
     },
 
     getTweetsREST: function (req, res) {
-        twitModule.get('search/users', {
-            q: 'kinshuk'
+        twitModule.get('search/tweets', {
+            q: 'football', //query keyword
+            count: 100 //setting the limit to maximum which is 100, but if not mentioned, default is 15
         }, function (err, data, response) {
             //handle the error in gathering the data from twitter and log error and exit
             if (err) {
-                console.log('Error occured in gathering twitter data for keyword banana: ', JSON.stringify(err));
+                console.log('Error occured in gathering twitter data: ', JSON.stringify(err));
                 return handleError(res, err);
             } else { //console the tweets received from twitter to console window
-                // console.log('The tweets received are: ', JSON.stringify(data), '\n');
-                console.log('The number of tweets received are: ', data.statuses.length);
-                return res.status(200).send(data);
+                console.log('The number of tweets received using GET REST API are: ', data.statuses.length);
+
+                //save each tweet to the database by looping through the data received
+                async.forEachSeries(data.statuses, function (eachTweet, callback) {
+                        //save each tweet
+                        new TweetsDB(eachTweet).save(function (err, savedTweet) {
+                            //handle error case
+                            if (err) {
+                                //If error, log the error
+                                console.log('Error occured in saving incoming tweet to database: ', JSON.stringify(err));
+                                //continue to the next iteration
+                                callback();
+                            } else {
+                                //continue to the next iteration
+                                callback();
+                            }
+                        });
+                    },
+                    //final function to handle any other errors
+                    function (err) {
+                        //handle final error scenario
+                        if (err) {
+                            //if error, log error and return the response with error code
+                            console.log("Error in async of saving incoming tweets to database");
+                            //return response
+                            return handleError(res, err);
+                        } else { //handle success case
+                            //log success message
+                            console.log('All tweets successfully saved in the database.');
+                            //return success code and custom message
+                            return res.status(200).send('All tweets successfully saved in the database.');
+                        }
+                    });
             }
-            console.log('Printing the response from twitter api: ', JSON.stringify(response));
         });
     }
 }
