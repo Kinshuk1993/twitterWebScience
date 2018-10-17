@@ -10,6 +10,8 @@ var controller = require('./getTweetsController');
 router.get('/', controller.findAllTweets);
 //POST
 router.post('/', controller.saveNewTweet);
+//GET the tweets using streaming
+router.get('/tweetsREST', controller.getTweetsREST);
 
 //export the router
 module.exports = router;

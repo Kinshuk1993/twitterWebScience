@@ -1,6 +1,6 @@
 {
-    "consumer-key": "hyOHxJDHQbQUPzVa13REbwKMg",
-    "consumer-secret-key": "9CpTzmIt8G6vwc7GrHvWQHnScsLxx088cZd4D6F4pIWjG8HfMa",
-    "access-token": "1429786261-5wTEReC3fAj1k9VgL6vufKTs1bHHSpRJLgd5CRo",
-    "access-secret-token": "HtWfqfznsIdm9KAsTVVFddFiWRfnOOxjXrmzoox0ARLeL"
+    "consumer_key": "hyOHxJDHQbQUPzVa13REbwKMg",
+    "consumer_secret_key": "9CpTzmIt8G6vwc7GrHvWQHnScsLxx088cZd4D6F4pIWjG8HfMa",
+    "access_token": "1429786261-5wTEReC3fAj1k9VgL6vufKTs1bHHSpRJLgd5CRo",
+    "access_secret_token": "HtWfqfznsIdm9KAsTVVFddFiWRfnOOxjXrmzoox0ARLeL"
 }
