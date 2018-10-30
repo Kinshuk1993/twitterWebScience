@@ -13,6 +13,12 @@ var twitModule = new twit({
 });
 //include async module
 var async = require('async');
+var fs = require('fs');
+var path = require('path');
+var winston = require('winston');
+var logDir = 'Twitter-Crawler-Logs';
+var logFile = path.resolve(__dirname + "/" + logDir);
+var logger = require('./../logger-config/log-config');
 
 //export the methods
 module.exports = {
@@ -22,10 +28,10 @@ module.exports = {
         TweetsDB.find((err, tweetList) => {
             //handle error scenario and return error code
             if (err) {
-                console.log('Error in finding in the database: ', err);
+                logger.error('Error in finding in the database: ' + JSON.stringify(err));
                 return handleError(res, err);
             } else { //handle success case of tweets found with response code and body
-                console.log('The number of tweets found  in the database using findAllTweets API are: ', tweetList.length);
+                logger.info('The number of tweets found  in the database using findAllTweets API are: ' + tweetList.length);
                 //express deprecated res.send(status, body): Use res.status(status).send(body)
                 //got to know from the exception of deprecated thrown while testing
                 return res.status(200).send(tweetList);
@@ -46,12 +52,12 @@ module.exports = {
             //handle error scenario and return with not found error code
             if (err) {
                 //log error on console
-                console.log('Error in saving new tweets to the database: ', JSON.stringify(err));
+                logger.error('Error in saving new tweets to the database: ' + JSON.stringify(err));
                 //return error
                 return handleError(res, err);
             } else {
                 //log success on console
-                console.log('New tweets saved to db: ', JSON.stringify(savedTweet));
+                logger.info('New tweets saved to db: ' + JSON.stringify(savedTweet));
                 //express deprecated res.send(status, body): Use res.status(status).send(body)
                 //got to know from the exception of deprecated thrown while testing
                 //return
@@ -67,10 +73,10 @@ module.exports = {
         }, function (err, data, response) {
             //handle the error in gathering the data from twitter and log error and exit
             if (err) {
-                console.log('Error occured in gathering twitter data: ', JSON.stringify(err));
+                logger.error('Error occured in gathering twitter data: ' + JSON.stringify(err));
                 return handleError(res, err);
             } else { //console the tweets received from twitter to console window
-                console.log('The number of tweets received using GET REST API are: ', data.statuses.length);
+                logger.info('The number of tweets received using GET REST API are: ' + JSON.stringify(data.statuses.length));
 
                 //save each tweet to the database by looping through the data received
                 async.forEachSeries(data.statuses, function (eachTweet, callback) {
@@ -79,7 +85,7 @@ module.exports = {
                             //handle error case
                             if (err) {
                                 //If error, log the error
-                                console.log('Error occured in saving incoming tweet to database: ', JSON.stringify(err));
+                                logger.error('Error occured in saving incoming tweet to database: ' + JSON.stringify(err));
                                 //continue to the next iteration
                                 callback();
                             } else {
@@ -93,12 +99,12 @@ module.exports = {
                         //handle final error scenario
                         if (err) {
                             //if error, log error and return the response with error code
-                            console.log("Error in async of saving incoming tweets to database");
+                            logger.error("Error in async of saving incoming tweets to database: " + JSON.stringify(err));
                             //return response
                             return handleError(res, err);
                         } else { //handle success case
                             //log success message
-                            console.log('All tweets successfully saved in the database.');
+                            logger.info('All tweets successfully saved in the database.');
                             //return success code and custom message
                             return res.status(200).send('All tweets successfully saved in the database.');
                         }
@@ -110,6 +116,7 @@ module.exports = {
 
 //function to handle the error response
 function handleError(res, err) {
+    logger.info("Error encountered in handleError: " + JSON.stringify(err));
     //return
     return res.send(500, err);
 }

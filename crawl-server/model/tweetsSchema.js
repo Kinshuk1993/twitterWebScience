@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 //create schema variable
 var Schema = mongoose.Schema;
 
+//NOT TO BE REMOVED - DEFINES A SAMPLE SCHEMA FOR TWEET DB
 // create a sample schema with fields and mention the validators
 // var tweetSchema = new Schema({
 //     user_id: {
