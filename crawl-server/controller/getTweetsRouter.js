@@ -7,9 +7,9 @@ var controller = require('./getTweetsController');
 
 //GET HTTP router methods for /getTweets
 //GET
-router.get('/', controller.findAllTweets);
+router.get('/', controller.findAllRESTTweets);
 //POST
-router.post('/', controller.saveNewTweet);
+router.post('/', controller.saveNewTweetViaREST);
 //GET the tweets using streaming
 router.get('/tweetsREST', controller.getTweetsREST);
 

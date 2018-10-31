@@ -1,0 +1,14 @@
+2018-10-30 21:26:17 info: Starting the server at port number 3000
+2018-10-30 21:26:17 info: Successfully connected to database
+2018-10-30 21:26:27 error: Error occured in gathering twitter data: {"errno":"ENOTFOUND","code":null,"syscall":"getaddrinfo","hostname":"api.twitter.com","host":"api.twitter.com","port":443,"statusCode":null,"allErrors":[],"twitterReply":""}
+2018-10-30 21:26:27 info: Error encountered in handleError: {"errno":"ENOTFOUND","code":null,"syscall":"getaddrinfo","hostname":"api.twitter.com","host":"api.twitter.com","port":443,"statusCode":null,"allErrors":[],"twitterReply":""}
+2018-10-30 21:26:59 error: Error occured in gathering twitter data: {"errno":"ENOTFOUND","code":null,"syscall":"getaddrinfo","hostname":"api.twitter.com","host":"api.twitter.com","port":443,"statusCode":null,"allErrors":[],"twitterReply":""}
+2018-10-30 21:26:59 info: Error encountered in handleError: {"errno":"ENOTFOUND","code":null,"syscall":"getaddrinfo","hostname":"api.twitter.com","host":"api.twitter.com","port":443,"statusCode":null,"allErrors":[],"twitterReply":""}
+2018-10-30 21:27:02 info: New tweets saved to db: {"_id":"5bd8cca6be9f2c2bd8b86e99","user_id":"105","tweet":"Tweet 1045","geo_tagged":"false","__v":0}
+2018-10-30 21:27:06 info: New tweets saved to db: {"_id":"5bd8ccaabe9f2c2bd8b86e9a","user_id":"105","tweet":"Tweet 1045","geo_tagged":"false","__v":0}
+2018-10-30 21:27:09 info: The number of tweets found  in the database using findAllTweets API are: 1504
+2018-10-30 21:29:11 info: Starting the server at port number 3000
+2018-10-30 21:29:11 info: Successfully connected to database
+2018-10-30 21:29:18 info: The number of tweets received using GET REST API are: 100
+2018-10-30 21:29:18 info: All tweets successfully saved in the database.
+2018-10-30 21:29:26 info: The number of tweets found  in the database using findAllTweets API are: 1604

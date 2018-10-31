@@ -7,9 +7,9 @@ var logFile = path.resolve(__dirname + "/" + logDir);
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var getTweets = require('./controller/getTweetsRouter');
-var TweetsDB = require('./model/tweetsSchema');
 var config = require('./model/config');
 var logger = require('./logger-config/log-config');
+var getTweetsUsingRest = require('./controller/restCall');
 
 if (!fs.existsSync(logDir)) {
     fs.mkdirSync(logDir);
@@ -31,7 +31,6 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
-// app.use(morgan('combined', { stream: winston.stream }));
 
 /**
  * express.static is a built in middleware function to serve static files.
@@ -51,6 +50,16 @@ app.get('/*', (req, res) => {
     logger.info("Path not found error..!!");
     res.send("Page not Found Error");
 });
+//call the REST API initially and then put it inside a callback loop
+getTweetsUsingRest.getTweetsREST();
+
+//call the REST API every 5 minutes for a total duration of 1 hour
+var intervalForRestCall = setInterval(function () {
+    getTweetsUsingRest.getTweetsREST();
+}, 300000);
+setTimeout(function () {
+    clearInterval(interval);
+}, 3600000);
 
 //listen the application at port number 3000
 app.listen(3000, () => {

@@ -23,9 +23,9 @@ var logger = require('./../logger-config/log-config');
 //export the methods
 module.exports = {
     //function to find all tweets from database
-    findAllTweets: function (req, res) {
+    findAllRESTTweets: function (req, res) {
         //fun find command
-        TweetsDB.find((err, tweetList) => {
+        TweetsDB.tweetsREST.find((err, tweetList) => {
             //handle error scenario and return error code
             if (err) {
                 logger.error('Error in finding in the database: ' + JSON.stringify(err));
@@ -40,7 +40,7 @@ module.exports = {
     },
 
     //Function to save a new tweet to the database - SAMPLE
-    saveNewTweet: function (req, res) {
+    saveNewTweetViaREST: function (req, res) {
         //build the tweet object to save
         var newTweet = new TweetsDB({
             user_id: req.body.user_id,
@@ -48,7 +48,7 @@ module.exports = {
             geo_tagged: req.body.geo_tagged
         });
         //run the save command
-        newTweet.save(function (err, savedTweet) {
+        TweetsDB.tweetsREST(eachTweet).save(function (err, savedTweet) {
             //handle error scenario and return with not found error code
             if (err) {
                 //log error on console
@@ -81,7 +81,7 @@ module.exports = {
                 //save each tweet to the database by looping through the data received
                 async.forEachSeries(data.statuses, function (eachTweet, callback) {
                         //save each tweet
-                        new TweetsDB(eachTweet).save(function (err, savedTweet) {
+                        TweetsDB.tweetsREST(eachTweet).save(function (err, savedTweet) {
                             //handle error case
                             if (err) {
                                 //If error, log the error
