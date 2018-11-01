@@ -1,3 +1,5 @@
+'use strict';
+
 //include express package
 var express = require('express');
 //for routing

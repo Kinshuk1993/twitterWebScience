@@ -1,3 +1,5 @@
+'use strict';
+
 //require the twit module to enable REST and streaming calls to twitter apis
 var twit = require('twit');
 //get the tweets model
@@ -20,9 +22,9 @@ var logDir = 'Twitter-Crawler-Logs';
 var logFile = path.resolve(__dirname + "/" + logDir);
 var logger = require('./../logger-config/log-config');
 
-exports.getTweetsREST = function () {
+exports.getTweetsREST = function (keyword) {
     twitModule.get('search/tweets', {
-        q: 'football', //query keyword
+        q: keyword, //query keyword is random for every call
         count: 100 //setting the limit to maximum which is 100, but if not mentioned, default is 15
     }, function (err, data, response) {
         //handle the error in gathering the data from twitter and log error and exit
@@ -42,7 +44,6 @@ exports.getTweetsREST = function () {
                             //continue to the next iteration
                             callback();
                         } else {
-                            logger.info('The tweet using REST call is saved successfully in the database: ' + JSON.stringify(eachTweet));
                             //continue to the next iteration
                             callback();
                         }

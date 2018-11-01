@@ -1,3 +1,5 @@
+'use strict';
+
 //require dependencies and inbuild files
 var express = require('express');
 var path = require('path');
@@ -10,6 +12,7 @@ var getTweets = require('./controller/getTweetsRouter');
 var config = require('./model/config');
 var logger = require('./logger-config/log-config');
 var getTweetsUsingRest = require('./controller/restCall');
+var keywordArray = require('./controller/keywords');
 
 if (!fs.existsSync(logDir)) {
     fs.mkdirSync(logDir);
@@ -51,14 +54,26 @@ app.get('/*', (req, res) => {
     res.send("Page not Found Error");
 });
 //call the REST API initially and then put it inside a callback loop
-getTweetsUsingRest.getTweetsREST();
+getTweetsUsingRest.getTweetsREST('love');
 
 //call the REST API every 5 minutes for a total duration of 1 hour
 var intervalForRestCall = setInterval(function () {
-    getTweetsUsingRest.getTweetsREST();
+    var sampleArrayKeyword = []
+    for (var i = 0; i < keywordArray.length; i++) {
+        sampleArrayKeyword.push(keywordArray[i])
+    }
+    var randomKeyword = "";
+    // then, each time pull from that array and remove the one you use
+    if (sampleArrayKeyword.length > 0) {
+        var randomIndex = Math.floor(Math.random() * sampleArrayKeyword.length)
+        randomKeyword = sampleArrayKeyword[randomIndex];
+        logger.info('Keyword being searched for in the twitter REST call is: ' + randomKeyword);
+        sampleArrayKeyword.splice(randomIndex, 1);
+    }
+    getTweetsUsingRest.getTweetsREST(randomKeyword);
 }, 300000);
 setTimeout(function () {
-    clearInterval(interval);
+    clearInterval(intervalForRestCall);
 }, 3600000);
 
 //listen the application at port number 3000

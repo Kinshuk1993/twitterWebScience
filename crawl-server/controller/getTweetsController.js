@@ -1,3 +1,5 @@
+'use strict';
+
 //require the twit module to enable REST and streaming calls to twitter apis
 var twit = require('twit');
 //get the tweets model
