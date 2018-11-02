@@ -7,23 +7,26 @@ var TweetsDB = require('../model/tweetsSchema');
 //get the consumer and access keys from JSON
 var keys = require('./../access-key/access');
 //build and provide the keys to imported twit variable
-var twitModule = new twit({
+var twitAuth = new twit({
     consumer_key: keys.consumer_key,
     consumer_secret: keys.consumer_secret_key,
     access_token: keys.access_token,
     access_token_secret: keys.access_secret_token
 });
+
 //include async module
 var async = require('async');
-var fs = require('fs');
+//include path module
 var path = require('path');
-var winston = require('winston');
+//specify the log folder name
 var logDir = 'Twitter-Crawler-Logs';
+//get the log directory
 var logFile = path.resolve(__dirname + "/" + logDir);
+//include logger config
 var logger = require('./../logger-config/log-config');
 
 exports.getTweetsREST = function (keyword) {
-    twitModule.get('search/tweets', {
+    twitAuth.get('search/tweets', {
         q: keyword, //query keyword is random for every call
         count: 100 //setting the limit to maximum which is 100, but if not mentioned, default is 15
     }, function (err, data, response) {

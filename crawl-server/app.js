@@ -11,7 +11,11 @@ var mongoose = require('mongoose');
 var getTweets = require('./controller/getTweetsRouter');
 var config = require('./model/config');
 var logger = require('./logger-config/log-config');
-var getTweetsUsingRest = require('./controller/restCall');
+//for rest calls
+var getTweetsUsingREST = require('./twitterAPIs/restCall');
+//for streaming calls
+var getTweetsUsingSTREAM = require('./twitterAPIs/streamCall');
+//get keywor array
 var keywordArray = require('./controller/keywords');
 
 if (!fs.existsSync(logDir)) {
@@ -53,25 +57,41 @@ app.get('/*', (req, res) => {
     logger.info("Path not found error..!!");
     res.send("Page not Found Error");
 });
-//call the REST API initially and then put it inside a callback loop
-getTweetsUsingRest.getTweetsREST('love');
 
-//call the REST API every 5 minutes for a total duration of 1 hour
+//call the REST API initially and then put it inside a callback loop
+getTweetsUsingREST.getTweetsREST('amazing');
+
+//get twitter data using streaming API
+getTweetsUsingSTREAM.getTweetsSTREAM();
+
+// call the REST API every 5 minutes for a total duration of 1 hour
 var intervalForRestCall = setInterval(function () {
+    //work on a sample array as JS will modify original array otherwise
     var sampleArrayKeyword = []
+    //fill data into sample array
     for (var i = 0; i < keywordArray.length; i++) {
         sampleArrayKeyword.push(keywordArray[i])
     }
-    var randomKeyword = "";
-    // then, each time pull from that array and remove the one you use
+    //variable to store the random keyword to search for using REST call
+    //defaulted to keyword "WEATHER"
+    var randomKeyword = "weather";
+    //each time pull from that array and remove the one already used
+    //simple check to check if contents of array
     if (sampleArrayKeyword.length > 0) {
+        //get a random index of sample array
         var randomIndex = Math.floor(Math.random() * sampleArrayKeyword.length)
+        //get word on the generated index
         randomKeyword = sampleArrayKeyword[randomIndex];
-        logger.info('Keyword being searched for in the twitter REST call is: ' + randomKeyword);
+        //log the action
+        logger.info('Keyword being searched for via the twitter REST call is: ' + randomKeyword);
+        //remove the word from the array to avoid duplicate keyword search using REST call
         sampleArrayKeyword.splice(randomIndex, 1);
     }
-    getTweetsUsingRest.getTweetsREST(randomKeyword);
+    //REST call using the random keyword from array
+    getTweetsUsingREST.getTweetsREST(randomKeyword);
 }, 300000);
+
+//set the time after which the REST API calls should stop (1 hour)
 setTimeout(function () {
     clearInterval(intervalForRestCall);
 }, 3600000);
