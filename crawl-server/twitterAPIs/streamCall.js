@@ -39,6 +39,13 @@ var streamTwitterDataLocation = twitAuth.stream('statuses/filter', {
 });
 
 /**
+ * get a stream of tweets 
+ * without any filter
+ * with end point as statuses/sample
+ */
+var streamTwitterDataWithoutKeyword = twitAuth.stream('statuses/sample');
+
+/**
  * get a stream of tweets containing the 
  * keywod from the keyword array
  * with end point as statuses/filter
@@ -97,7 +104,31 @@ exports.getTweetsSTREAM = function () {
         logger.error('Error message for keyword stream reeived: ' + JSON.stringify(errMsg));
     });
 
-    //stop the streaming of data after 10 seconds
+    //action on getting tweets from glasgow
+    streamTwitterDataWithoutKeyword.on('tweet', function (tweet) {
+        //log the content to the log file with user name
+        logger.info('Tweet without any keyword filter received by: ' + JSON.stringify(tweet.user.screen_name));
+    });
+
+    //action on getting limit messages without any keyword filter stream
+    streamTwitterDataWithoutKeyword.on('limit', function (limitMessage) {
+        //log the content to the log file
+       logger.info('Limit message for no keyword filter stream reeived: ' + JSON.stringify(limitMessage));
+    });
+
+    //action on getting disconnect messages without any keyword filter stream
+    streamTwitterDataWithoutKeyword.on('disconnect', function (disconnectMessage) {
+        //log the content to the log file
+        logger.info('Disconnect message for no keyword filter stream reeived: ' + JSON.stringify(disconnectMessage));
+    });
+
+    //action on getting error messages without any keyword filter stream
+    streamTwitterDataWithoutKeyword.on('error', function (errMsg) {
+        //log the content to the log file
+        logger.error('Error message for no keyword filter stream reeived: ' + JSON.stringify(errMsg));
+    });
+
+    //stop the streaming of data after 1 hour
     setTimeout(stopSTREAM,3600000);
 }
 
@@ -111,4 +142,6 @@ function stopSTREAM() {
     streamTwitterDataLocation.stop();
     //end the keyword filter streaming
     streamTwitterDataKeyword.stop();
+    //stop the no keyword filter stream
+    streamTwitterDataWithoutKeyword.stop();
 }
