@@ -20,8 +20,10 @@ var Schema = mongoose.Schema;
  * can be done without any existing schema as tweets can be different structres of it
  * with some missing some fields and some having additional fields.
  */
+var tweetSchemaSTREAMKeywordFilter = new Schema({}, { strict: false });
 var tweetSchemaREST = new Schema({}, { strict: false });
-var tweetSchemaSTREAM = new Schema({}, { strict: false });
+var tweetSchemaSTREAMNoFilter = new Schema({}, { strict: false });
+var tweetSchemaSTREAMLocationFilter = new Schema({}, { strict: false });
 
 /**
  * indexing the schema and making the user_id field as unique 
@@ -31,6 +33,13 @@ var tweetSchemaSTREAM = new Schema({}, { strict: false });
  */
 // tweetSchema.index({id_str: 1, id_str: 1}, {unique: true}); --> COMMENTING OUT RIGHT NOW TO ENABLE DUPLICATE DATA ENTRY ALLOWED IN THE DATABASE
 
-// we need to create a model using it and export it
+/**
+ * we need to create a model using it and export it
+ * models exported are for rest api, no keyword filter stream,
+ * keywords filtering stream and
+ * glasgow location filter stream
+ */
+module.exports.tweetsSTREAMKeywordFilter = mongoose.model('tweetsSTREAMKeywordFilter',tweetSchemaSTREAMKeywordFilter);
 module.exports.tweetsREST = mongoose.model('tweetsREST',tweetSchemaREST);
-module.exports.tweetsSTREAM = mongoose.model('tweetsSTREAM',tweetSchemaSTREAM);
+module.exports.tweetsSTREAMNoFilter = mongoose.model('tweetsSTREAMNoFilter',tweetSchemaSTREAMNoFilter);
+module.exports.tweetsSTREAMLocationFilter = mongoose.model('tweetsSTREAMLocationFilter',tweetSchemaSTREAMLocationFilter);

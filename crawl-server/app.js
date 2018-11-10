@@ -13,8 +13,12 @@ var config = require('./model/config');
 var logger = require('./logger-config/log-config');
 //for rest calls
 var getTweetsUsingREST = require('./twitterAPIs/restCall');
-//for streaming calls
-var getTweetsUsingSTREAM = require('./twitterAPIs/streamCall');
+//for no filter stream call
+var getTweetsUsingNoFilterSTREAM = require('./twitterAPIs/noFilterStreamCall');
+//for keyword filter stream call
+var getTweetsUsingKeywordFilterSTREAM = require('./twitterAPIs/keywordFilterStream');
+//for location filter stream call
+var getTweetsUsingLocationFilterSTREAM = require('./twitterAPIs/locationFilterStream');
 //get keywor array
 var keywordArray = require('./controller/keywords');
 
@@ -26,7 +30,7 @@ if (!fs.existsSync(logDir)) {
 const app = express();
 
 //Coonect to the mongo database
-mongoose.connect(config.url, function (err) {
+mongoose.connect(config.url, { useNewUrlParser: true }, function (err) {
     if (err) {
         logger.error("Problem in connecting to the mongoDB database: " + JSON.stringify(err));
     }
@@ -61,8 +65,14 @@ app.get('/*', (req, res) => {
 //call the REST API initially and then put it inside a callback loop
 getTweetsUsingREST.getTweetsREST('amazing');
 
-//get twitter data using streaming API
-getTweetsUsingSTREAM.getTweetsSTREAM();
+//get twitter data using streaming API - streaming without any filter
+getTweetsUsingNoFilterSTREAM.getTweetsSTREAMNoFilter();
+
+//get twitter data using streaming API - streaming with keyword filter
+getTweetsUsingKeywordFilterSTREAM.getTweetsSTREAMKeywordFilter();
+
+//get twitter data using streaming API - streaming location based
+getTweetsUsingLocationFilterSTREAM.getTweetsSTREAMLocationFilter();
 
 // call the REST API every 5 minutes for a total duration of 1 hour
 var intervalForRestCall = setInterval(function () {
@@ -74,7 +84,7 @@ var intervalForRestCall = setInterval(function () {
     }
     //variable to store the random keyword to search for using REST call
     //defaulted to keyword "WEATHER"
-    var randomKeyword = "weather";
+    var randomKeyword = "oneplus";
     //each time pull from that array and remove the one already used
     //simple check to check if contents of array
     if (sampleArrayKeyword.length > 0) {
@@ -100,3 +110,23 @@ setTimeout(function () {
 app.listen(3000, () => {
     logger.info('Starting the server at port number 3000');
 });
+
+
+/**
+ * Current data stats:
+ * Date: 10th November 2018
+ * Start at: 2018-11-10 04:08:08 info: No keyword filter stream started
+ * End at: 2018-11-10 05:08:08 info: Location stream ended.
+ * Total runtime: 1 Hour
+ * 
+ * REST Tweets Collected: 1287 ( REST Calls @ 5 Minutes Interval)
+ * No Filter Stream Tweets Collected: 118151
+ * Tweets collected with Keyword Filtering using the word "MORNING": 26437
+ * Glasgow Geo-tagged Tweets Collected: 44
+ * 
+ * Command to export mongodb data to bson and json files: https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb
+ * mongodump --db <db name> --out <path to backup>
+ * 
+ * Guide to restore and backup mongodb: https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/
+ * mongorestore --port <port number> <path to the backup>
+ */
