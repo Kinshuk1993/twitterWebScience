@@ -5,6 +5,7 @@ var express = require('express');
 var path = require('path');
 var fs = require('fs');
 var logDir = 'Twitter-Crawler-Logs';
+var outputLogDir = 'Twitter-Crawler-Final-Output-Log';
 var logFile = path.resolve(__dirname + "/" + logDir);
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
@@ -21,9 +22,17 @@ var getTweetsUsingKeywordFilterSTREAM = require('./twitterAPIs/keywordFilterStre
 var getTweetsUsingLocationFilterSTREAM = require('./twitterAPIs/locationFilterStream');
 //get keywor array
 var keywordArray = require('./controller/keywords');
+//Commenting out for now - using it during Dev for testing
+// var analytics = require('./controller/analytics');
 
+//create the program log directory if it does not exist
 if (!fs.existsSync(logDir)) {
     fs.mkdirSync(logDir);
+}
+
+//create the program output log directory if it does not exist
+if (!fs.existsSync(outputLogDir)) {
+    fs.mkdirSync(outputLogDir);
 }
 
 //initialize express
@@ -99,12 +108,18 @@ var intervalForRestCall = setInterval(function () {
     }
     //REST call using the random keyword from array
     getTweetsUsingREST.getTweetsREST(randomKeyword);
+//repeat the rest call after 5 minutes
+// TO DO: Test with REST calls every second for one hour and check output
 }, 300000);
+//Done for small testing purpose
+// }, 1000);
 
 //set the time after which the REST API calls should stop (1 hour)
 setTimeout(function () {
     clearInterval(intervalForRestCall);
 }, 3600000);
+//Done for small testing purpose
+// }, 10000);
 
 //listen the application at port number 3000
 app.listen(3000, () => {
@@ -119,10 +134,10 @@ app.listen(3000, () => {
  * End at: 2018-11-10 05:08:08 info: Location stream ended.
  * Total runtime: 1 Hour
  * 
- * REST Tweets Collected: 1287 ( REST Calls @ 5 Minutes Interval)
- * No Filter Stream Tweets Collected: 118151
- * Tweets collected with Keyword Filtering using the word "MORNING": 26437
- * Glasgow Geo-tagged Tweets Collected: 44
+ * REST Tweets Collected: 1287 ( REST Calls @ 5 Minutes Interval) (1687 after some more time)
+ * No Filter Stream Tweets Collected: 118151 (118255 after some more time)
+ * Tweets collected with Keyword Filtering using the word "MORNING": 26437 (29816 after some more time)
+ * Glasgow Geo-tagged Tweets Collected: 44 (48 after some more time)
  * 
  * Command to export mongodb data to bson and json files: https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb
  * mongodump --db <db name> --out <path to backup>

@@ -14,18 +14,12 @@ var twitAuth = new twit({
     access_token_secret: keys.access_secret_token
 });
 
-//include async module
-var async = require('async');
-//include path module
-var path = require('path');
-//specify the log folder name
-var logDir = 'Twitter-Crawler-Logs';
-//get the log directory
-var logFile = path.resolve(__dirname + "/" + logDir);
 //include logger config
 var logger = require('../logger-config/log-config');
 //get keywor array
 var keywordArray = require('../controller/keywords');
+//include the analytics file to analyse the twitter data collected
+var analytics = require('../controller/analytics');
 
 //Glasgow coordinates - Obtained using http://boundingbox.klokantech.com/
 var glasgow = ['-4.393201', '55.781277', '-4.071717', '55.929638'];
@@ -82,6 +76,8 @@ exports.getTweetsSTREAMLocationFilter = function () {
 
     //stop the streaming of data after 1 hour
     setTimeout(stopLocationStream,3600000);
+    //Done for small testing purpose
+    // setTimeout(stopLocationStream, 10000);
 }
 
 /**
@@ -95,4 +91,6 @@ function stopLocationStream() {
     streamTwitterDataLocation.stop();    
     //log stop success message
     logger.info('Location stream ended.');
+    //perform analytics on the data collected
+    analytics.countTotalTweetsCollected();
 };

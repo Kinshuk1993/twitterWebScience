@@ -5,5 +5,6 @@ module.exports = {
    * Commenting the below db as the data is already collected and backedup in this database locally
    */
   // url: 'mongodb://127.0.0.1/twitterCrawlerDB'
+  //this is created for further testing as data is collected in twitterCrawlerDB
   url: 'mongodb://127.0.0.1/secondTwitterDB'
 }

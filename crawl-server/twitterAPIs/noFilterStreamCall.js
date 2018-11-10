@@ -14,14 +14,6 @@ var twitAuth = new twit({
     access_token_secret: keys.access_secret_token
 });
 
-//include async module
-var async = require('async');
-//include path module
-var path = require('path');
-//specify the log folder name
-var logDir = 'Twitter-Crawler-Logs';
-//get the log directory
-var logFile = path.resolve(__dirname + "/" + logDir);
 //include logger config
 var logger = require('../logger-config/log-config');
 //get keywor array
@@ -80,6 +72,8 @@ exports.getTweetsSTREAMNoFilter = function () {
 
     // stop the streaming of data after 1 hour
     setTimeout(stopNoFilterStream, 3600000);
+    //Done for small testing purpose
+    // setTimeout(stopNoFilterStream, 10000);
 }
 
 /**
