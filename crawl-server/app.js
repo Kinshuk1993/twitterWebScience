@@ -104,15 +104,15 @@ var intervalForRestCall = setInterval(function () {
         //log the action
         logger.info('Keyword being searched for via the twitter REST call is: ' + randomKeyword);
         //remove the word from the array to avoid duplicate keyword search using REST call
-        sampleArrayKeyword.splice(randomIndex, 1);
+        //Commenting this line as the frequency for REST call is increased and hence cannot clear the keyword array with every call
+        // sampleArrayKeyword.splice(randomIndex, 1);
     }
     //REST call using the random keyword from array
     getTweetsUsingREST.getTweetsREST(randomKeyword);
-//repeat the rest call after 5 minutes
-// TO DO: Test with REST calls every second for one hour and check output
-}, 300000);
-//Done for small testing purpose
-// }, 1000);
+//repeat the rest call after 5 minutes - See comment @Line 113
+// }, 300000);
+//Commenting above as REST call is tested with 10 seconds interval till 1 Hour with 12 rate limit exceeded errors
+}, 10000);
 
 //set the time after which the REST API calls should stop (1 hour)
 setTimeout(function () {
@@ -127,23 +127,37 @@ app.listen(3000, () => {
 });
 
 /**
+ * 
+ * #############################################################################################################################################################################
  * IMPORTANT NOTE: Possibility that the data being received from twitter is NOT JSON FORMATTED
  * Hence have to convert it when processing it via JSON.stringify() and JSON.parse()
- * 
- * Current data stats:
+ * #############################################################################################################################################################################
+ * Current data stats for twitterCrawlerDB:
  * Date: 10th November 2018
- * Start at: 2018-11-10 04:08:08 info: No keyword filter stream started
- * End at: 2018-11-10 05:08:08 info: Location stream ended.
+ * Start Point at: 2018-11-10 04:08:08 info: No keyword filter stream started
+ * End Point at: 2018-11-10 05:08:08 info: Location stream ended.
  * Total runtime: 1 Hour
  * 
  * REST Tweets Collected: 1287 ( REST Calls @ 5 Minutes Interval) (1687 after some more time)
  * No Filter Stream Tweets Collected: 118151 (118255 after some more time)
  * Tweets collected with Keyword Filtering using the word "MORNING": 26437 (29816 after some more time)
  * Glasgow Geo-tagged Tweets Collected: 44 (48 after some more time)
+ * #############################################################################################################################################################################
+ * Current data stats for secondTwitterDB:
+ * Date: 11th November 2018
+ * Start Point at: 2018-11-11 22:18:21 info: No keyword filter stream started
+ * End Point at: 2018-11-11 23:18:55 info: Total overlapping data found between Geo-tagged and No Filter Streamed Data: 6
+ * Total runtime: 1 Hour
  * 
+ * REST Tweets Collected: 33792 ( REST Calls @ 10 Seconds Interval with 12 error (extract the 11-11-2018-1.tar file and search "error:") received due to Rate Limit Exceeded)
+ * No Filter Stream Tweets Collected: 136885
+ * Tweets collected with Keyword Filtering using the words in keyword array: 172802
+ * Glasgow Geo-tagged Tweets Collected: 512
+ * #############################################################################################################################################################################
  * Command to export mongodb data to bson and json files: https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb
  * mongodump --db <db name> --out <path to backup>
  * 
  * Guide to restore and backup mongodb: https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/
  * mongorestore --port <port number> <path to the backup>
+ * #############################################################################################################################################################################
  */

@@ -25,7 +25,7 @@ var keywordArray = require('../controller/keywords');
  * with end point as statuses/filter
  */
 var streamTwitterDataKeyword = twitAuth.stream('statuses/filter', {
-    track: 'morning'
+    track: keywordArray
 });
 
 // var Twitter = new TwitterStream(keys, false);

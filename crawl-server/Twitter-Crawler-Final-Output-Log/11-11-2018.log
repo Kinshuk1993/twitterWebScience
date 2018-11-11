@@ -45,3 +45,7 @@
 2018-11-11 05:20:10 info: Number of geo tagged tweets collected using location filter stream: 48
 2018-11-11 05:20:45 info: Number of geo tagged tweets collected using location filter stream: 48
 2018-11-11 05:21:14 info: Number of geo tagged tweets collected using location filter stream: 48
+2018-11-11 23:18:21 info: Number of geo tagged tweets collected using location filter stream: 512
+2018-11-11 23:18:23 info: Total number of tweets collected using REST and STREAM are: 343991
+2018-11-11 23:18:23 info: Total number of geo-tagged tweets collected using REST and STREAM are: 4786
+2018-11-11 23:18:55 info: Total overlapping data found between Geo-tagged and No Filter Streamed Data: 6

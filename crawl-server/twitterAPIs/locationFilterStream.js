@@ -93,4 +93,5 @@ function stopLocationStream() {
     logger.info('Location stream ended.');
     //perform analytics on the data collected
     analytics.countTotalTweetsCollected();
+    analytics.countGeoTaggedTweetsAndOverlappingData();
 };
