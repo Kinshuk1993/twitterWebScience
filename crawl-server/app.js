@@ -126,8 +126,10 @@ app.listen(3000, () => {
     logger.info('Starting the server at port number 3000');
 });
 
-
 /**
+ * IMPORTANT NOTE: Possibility that the data being received from twitter is NOT JSON FORMATTED
+ * Hence have to convert it when processing it via JSON.stringify() and JSON.parse()
+ * 
  * Current data stats:
  * Date: 10th November 2018
  * Start at: 2018-11-10 04:08:08 info: No keyword filter stream started

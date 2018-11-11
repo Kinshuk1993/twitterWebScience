@@ -15,8 +15,15 @@ var totalTweetsCount = 0;
 var geoTaggedGlasgowTweets = 0;
 //variable to store the number of geo-tagged tweets overall
 var totalGeoTaggedTweets = 0;
+//variable to store the number of overlap data between location and no filter streamed data
+var totalOverlapTweetsLocationNoFilterStream = 0;
 
-exports.countGeoTaggedTweets = function () {
+exports.countGeoTaggedTweetsAndOverlappingData = function () {
+    /**
+     * Query to find the number of documents
+     * Here, count() is deprecated (found by seeing a warning on console)
+     * Hence, using counDocuments() instead
+     */
     TweetsDB.tweetsSTREAMLocationFilter.countDocuments({}, function (error, count) {
         if (error) {
             //log the error
@@ -27,6 +34,61 @@ exports.countGeoTaggedTweets = function () {
             //log the tweet count
             output.info("Number of geo tagged tweets collected using location filter stream: " + geoTaggedGlasgowTweets);
             logger.info("Number of geo tagged tweets collected using location filter stream: " + geoTaggedGlasgowTweets);
+        }
+    });
+
+    /**
+     * Query to find if any overlap is present between the
+     * location filtered data from Glasgow
+     * and the no filter streamed data
+     */
+    TweetsDB.tweetsSTREAMLocationFilter.find({}, function (errFind, tweets) {
+        if (errFind) {
+            //log the error
+            logger.error('Error in finding all location streamed data: ' + errFind);
+        } else {
+            //log the tweets array length found
+            logger.info('Number of tweets from Glasgow using streaming are: ' + tweets.length);
+
+            //loop through each location based tweet and find if any tweet is present in the no filtered streamed data
+            async.forEachSeries(tweets, function (eachGlasgowTweet, callback) {
+                    TweetsDB.tweetsSTREAMNoFilter.find({
+                        'id_str': JSON.parse(JSON.stringify(eachGlasgowTweet)).id_str
+                    }, function (err, overlapFound) {
+                        if (err) {
+                            //log the error
+                            logger.error('Error in finding in no filter stream collection: ' + err);
+                            //continue to the next iteration
+                            callback();
+                        } else {
+                            if (overlapFound.length != 0) {
+                                //log the overlap success found message only if any overlap tweet found
+                                logger.info('Overlap record found between location streamed and no filter streamed data length: ' + overlapFound.length);
+                                //increment the length of the total overlap by number of overlaps found
+                                totalOverlapTweetsLocationNoFilterStream = totalOverlapTweetsLocationNoFilterStream + overlapFound.length;
+                                //continue to next iteration
+                                callback();
+                            } else {
+                                 //log the overlap not found message iff no overlap tweet found
+                                 logger.info('No overlap record found between location streamed and no filter streamed data length.');
+                                //continue to next iteration as no overlap found for current eachGlasgowTweet.id_str
+                                callback();
+                            }
+                        }
+                    });
+                },
+                //final param of forEachSeries to print the final number of overlapped data between location and no stream filter data    
+                function (errAsyncOverlap) {
+                    //handle error
+                    if (errAsyncOverlap) {
+                        //log the error found
+                        logger.error('Error in async for finding overlap between location and no filter stream data: ' + errAsyncOverlap);
+                    } else {
+                        //log the final output
+                        logger.info('Total overlapping data found between Geo-tagged and No Filter Streamed Data: ' + totalOverlapTweetsLocationNoFilterStream);
+                        output.info('Total overlapping data found between Geo-tagged and No Filter Streamed Data: ' + totalOverlapTweetsLocationNoFilterStream);
+                    }
+                });
         }
     });
 }
