@@ -17,6 +17,409 @@ var geoTaggedGlasgowTweets = 0;
 var totalGeoTaggedTweets = 0;
 //variable to store the number of overlap data between location and no filter streamed data
 var totalOverlapTweetsLocationNoFilterStream = 0;
+//variable to store total redundant data in all collections
+var totalRedundantTweetsInCollections = 0;
+//variable to store count of retweeted tweets
+var totalRetweetedTweets = 0;
+//variable to store the count of quote tweets
+var totalQuoteTweets = 0;
+
+exports.totalRetweetsQuotesCount = function () {
+    async.waterfall([
+            //1. Count the number of retweets via rest API
+            function (callback) {
+                TweetsDB.tweetsREST.find({
+                    'retweeted': true
+                }, function (err, retweetedTweets) {
+                    if (err) {
+                        //log the error
+                        logger.error('totalRetweetsQuotesCount: Error in finding retweets in REST collection: ' + err);
+                        //continue to the next function
+                        callback(null, totalRetweetedTweets);
+                    } else {
+                        if (retweetedTweets.length != 0) {
+                            //log the success found message only if any retweet found
+                            logger.info('totalRetweetsQuotesCount: Retweeted tweets found in REST colletion: ' + retweetedTweets.length);
+                            //add retweeted tweets
+                            totalRetweetedTweets = totalRetweetedTweets + retweetedTweets.length;
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets);
+                        } else {
+                            //log not found message iff no quote tweet found
+                            logger.info('totalRetweetsQuotesCount: No retweeted tweets found in REST collection.');
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets);
+                        }
+                    }
+                });
+            },
+            //2. Count the number of quotes via REST API
+            function (totalRetweetedTweets, callback) {
+                TweetsDB.tweetsREST.find({
+                    'is_quote_status': true
+                }, function (err, quotedTweets) {
+                    if (err) {
+                        //log the error
+                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in REST API collection: ' + err);
+                        //continue to the next function
+                        callback(null, retweetedTweets, totalQuoteTweets);
+                    } else {
+                        if (quotedTweets.length != 0) {
+                            //log the overlap success found message only if any overlap tweet found
+                            logger.info('totalRetweetsQuotesCount: Quote tweets found in REST colletion: ' + quotedTweets.length);
+                            //add quote tweets
+                            totalQuoteTweets = totalQuoteTweets + quotedTweets.length;
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        } else {
+                            //log the overlap not found message iff no quote tweet found
+                            logger.info('totalRetweetsQuotesCount: No quote tweets found in REST collection.');
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        }
+                    }
+                });
+            },
+            //3. Count the number of retweets via keyword filter stream
+            function (totalRetweetedTweets, totalQuoteTweets, callback) {
+                TweetsDB.tweetsSTREAMKeywordFilter.find({
+                    'retweeted': true
+                }, function (err, retweetedTweets) {
+                    if (err) {
+                        //log the error
+                        logger.error('totalRetweetsQuotesCount: Error in finding retweets in keyword filter stream collection: ' + err);
+                        //continue to the next function
+                        callback(null, totalRetweetedTweets, totalQuoteTweets);
+                    } else {
+                        if (retweetedTweets.length != 0) {
+                            //log the success found message only if any retweet found
+                            logger.info('totalRetweetsQuotesCount: Retweeted tweets found in keyword filter stream colletion: ' + retweetedTweets.length);
+                            //add retweeted tweets
+                            totalRetweetedTweets = totalRetweetedTweets + retweetedTweets.length;
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        } else {
+                            //log not found message iff no quote tweet found
+                            logger.info('totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.');
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        }
+                    }
+                });
+            },
+            //4. Count the number of quotes via keyword filter stream
+            function (totalRetweetedTweets, totalQuoteTweets, callback) {
+                TweetsDB.tweetsSTREAMKeywordFilter.find({
+                    'is_quote_status': true
+                }, function (err, quotedTweets) {
+                    if (err) {
+                        //log the error
+                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in keyword filter stream collection: ' + err);
+                        //continue to the next function
+                        callback(null, retweetedTweets, totalQuoteTweets);
+                    } else {
+                        if (quotedTweets.length != 0) {
+                            //log the success found message only if any quoted tweets found
+                            logger.info('totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: ' + quotedTweets.length);
+                            //add quote tweets
+                            totalQuoteTweets = totalQuoteTweets + quotedTweets.length;
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        } else {
+                            //log not found message iff no quote tweet found
+                            logger.info('totalRetweetsQuotesCount: No quote tweets found in keyword filter stream collection.');
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        }
+                    }
+                });
+            },
+            //5. Count the number of retweets via no filter stream
+            function (totalRetweetedTweets, totalQuoteTweets, callback) {
+                TweetsDB.tweetsSTREAMNoFilter.find({
+                    'retweeted': true
+                }, function (err, retweetedTweets) {
+                    if (err) {
+                        //log the error
+                        logger.error('totalRetweetsQuotesCount: Error in finding retweets in no filter stream collection: ' + err);
+                        //continue to the next function
+                        callback(null, totalRetweetedTweets, totalQuoteTweets);
+                    } else {
+                        if (retweetedTweets.length != 0) {
+                            //log the success found message only if any retweets found
+                            logger.info('totalRetweetsQuotesCount: Retweeted tweets found in no filter stream colletion: ' + retweetedTweets.length);
+                            //add retweeted tweets
+                            totalRetweetedTweets = totalRetweetedTweets + retweetedTweets.length;
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        } else {
+                            //log not found message iff no quote tweet found
+                            logger.info('totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.');
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        }
+                    }
+                });
+            },
+            //6. Count the number of quotes via no filter stream
+            function (totalRetweetedTweets, totalQuoteTweets, callback) {
+                TweetsDB.tweetsSTREAMNoFilter.find({
+                    'is_quote_status': true
+                }, function (err, quotedTweets) {
+                    if (err) {
+                        //log the error
+                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in no filter stream collection: ' + err);
+                        //continue to the next function
+                        callback(null, retweetedTweets, totalQuoteTweets);
+                    } else {
+                        if (quotedTweets.length != 0) {
+                            //log the overlap success found message only if any overlap tweet found
+                            logger.info('totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: ' + quotedTweets.length);
+                            //add quote tweets
+                            totalQuoteTweets = totalQuoteTweets + quotedTweets.length;
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        } else {
+                            //log the overlap not found message iff no quote tweet found
+                            logger.info('totalRetweetsQuotesCount: No quote tweets found in no filter stream collection.');
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        }
+                    }
+                });
+            },
+            //7. Count the number of retweets via location filter stream
+            function (totalRetweetedTweets, totalQuoteTweets, callback) {
+                TweetsDB.tweetsSTREAMLocationFilter.find({
+                    'retweeted': true
+                }, function (err, retweetedTweets) {
+                    if (err) {
+                        //log the error
+                        logger.error('totalRetweetsQuotesCount: Error in finding retweets in location filter stream collection: ' + err);
+                        //continue to the next function
+                        callback(null, totalRetweetedTweets, totalQuoteTweets);
+                    } else {
+                        if (retweetedTweets.length != 0) {
+                            //log the success found message only if any retweet found
+                            logger.info('totalRetweetsQuotesCount: Retweeted tweets found in location filter stream colletion: ' + retweetedTweets.length);
+                            //add retweeted tweets
+                            totalRetweetedTweets = totalRetweetedTweets + retweetedTweets.length;
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        } else {
+                            //log not found message iff no quote tweet found
+                            logger.info('totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.');
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        }
+                    }
+                });
+            },
+            //8. Count the number of quotes via location filter stream
+            function (totalRetweetedTweets, totalQuoteTweets, callback) {
+                TweetsDB.tweetsSTREAMLocationFilter.find({
+                    'is_quote_status': true
+                }, function (err, quotedTweets) {
+                    if (err) {
+                        //log the error
+                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in location filter stream collection: ' + err);
+                        //continue to the next function
+                        callback(null, retweetedTweets, totalQuoteTweets);
+                    } else {
+                        if (quotedTweets.length != 0) {
+                            //log the overlap success found message only if any overlap tweet found
+                            logger.info('totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: ' + quotedTweets.length);
+                            //add quote tweets
+                            totalQuoteTweets = totalQuoteTweets + quotedTweets.length;
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        } else {
+                            //log the overlap not found message iff no quote tweet found
+                            logger.info('totalRetweetsQuotesCount: No quote tweets found location filter stream REST collection.');
+                            //continue to the next function
+                            callback(null, totalRetweetedTweets, totalQuoteTweets);
+                        }
+                    }
+                });
+            },
+            // 9. Function to build and object to pass to final function to log the output
+            function (totalRetweetedTweets, totalQuoteTweets, callback) {
+                var finalObj = {
+                    totalRetweets: totalRetweetedTweets,
+                    totalQuotedTweets: totalQuoteTweets
+                }
+                callback(null, finalObj);
+            }
+        ],
+        //FINAL FUNCTION after all functions above has executed
+        function (err, result) {
+            //log the final result of retweets and quotes found
+            logger.info('Total retweeted tweets present in all the collections is: ' + result.totalRetweets);
+            logger.info('Total quoted tweets present in all the collections is: ' + result.totalQuotedTweets);
+            output.info('Total retweeted tweets present in all the collections is: ' + result.totalRetweets);
+            output.info('Total quoted tweets present in all the collections is: ' + result.totalQuotedTweets);
+        });
+}
+
+exports.totalRedundantDataInCollections = function () {
+    /**
+     * Query to find the total data in location filtered stream
+     * and check if any data matches to any other data in other
+     * collections or not
+     */
+    TweetsDB.tweetsSTREAMLocationFilter.find({}, function (errFind, tweets) {
+        if (errFind) {
+            //log the error
+            logger.error('totalRedundantDataInCollections: Error in finding all location streamed data: ' + errFind);
+        } else {
+            //log the tweets array length found
+            logger.info('totalRedundantDataInCollections: Number of tweets from Glasgow using streaming are: ' + tweets.length);
+            async.waterfall([
+                    //1. Count the number of tweets via rest API
+                    function (callback) {
+                        //loop through each location based tweet and find if any tweet is present in the no filtered streamed data
+                        async.forEachSeries(tweets, function (eachGlasgowTweet, callback) {
+                                TweetsDB.tweetsSTREAMNoFilter.find({
+                                    'id_str': JSON.parse(JSON.stringify(eachGlasgowTweet)).id_str
+                                }, function (err, duplicateTweet) {
+                                    if (err) {
+                                        //log the error
+                                        logger.error('totalRedundantDataInCollections: Error in finding in no filter stream collection: ' + err);
+                                        //continue to the next iteration
+                                        callback();
+                                    } else {
+                                        if (duplicateTweet.length != 0) {
+                                            //log the overlap success found message only if any overlap tweet found
+                                            logger.info('totalRedundantDataInCollections: Duplicate tweet found between location and no filter stream: ' + duplicateTweet.length);
+                                            //increment the length of the total duplicate tweets
+                                            totalRedundantTweetsInCollections = totalRedundantTweetsInCollections + duplicateTweet.length;
+                                            //continue to next iteration
+                                            callback();
+                                        } else {
+                                            //log the overlap not found message iff no overlap tweet found
+                                            // logger.info('totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data');
+                                            //continue to next iteration as no overlap found for current eachGlasgowTweet.id_str
+                                            callback();
+                                        }
+                                    }
+                                });
+                            },
+                            //final param of forEachSeries to print the final number of duplicate data between location and no stream filter data    
+                            function (errAsyncDuplicate) {
+                                //handle error
+                                if (errAsyncDuplicate) {
+                                    //log the error found
+                                    logger.error('totalRedundantDataInCollections: Error in async for finding overlap between location and no filter stream data: ' + errAsyncDuplicate);
+                                    //go to next function
+                                    callback(null, totalRedundantTweetsInCollections);
+                                } else {
+                                    //log the final output
+                                    logger.info('totalRedundantDataInCollections: Going to find data duplicate between location filtered data and REST API data');
+                                    //go to next function
+                                    callback(null, totalRedundantTweetsInCollections);
+                                }
+                            });
+                    },
+                    //2. Count the duplicate data between location filtered and REST API data
+                    function (totalRedundantTweetsInCollections, callback) {
+                        //loop through each location based tweet and find if any tweet is present in the REST API data
+                        async.forEachSeries(tweets, function (eachGlasgowTweet, callback) {
+                                TweetsDB.tweetsREST.find({
+                                    'id_str': JSON.parse(JSON.stringify(eachGlasgowTweet)).id_str
+                                }, function (err, duplicateTweet) {
+                                    if (err) {
+                                        //log the error
+                                        logger.error('totalRedundantDataInCollections: Error in finding duplicate in REST API collection: ' + err);
+                                        //continue to the next iteration
+                                        callback();
+                                    } else {
+                                        if (duplicateTweet.length != 0) {
+                                            //log the success found message only if a duplicate tweet found
+                                            logger.info('totalRedundantDataInCollections: Duplicate tweet found between location and REST API data: ' + duplicateTweet.length);
+                                            //increment the length of the total duplicate tweets
+                                            totalRedundantTweetsInCollections = totalRedundantTweetsInCollections + duplicateTweet.length;
+                                            //continue to next iteration
+                                            callback();
+                                        } else {
+                                            //log the overlap not found message iff no overlap tweet found
+                                            // logger.info('totalRedundantDataInCollections: No duplicate record found between location streamed and REST API data');
+                                            //continue to next iteration as no overlap found for current eachGlasgowTweet.id_str
+                                            callback();
+                                        }
+                                    }
+                                });
+                            },
+                            //final param of forEachSeries to print the final number of duplicate data between location and REST API data    
+                            function (errAsyncDuplicate) {
+                                //handle error
+                                if (errAsyncDuplicate) {
+                                    //log the error found
+                                    logger.error('totalRedundantDataInCollections: Error in async for finding overlap between location and REST API data: ' + errAsyncDuplicate);
+                                    //go to next function
+                                    callback(null, totalRedundantTweetsInCollections);
+                                } else {
+                                    //log the final output
+                                    logger.info('totalRedundantDataInCollections: Going to find data duplicate between location filtered data and keyword filtered stream data');
+                                    //go to next function
+                                    callback(null, totalRedundantTweetsInCollections);
+                                }
+                            });
+                    },
+                    //3. Count the number of duplicate tweets between location filtered stream and keyword filter stream
+                    function (totalRedundantTweetsInCollections, callback) {
+                        //loop through each location based tweet and find if any tweet is present in keyword filtered stream data
+                        async.forEachSeries(tweets, function (eachGlasgowTweet, callback) {
+                                TweetsDB.tweetsSTREAMKeywordFilter.find({
+                                    'id_str': JSON.parse(JSON.stringify(eachGlasgowTweet)).id_str
+                                }, function (err, duplicateTweet) {
+                                    if (err) {
+                                        //log the error
+                                        logger.error('totalRedundantDataInCollections: Error in finding duplicate in keyword filtered stream data collection: ' + err);
+                                        //continue to the next iteration
+                                        callback();
+                                    } else {
+                                        if (duplicateTweet.length != 0) {
+                                            //log the success found message only if a duplicate tweet found
+                                            logger.info('totalRedundantDataInCollections: Duplicate tweet found between location and keyword filtered stream data: ' + duplicateTweet.length);
+                                            //increment the length of the total duplicate tweets
+                                            totalRedundantTweetsInCollections = totalRedundantTweetsInCollections + duplicateTweet.length;
+                                            //continue to next iteration
+                                            callback();
+                                        } else {
+                                            //log the overlap not found message iff no overlap tweet found
+                                            // logger.info('totalRedundantDataInCollections: No duplicate record found between location streamed and keyword filtered stream data');
+                                            //continue to next iteration as no overlap found for current eachGlasgowTweet.id_str
+                                            callback();
+                                        }
+                                    }
+                                });
+                            },
+                            //final param of forEachSeries to print the final number of duplicate data between location and keyword filtered stream data    
+                            function (errAsyncDuplicate) {
+                                //handle error
+                                if (errAsyncDuplicate) {
+                                    //log the error found
+                                    logger.error('totalRedundantDataInCollections: Error in async for finding overlap between location and keyword filtered stream data: ' + errAsyncDuplicate);
+                                    //go to next function
+                                    callback(null, totalRedundantTweetsInCollections);
+                                } else {
+                                    //log the final output
+                                    logger.info('totalRedundantDataInCollections: Finished finding duplicate tweets in all collections');
+                                    //go to next function
+                                    callback(null, totalRedundantTweetsInCollections);
+                                }
+                            });
+                    }
+                ],
+                //FINAL FUNCTION after all functions above has executed
+                function (err, result) {
+                    //log the final result of redundant data found
+                    logger.info('Total redundant data present in all the collections is: ' + result);
+                    output.info('Total redundant data present in all the collections is: ' + result);
+                });
+        }
+    });
+}
 
 exports.countGeoTaggedTweetsAndOverlappingData = function () {
     /**
@@ -69,8 +472,8 @@ exports.countGeoTaggedTweetsAndOverlappingData = function () {
                                 //continue to next iteration
                                 callback();
                             } else {
-                                 //log the overlap not found message iff no overlap tweet found
-                                 logger.info('No overlap record found between location streamed and no filter streamed data length.');
+                                //log the overlap not found message iff no overlap tweet found
+                                logger.info('No overlap record found between location streamed and no filter streamed data.');
                                 //continue to next iteration as no overlap found for current eachGlasgowTweet.id_str
                                 callback();
                             }
@@ -240,7 +643,6 @@ exports.countTotalTweetsCollected = function () {
         ],
         //FINAL FUNCTION after all functions above has executed
         function (err, result) {
-            // console.log('Final result: ' + JSON.stringify(result));
             //log the total tweet counted overall
             output.info('Total number of tweets collected using REST and STREAM are: ' + result.totalTweets);
             logger.info('Total number of tweets collected using REST and STREAM are: ' + result.totalTweets);

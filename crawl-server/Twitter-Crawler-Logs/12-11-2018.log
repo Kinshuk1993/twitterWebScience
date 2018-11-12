@@ -1,0 +1,511 @@
+2018-11-12 12:54:26 info: Successfully connected to database
+2018-11-12 12:54:26 info: totalRedundantDataInCollections: Number of tweets from Glasgow using streaming are: 512
+2018-11-12 12:54:29 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:29 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:29 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:29 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:29 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:29 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:30 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:31 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:32 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:33 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:34 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:35 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:36 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:36 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:36 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:54:36 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:01 info: Successfully connected to database
+2018-11-12 12:55:01 info: totalRedundantDataInCollections: Number of tweets from Glasgow using streaming are: 512
+2018-11-12 12:55:01 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:01 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:01 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:02 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:03 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:04 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:05 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:06 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:07 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:08 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:09 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:10 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: Duplicate tweet found between location and no filter stream: 1
+2018-11-12 12:55:11 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:12 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:13 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:14 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:15 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:16 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:17 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:18 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:19 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:20 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:21 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:22 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:22 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:22 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:22 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:22 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:22 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:22 info: totalRedundantDataInCollections: No duplicate record found between location streamed and no filter streamed data
+2018-11-12 12:55:51 info: Successfully connected to database
+2018-11-12 12:55:51 info: totalRedundantDataInCollections: Number of tweets from Glasgow using streaming are: 512
+2018-11-12 12:56:23 info: totalRedundantDataInCollections: Going to find data duplicate between location filtered data and REST API data
+2018-11-12 12:57:13 info: totalRedundantDataInCollections: Going to find data duplicate between location filtered data and keyword filtered stream data
+2018-11-12 16:45:29 info: Successfully connected to database
+2018-11-12 16:45:29 info: totalRetweetsQuotesCount: No retweeted tweets found in REST collection.
+2018-11-12 16:45:30 info: totalRetweetsQuotesCount: No quote tweets found in REST collection.
+2018-11-12 16:45:30 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-12 16:45:30 info: totalRetweetsQuotesCount: No quote tweets found in keyword filter stream collection.
+2018-11-12 16:45:31 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-12 16:45:31 info: totalRetweetsQuotesCount: No quote tweets found in no filter stream collection.
+2018-11-12 16:45:31 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-12 16:45:31 info: totalRetweetsQuotesCount: No quote tweets found location filter stream REST collection.
+2018-11-12 16:45:31 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 16:45:31 info: Total quoted tweets present in all the collections is: 0
+2018-11-12 16:51:30 info: Successfully connected to database
+2018-11-12 16:51:31 info: totalRetweetsQuotesCount: No retweeted tweets found in REST collection.
+2018-11-12 16:51:31 info: totalRetweetsQuotesCount: No quote tweets found in REST collection.
+2018-11-12 16:51:31 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-12 16:51:31 info: totalRetweetsQuotesCount: No quote tweets found in keyword filter stream collection.
+2018-11-12 16:51:31 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-12 16:51:31 info: totalRetweetsQuotesCount: No quote tweets found in no filter stream collection.
+2018-11-12 16:51:31 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-12 16:51:31 info: totalRetweetsQuotesCount: No quote tweets found location filter stream REST collection.
+2018-11-12 16:51:31 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 16:51:31 info: Total quoted tweets present in all the collections is: 0
+2018-11-12 16:51:45 info: Successfully connected to database
+2018-11-12 16:51:45 info: totalRetweetsQuotesCount: No retweeted tweets found in REST collection.
+2018-11-12 16:51:45 info: totalRetweetsQuotesCount: No quote tweets found in REST collection.
+2018-11-12 16:51:45 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-12 16:51:45 info: totalRetweetsQuotesCount: No quote tweets found in keyword filter stream collection.
+2018-11-12 16:51:45 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-12 16:51:45 info: totalRetweetsQuotesCount: No quote tweets found in no filter stream collection.
+2018-11-12 16:51:45 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-12 16:51:45 info: totalRetweetsQuotesCount: No quote tweets found location filter stream REST collection.
+2018-11-12 16:51:45 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 16:51:45 info: Total quoted tweets present in all the collections is: 0
+2018-11-12 16:51:57 info: Successfully connected to database
+2018-11-12 16:51:57 info: totalRetweetsQuotesCount: No retweeted tweets found in REST collection.
+2018-11-12 16:51:57 info: totalRetweetsQuotesCount: No quote tweets found in REST collection.
+2018-11-12 16:51:57 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-12 16:51:57 info: totalRetweetsQuotesCount: No quote tweets found in keyword filter stream collection.
+2018-11-12 16:51:57 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-12 16:51:57 info: totalRetweetsQuotesCount: No quote tweets found in no filter stream collection.
+2018-11-12 16:51:57 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-12 16:51:58 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 60
+2018-11-12 16:51:58 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 16:51:58 info: Total quoted tweets present in all the collections is: 60
+2018-11-12 16:52:10 info: Successfully connected to database
+2018-11-12 16:52:10 info: totalRetweetsQuotesCount: No retweeted tweets found in REST collection.
+2018-11-12 16:52:10 info: totalRetweetsQuotesCount: No quote tweets found in REST collection.
+2018-11-12 16:52:10 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-12 16:52:10 info: totalRetweetsQuotesCount: No quote tweets found in keyword filter stream collection.
+2018-11-12 16:52:10 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-12 16:52:10 info: totalRetweetsQuotesCount: No quote tweets found in no filter stream collection.
+2018-11-12 16:52:10 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-12 16:52:10 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 60
+2018-11-12 16:52:10 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 16:52:10 info: Total quoted tweets present in all the collections is: 60
+2018-11-12 16:52:19 info: Successfully connected to database
+2018-11-12 16:52:51 info: Successfully connected to database
+2018-11-12 16:52:52 info: totalRetweetsQuotesCount: No retweeted tweets found in REST collection.
+2018-11-12 16:52:53 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 2171
+2018-11-12 16:52:53 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-12 16:53:14 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 28595
+2018-11-12 16:53:14 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-12 16:53:24 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 12940
+2018-11-12 16:56:08 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-12 16:56:08 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 60
+2018-11-12 16:56:08 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 16:56:08 info: Total quoted tweets present in all the collections is: 43766
+2018-11-12 16:57:43 info: Successfully connected to database
+2018-11-12 16:57:43 info: totalRetweetsQuotesCount: No retweeted tweets found in REST collection.
+2018-11-12 16:57:43 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 124
+2018-11-12 16:57:44 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-12 16:57:48 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 5655
+2018-11-12 16:57:49 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-12 16:57:55 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 9207
+2018-11-12 16:57:55 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-12 16:57:55 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 5
+2018-11-12 16:57:55 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 16:57:55 info: Total quoted tweets present in all the collections is: 14991

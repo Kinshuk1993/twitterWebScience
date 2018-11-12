@@ -94,4 +94,6 @@ function stopLocationStream() {
     //perform analytics on the data collected
     analytics.countTotalTweetsCollected();
     analytics.countGeoTaggedTweetsAndOverlappingData();
+    analytics.totalRedundantDataInCollections();
+    analytics.totalRetweetsQuotesCount();
 };

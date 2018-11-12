@@ -23,7 +23,7 @@ var getTweetsUsingLocationFilterSTREAM = require('./twitterAPIs/locationFilterSt
 //get keywor array
 var keywordArray = require('./controller/keywords');
 //Commenting out for now - using it during Dev for testing
-// var analytics = require('./controller/analytics');
+var analytics = require('./controller/analytics');
 
 //create the program log directory if it does not exist
 if (!fs.existsSync(logDir)) {
@@ -125,6 +125,25 @@ setTimeout(function () {
 app.listen(3000, () => {
     logger.info('Starting the server at port number 3000');
 });
+
+
+/**
+ * If you want to run only the analytics on a data 
+ * previously collected, please do remove the below comments
+ * to run analytics on collected data
+ * 
+ * ALSO, IMPORTANT: Comment out the Lines 74 till 127 to avoid
+ * collection of data using REST and STREAMS
+ */
+// //perform analytics on the data collected
+// analytics.countTotalTweetsCollected();
+// analytics.countGeoTaggedTweetsAndOverlappingData();
+// analytics.totalRedundantDataInCollections();
+// analytics.totalRetweetsQuotesCount();
+
+
+
+
 
 /**
  * 
