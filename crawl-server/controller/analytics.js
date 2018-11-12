@@ -473,7 +473,7 @@ exports.countGeoTaggedTweetsAndOverlappingData = function () {
                                 callback();
                             } else {
                                 //log the overlap not found message iff no overlap tweet found
-                                logger.info('No overlap record found between location streamed and no filter streamed data.');
+                                // logger.info('No overlap record found between location streamed and no filter streamed data.');
                                 //continue to next iteration as no overlap found for current eachGlasgowTweet.id_str
                                 callback();
                             }

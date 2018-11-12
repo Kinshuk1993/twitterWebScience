@@ -1,14 +1,14 @@
-2018-11-12 16:45:31 info: Total retweeted tweets present in all the collections is: 0
-2018-11-12 16:45:31 info: Total quoted tweets present in all the collections is: 0
-2018-11-12 16:51:31 info: Total retweeted tweets present in all the collections is: 0
-2018-11-12 16:51:31 info: Total quoted tweets present in all the collections is: 0
-2018-11-12 16:51:45 info: Total retweeted tweets present in all the collections is: 0
-2018-11-12 16:51:45 info: Total quoted tweets present in all the collections is: 0
-2018-11-12 16:51:58 info: Total retweeted tweets present in all the collections is: 0
-2018-11-12 16:51:58 info: Total quoted tweets present in all the collections is: 60
-2018-11-12 16:52:10 info: Total retweeted tweets present in all the collections is: 0
-2018-11-12 16:52:10 info: Total quoted tweets present in all the collections is: 60
-2018-11-12 16:56:08 info: Total retweeted tweets present in all the collections is: 0
-2018-11-12 16:56:08 info: Total quoted tweets present in all the collections is: 43766
-2018-11-12 16:57:55 info: Total retweeted tweets present in all the collections is: 0
-2018-11-12 16:57:55 info: Total quoted tweets present in all the collections is: 14991
+2018-11-12 18:59:32 info: Number of geo tagged tweets collected using location filter stream: 64
+2018-11-12 18:59:33 info: Total number of tweets collected using REST and STREAM are: 28170
+2018-11-12 18:59:33 info: Total number of geo-tagged tweets collected using REST and STREAM are: 432
+2018-11-12 18:59:35 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 18:59:35 info: Total quoted tweets present in all the collections is: 4408
+2018-11-12 18:59:35 info: Total overlapping data found between Geo-tagged and No Filter Streamed Data: 1
+2018-11-12 18:59:35 info: Total redundant data present in all the collections is: 1
+2018-11-12 19:00:51 info: Number of geo tagged tweets collected using location filter stream: 64
+2018-11-12 19:00:52 info: Total number of tweets collected using REST and STREAM are: 28170
+2018-11-12 19:00:52 info: Total number of geo-tagged tweets collected using REST and STREAM are: 432
+2018-11-12 19:00:55 info: Total retweeted tweets present in all the collections is: 0
+2018-11-12 19:00:55 info: Total quoted tweets present in all the collections is: 4408
+2018-11-12 19:00:55 info: Total overlapping data found between Geo-tagged and No Filter Streamed Data: 1
+2018-11-12 19:00:55 info: Total redundant data present in all the collections is: 1

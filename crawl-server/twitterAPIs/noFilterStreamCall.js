@@ -55,7 +55,7 @@ exports.getTweetsSTREAMNoFilter = function () {
     //action on getting limit messages without any keyword filter stream
     streamTwitterDataWithoutKeyword.on('limit', function (limitMessage) {
         //log the content to the log file
-       logger.info('Limit message for no keyword filter stream received: ' + JSON.stringify(limitMessage));
+        logger.info('Limit message for no keyword filter stream received: ' + JSON.stringify(limitMessage));
     });
 
     //action on getting disconnect messages without any keyword filter stream
@@ -71,9 +71,9 @@ exports.getTweetsSTREAMNoFilter = function () {
     });
 
     // stop the streaming of data after 1 hour
-    setTimeout(stopNoFilterStream, 3600000);
-    //Done for small testing purpose
-    // setTimeout(stopNoFilterStream, 10000);
+    // setTimeout(stopNoFilterStream, 3600000);
+    //Done for small testing purpose to collect sample data of 5 Minutes
+    setTimeout(stopNoFilterStream, 300000);
 }
 
 /**

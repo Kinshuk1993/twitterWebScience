@@ -39,7 +39,9 @@ if (!fs.existsSync(outputLogDir)) {
 const app = express();
 
 //Coonect to the mongo database
-mongoose.connect(config.url, { useNewUrlParser: true }, function (err) {
+mongoose.connect(config.url, {
+    useNewUrlParser: true
+}, function (err) {
     if (err) {
         logger.error("Problem in connecting to the mongoDB database: " + JSON.stringify(err));
     }
@@ -109,17 +111,17 @@ var intervalForRestCall = setInterval(function () {
     }
     //REST call using the random keyword from array
     getTweetsUsingREST.getTweetsREST(randomKeyword);
-//repeat the rest call after 5 minutes - See comment @Line 113
-// }, 300000);
-//Commenting above as REST call is tested with 10 seconds interval till 1 Hour with 12 rate limit exceeded errors
+    //repeat the rest call after 5 minutes - See comment @Line 113
+    // }, 300000);
+    //Commenting above as REST call is tested with 10 seconds interval till 1 Hour with 12 rate limit exceeded errors
 }, 10000);
 
 //set the time after which the REST API calls should stop (1 hour)
 setTimeout(function () {
     clearInterval(intervalForRestCall);
-}, 3600000);
-//Done for small testing purpose
-// }, 10000);
+    // }, 3600000);
+    //Done for small testing purpose
+}, 300000);
 
 //listen the application at port number 3000
 app.listen(3000, () => {
@@ -177,6 +179,12 @@ app.listen(3000, () => {
  * mongodump --db <db name> --out <path to backup>
  * 
  * Guide to restore and backup mongodb: https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/
- * mongorestore --port <port number> <path to the backup>
+ * mongorestore -d <sample_db_name> <directory_having_backup_files>
+ * Example: mongorestore -d sampleData D:\MongoDB-Backup
+ * #############################################################################################################################################################################
+ * Extracting the sample database tar file:
+ * Location: \crawl-server\model\sampleData.tar
+ * 
+ * Command to extract the tar file: tar -xf sampleData.tar
  * #############################################################################################################################################################################
  */

@@ -59,7 +59,7 @@ exports.getTweetsSTREAMLocationFilter = function () {
     //action on getting limit messages on location stream
     streamTwitterDataLocation.on('limit', function (limitMessage) {
         //log the content to the log file
-       logger.info('Limit message for location stream received: ' + JSON.stringify(limitMessage));
+        logger.info('Limit message for location stream received: ' + JSON.stringify(limitMessage));
     });
 
     //action on getting disconnect messages on location stream
@@ -75,9 +75,9 @@ exports.getTweetsSTREAMLocationFilter = function () {
     });
 
     //stop the streaming of data after 1 hour
-    setTimeout(stopLocationStream,3600000);
-    //Done for small testing purpose
-    // setTimeout(stopLocationStream, 10000);
+    // setTimeout(stopLocationStream,3600000);
+    //Done for small testing purpose to collect sample data of 5 Minutes
+    setTimeout(stopLocationStream, 300000);
 }
 
 /**
@@ -88,7 +88,7 @@ function stopLocationStream() {
     //log the action
     logger.info('Stopping the location stream.');
     //end location streaming
-    streamTwitterDataLocation.stop();    
+    streamTwitterDataLocation.stop();
     //log stop success message
     logger.info('Location stream ended.');
     //perform analytics on the data collected

@@ -72,13 +72,13 @@ exports.getTweetsSTREAMKeywordFilter = function () {
         logger.error('Error message for keyword stream received: ' + JSON.stringify(errMsg));
     });
 
-     //stop the streaming of data after 1 hour
-     setTimeout(stopKeywordFilterStream,3600000);
-     //Done for small testing purpose
-    // setTimeout(stopKeywordFilterStream, 10000);
+    //stop the streaming of data after 1 hour
+    //  setTimeout(stopKeywordFilterStream,3600000);
+    //Done for small testing purpose to collect sample data of 5 Minutes
+    setTimeout(stopKeywordFilterStream, 300000);
 }
 
- /**
+/**
  * Function to stop the streaming 
  * of keyword filter data
  */
@@ -87,6 +87,6 @@ function stopKeywordFilterStream() {
     logger.info('Stopping the keyword filter stream.');
     //end the keyword filter streaming
     streamTwitterDataKeyword.stop();
-     //log stop success message
-     logger.info('Keyword filter stream ended.');
+    //log stop success message
+    logger.info('Keyword filter stream ended.');
 }
