@@ -24,6 +24,8 @@ var getTweetsUsingLocationFilterSTREAM = require('./twitterAPIs/locationFilterSt
 var keywordArray = require('./controller/keywords');
 //Commenting out for now - using it during Dev for testing
 var analytics = require('./controller/analytics');
+//Commenting out for now - using it during Dev for testing
+var clustering = require('./controller/clustering');
 
 //create the program log directory if it does not exist
 if (!fs.existsSync(logDir)) {
@@ -73,55 +75,55 @@ app.get('/*', (req, res) => {
     res.send("Page not Found Error");
 });
 
-//call the REST API initially and then put it inside a callback loop
-getTweetsUsingREST.getTweetsREST('amazing');
+// //call the REST API initially and then put it inside a callback loop
+// getTweetsUsingREST.getTweetsREST('amazing');
 
-//get twitter data using streaming API - streaming without any filter
-getTweetsUsingNoFilterSTREAM.getTweetsSTREAMNoFilter();
+// //get twitter data using streaming API - streaming without any filter
+// getTweetsUsingNoFilterSTREAM.getTweetsSTREAMNoFilter();
 
-//get twitter data using streaming API - streaming with keyword filter
-getTweetsUsingKeywordFilterSTREAM.getTweetsSTREAMKeywordFilter();
+// //get twitter data using streaming API - streaming with keyword filter
+// getTweetsUsingKeywordFilterSTREAM.getTweetsSTREAMKeywordFilter();
 
-//get twitter data using streaming API - streaming location based
-getTweetsUsingLocationFilterSTREAM.getTweetsSTREAMLocationFilter();
+// //get twitter data using streaming API - streaming location based
+// getTweetsUsingLocationFilterSTREAM.getTweetsSTREAMLocationFilter();
 
-// call the REST API every 5 minutes for a total duration of 1 hour
-var intervalForRestCall = setInterval(function () {
-    //work on a sample array as JS will modify original array otherwise
-    var sampleArrayKeyword = []
-    //fill data into sample array
-    for (var i = 0; i < keywordArray.length; i++) {
-        sampleArrayKeyword.push(keywordArray[i])
-    }
-    //variable to store the random keyword to search for using REST call
-    //defaulted to keyword "WEATHER"
-    var randomKeyword = "oneplus";
-    //each time pull from that array and remove the one already used
-    //simple check to check if contents of array
-    if (sampleArrayKeyword.length > 0) {
-        //get a random index of sample array
-        var randomIndex = Math.floor(Math.random() * sampleArrayKeyword.length)
-        //get word on the generated index
-        randomKeyword = sampleArrayKeyword[randomIndex];
-        //log the action
-        logger.info('Keyword being searched for via the twitter REST call is: ' + randomKeyword);
-        //remove the word from the array to avoid duplicate keyword search using REST call
-        //Commenting this line as the frequency for REST call is increased and hence cannot clear the keyword array with every call
-        // sampleArrayKeyword.splice(randomIndex, 1);
-    }
-    //REST call using the random keyword from array
-    getTweetsUsingREST.getTweetsREST(randomKeyword);
-    //repeat the rest call after 5 minutes - See comment @Line 113
-    // }, 300000);
-    //Commenting above as REST call is tested with 10 seconds interval till 1 Hour with 12 rate limit exceeded errors
-}, 10000);
+// // call the REST API every 5 minutes for a total duration of 1 hour
+// var intervalForRestCall = setInterval(function () {
+//     //work on a sample array as JS will modify original array otherwise
+//     var sampleArrayKeyword = []
+//     //fill data into sample array
+//     for (var i = 0; i < keywordArray.length; i++) {
+//         sampleArrayKeyword.push(keywordArray[i])
+//     }
+//     //variable to store the random keyword to search for using REST call
+//     //defaulted to keyword "WEATHER"
+//     var randomKeyword = "oneplus";
+//     //each time pull from that array and remove the one already used
+//     //simple check to check if contents of array
+//     if (sampleArrayKeyword.length > 0) {
+//         //get a random index of sample array
+//         var randomIndex = Math.floor(Math.random() * sampleArrayKeyword.length)
+//         //get word on the generated index
+//         randomKeyword = sampleArrayKeyword[randomIndex];
+//         //log the action
+//         logger.info('Keyword being searched for via the twitter REST call is: ' + randomKeyword);
+//         //remove the word from the array to avoid duplicate keyword search using REST call
+//         //Commenting this line as the frequency for REST call is increased and hence cannot clear the keyword array with every call
+//         // sampleArrayKeyword.splice(randomIndex, 1);
+//     }
+//     //REST call using the random keyword from array
+//     getTweetsUsingREST.getTweetsREST(randomKeyword);
+//     //repeat the rest call after 5 minutes - See comment @Line 113
+//     // }, 300000);
+//     //Commenting above as REST call is tested with 10 seconds interval till 1 Hour with 12 rate limit exceeded errors
+// }, 10000);
 
-//set the time after which the REST API calls should stop (1 hour)
-setTimeout(function () {
-    clearInterval(intervalForRestCall);
-    // }, 3600000);
-    //Done for small testing purpose
-}, 300000);
+// //set the time after which the REST API calls should stop (1 hour)
+// setTimeout(function () {
+//     clearInterval(intervalForRestCall);
+//     // }, 3600000);
+//     //Done for small testing purpose
+// }, 300000);
 
 //listen the application at port number 3000
 app.listen(3000, () => {
@@ -142,6 +144,7 @@ app.listen(3000, () => {
 // analytics.countGeoTaggedTweetsAndOverlappingData();
 // analytics.totalRedundantDataInCollections();
 // analytics.totalRetweetsQuotesCount();
+clustering.kMeansClustering();
 
 
 
