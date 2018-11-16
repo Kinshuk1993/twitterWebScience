@@ -8,43 +8,17 @@ var async = require('async');
 var logger = require('../logger-config/log-config');
 //include output file config
 var output = require('../logger-config/finalOutput');
-//require k-means module
-var kmeans = require('node-kmeans');
-var clustering = require('density-clustering');
-var createCsvWriter = require('csv-writer').createObjectCsvWriter;
-//import python shell
-let {
-    PythonShell
-} = require('python-shell');
 //regex for removing the emojis from the text
 var regex = /(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]|[\u0023-\u0039]\ufe0f?\u20e3|\u3299|\u3297|\u303d|\u3030|\u24c2|\ud83c[\udd70-\udd71]|\ud83c[\udd7e-\udd7f]|\ud83c\udd8e|\ud83c[\udd91-\udd9a]|\ud83c[\udde6-\uddff]|\ud83c[\ude01-\ude02]|\ud83c\ude1a|\ud83c\ude2f|\ud83c[\ude32-\ude3a]|\ud83c[\ude50-\ude51]|\u203c|\u2049|[\u25aa-\u25ab]|\u25b6|\u25c0|[\u25fb-\u25fe]|\u00a9|\u00ae|\u2122|\u2139|\ud83c\udc04|[\u2600-\u26FF]|\u2b05|\u2b06|\u2b07|\u2b1b|\u2b1c|\u2b50|\u2b55|\u231a|\u231b|\u2328|\u23cf|[\u23e9-\u23f3]|[\u23f8-\u23fa]|\ud83c\udccf|\u2934|\u2935|[\u2190-\u21ff])/g;
 //all tweets array
 var totalTweets = [];
-var fullpath = __dirname;
-var fs = require('fs');
-let {
+//import minhash and lsh modules
+var {
     Minhash,
     LshIndex
 } = require('minhash');
+//create object for lsh
 var index = new LshIndex();
-
-
-const csvWriter = createCsvWriter({
-    path: fullpath + '/tweetTexts.csv',
-    header: [{
-            text: 'text',
-            title: 'TEXT'
-        },
-        {
-            id: 'id',
-            title: 'ID'
-        },
-        {
-            id: 'place',
-            title: 'PLACE'
-        }
-    ]
-});
 
 exports.kMeansClustering = function () {
     async.waterfall([
@@ -63,7 +37,6 @@ exports.kMeansClustering = function () {
                                 'id': '',
                                 'place': {}
                             };
-                            // totalTweets.push(JSON.parse(JSON.stringify(eachNoFilterTweet)).text.replace(regex, ''));
                             dataToWrite.text = JSON.parse(JSON.stringify(eachNoFilterTweet)).text.replace(regex, '').toString();
                             dataToWrite.id = JSON.parse(JSON.stringify(eachNoFilterTweet)).id_str;
                             dataToWrite.place = JSON.parse(JSON.stringify(eachNoFilterTweet)).place;
@@ -102,7 +75,6 @@ exports.kMeansClustering = function () {
                                 'id': '',
                                 'place': {}
                             };
-                            // totalTweets.push(JSON.parse(JSON.stringify(eachRestTweet)).text.replace(regex, ''));
                             dataToWrite.text = JSON.parse(JSON.stringify(eachRestTweet)).text.replace(regex, '').toString();
                             dataToWrite.id = JSON.parse(JSON.stringify(eachRestTweet)).id_str;
                             dataToWrite.place = JSON.parse(JSON.stringify(eachRestTweet)).place;
@@ -141,7 +113,6 @@ exports.kMeansClustering = function () {
                                 'id': '',
                                 'place': {}
                             };
-                            // totalTweets.push(JSON.parse(JSON.stringify(eachKeywordTweet)).text.replace(regex, ''));
                             dataToWrite.text = JSON.parse(JSON.stringify(eachKeywordTweet)).text.replace(regex, '').toString();
                             dataToWrite.id = JSON.parse(JSON.stringify(eachKeywordTweet)).id_str;
                             dataToWrite.place = JSON.parse(JSON.stringify(eachKeywordTweet)).place;
@@ -180,7 +151,6 @@ exports.kMeansClustering = function () {
                                 'id': '',
                                 'place': {}
                             };
-                            // totalTweets.push(JSON.parse(JSON.stringify(eachGeoTweet)).text.replace(regex, ''));
                             dataToWrite.text = JSON.parse(JSON.stringify(eachGeoTweet)).text.replace(regex, '').toString();
                             dataToWrite.id = JSON.parse(JSON.stringify(eachGeoTweet)).id_str;
                             dataToWrite.place = JSON.parse(JSON.stringify(eachGeoTweet)).place;
@@ -196,7 +166,7 @@ exports.kMeansClustering = function () {
                                 callback(null, totalTweets);
                             } else {
                                 //log the final output
-                                logger.info('kMeansClustering: Going to function 5 to write data to file');
+                                logger.info('kMeansClustering: Going to function 5 to form indexes using minhash lsh');
                                 //go to next function
                                 callback(null, totalTweets);
                             }
@@ -204,144 +174,75 @@ exports.kMeansClustering = function () {
                 }
             });
         },
-        //function to work with minhash lsh
+        //5. Function to work with minhash lsh and create hashes and indexes
         function (totalTweets, callback) {
             var mArr = [];
-            // console.log(totalTweets);
             var count = 0;
             async.forEachSeries(totalTweets, function (each, callback) {
+                    //create array of string
                     var textSplit = each.text.split();
+                    //new variable
                     var m = 'm' + count;
+                    //increment count for next variable
                     count++;
-                    // console.log('Each M: ' + m);
+                    //new hashing
                     m = new Minhash();
+                    //update each sentence
                     textSplit.map(function (w) {
                         m.update(w);
                     });
+                    //add hashes to the index after updation
                     index.insert(each.id, m);
+                    //add to m to late to compute closeness for each sentense
                     mArr.push(m);
+                    //go to next iteration
                     callback();
                 },
+                //final function for async
                 function (errFinal) {
                     if (errFinal) {
-                        logger.error('Error minhash: ' + errFinal);
+                        //log error
+                        logger.error('Error in minhash calculation asynch final: ' + errFinal);
+                        //go to next function
                         callback(null, totalTweets, mArr);
                     } else {
-                        console.log('MArr length: ' + mArr.length);
+                        logger.info('kMeansClustering: Going to function 6 to form clusters using minhash lsh');
+                        //go to next function
                         callback(null, totalTweets, mArr);
                     }
                 });
         },
-        //function to perform query of lsh of each sentense
+        //6. Function to perform query of lsh of each sentense
         function (totalTweets, mArr, callback) {
+            //store all clusters for each sentence
             var allMatches = [];
+            //loop through all indexes formed
             async.forEachSeries(mArr, function (eachM, callback) {
+                    //find clusters
                     var match = index.query(eachM);
+                    //form a cluster of arrays
                     allMatches.push(match);
-                    // console.log('Each match: ' + match.length);
+                    //go to next index
                     callback();
                 },
+                //final function for async
                 function (errFinal) {
                     if (errFinal) {
-                        logger.error('Error matches in minhash lsh: ' + errFinal);
+                        //log error
+                        logger.error('Error matches in forming clusters based on minhash LSH: ' + errFinal);
+                        //go to next function
                         callback(null, totalTweets);
                     } else {
                         //convert the arrays to JSON strings and use a Set to get unique values
                         var set = new Set(allMatches.map(JSON.stringify));
                         //convert back to array of arrays again
                         var allMatchesUnique = Array.from(set).map(JSON.parse);
+                        //go to next function
                         callback(null, totalTweets);
                     }
                 });
         }
-        //5. Function to write data to file
-        // function (totalTweets, callback) {
-        //     fs.writeFileSync(fullpath + '/tweetTexts.txt', '');
-        //     async.forEachSeries(totalTweets, function (eachTweetText, callback) {
-        //         // fs.appendFile(fullpath + '/tweetTexts.txt', eachTweetText, function (err, data) {
-        //         //     if (err) {
-        //         //         //if error in writing to file, log it
-        //         //         logger.error('Error writing file: ' + err);
-        //         //         //continue to next iteration
-        //         //         callback();
-        //         //     } else {
-        //         //         //next iteration
-        //         //         callback();
-        //         //     }
-        //         // });
-        //         // console.log(eachTweetText.length);
-        //         fs.appendFileSync(fullpath + '/tweetTexts.txt', eachTweetText + ">");
-        //         callback();
-        //     },
-        //     function (errAsyncDuplicate) {
-        //         //handle error
-        //         if (errAsyncDuplicate) {
-        //             //log the error found
-        //             logger.error('kMeansClustering: Error in async for kMeansClustering 5: ' + errAsyncDuplicate);
-        //             //go to next function
-        //             callback(null, totalTweets);
-        //         } else {
-
-        //             //log the final output
-        //             logger.info('kMeansClustering: Successfully written to file: Going to function 6 to execute python script');
-        //             //go to the next function to execute the python script for clustering
-        //             callback(null, totalTweets);
-        //         }
-        //     });
-        //     // callback(null, totalTweets);
-        // },
-        // //6. Function to execute a python script
-        // function (totalTweets, callback) {
-        //     var options = {
-        //         mode: 'text',
-        //         pythonOptions: ['-u'],
-        //         scriptPath: fullpath,
-        //     };
-        //     //run the python script file with options
-        //     PythonShell.run('minHash.py', options, function (err, result) {
-        //         if (err) {
-        //             //log the error in running the python script
-        //             logger.error('Error in python: ' + err);
-        //             //go to next function
-        //             callback(null, totalTweets);
-        //         } else {
-        //             //log the python script result
-        //             logger.info('Python result: ' + result);
-        //             //continue to next function
-        //             callback(null, totalTweets);
-        //         }
-        //     });
-        // }
-        // //5. Function to perform K means on geo-tagged data
-        // function (totalTweets, callback) {
-        //     var vectors = new Array();
-        //     for (var i = 0; i < totalTweets.length; i++) {
-        //         // console.log(JSON.parse(JSON.stringify(geoTweets[i])).id_str)
-        //         vectors[i] = [JSON.parse(JSON.stringify(totalTweets[i])).text.length, JSON.parse(JSON.stringify(totalTweets[i])).user.followers_count];
-        //     }
-        //     // kmeans.clusterize(vectors, {
-        //     //     k: 20
-        //     // }, (err, res) => {
-        //     //     if (err) {
-        //     //         console.log('Error: ' + err);
-        //     //         callback(null, geoTweets.length);
-        //     //     } else {
-        //     //         console.log('%o', res);
-        //     //         callback(null, geoTweets.length);
-        //     //     }
-        //     // });
-        //     // var kMeans = new clustering.KMEANS();
-        //     // // parameters: 3 - number of clusters
-        //     // var clusters = kMeans.run(vectors, 35);
-        //     // console.log(clusters);
-        //     // callback(null, geoTweets.length);
-        //     callback(null, totalTweets);
-        // }
-
     ], function (err, result) {
-        console.log('Final: ' + result.length);
+        console.log('End of the waterfall method: ' + result.length);
     })
 }
-
-
-//remove k-means or density-clustering
