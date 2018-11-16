@@ -14,6 +14,7 @@
     "express": "^4.16.4",
     "minhash": "0.0.9",
     "mongoose": "^5.3.4",
+    "plotly": "^1.0.6",
     "twit": "^2.2.11",
     "winston": "^3.1.0",
     "winston-daily-rotate-file": "^3.4.1"

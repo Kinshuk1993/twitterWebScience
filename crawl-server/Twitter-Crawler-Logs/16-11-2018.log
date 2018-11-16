@@ -702,3 +702,272 @@
 2018-11-16 17:24:03 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
 2018-11-16 17:24:23 info: kMeansClustering: Going to function 4 to find geo tweets
 2018-11-16 17:24:23 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 18:03:43 info: Starting the server at port number 3000
+2018-11-16 18:03:43 info: Successfully connected to database
+2018-11-16 18:03:55 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:03:57 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:04:18 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:04:18 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:04:28 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:06:53 info: Starting the server at port number 3000
+2018-11-16 18:06:53 info: Successfully connected to database
+2018-11-16 18:07:05 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:07:07 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:07:28 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:07:28 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:08:32 info: Starting the server at port number 3000
+2018-11-16 18:08:32 info: Successfully connected to database
+2018-11-16 18:08:44 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:08:46 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:09:07 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:09:07 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:09:47 info: Starting the server at port number 3000
+2018-11-16 18:09:47 info: Successfully connected to database
+2018-11-16 18:09:59 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:10:01 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:10:22 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:10:22 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:11:07 info: Starting the server at port number 3000
+2018-11-16 18:11:07 info: Successfully connected to database
+2018-11-16 18:11:19 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:11:21 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:11:43 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:11:43 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:12:29 info: Starting the server at port number 3000
+2018-11-16 18:12:29 info: Successfully connected to database
+2018-11-16 18:12:47 info: Starting the server at port number 3000
+2018-11-16 18:12:47 info: Successfully connected to database
+2018-11-16 18:12:59 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:13:02 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:13:23 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:13:23 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:14:16 info: Starting the server at port number 3000
+2018-11-16 18:14:16 info: Successfully connected to database
+2018-11-16 18:14:27 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:14:30 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:14:51 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:14:51 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:21:47 info: Starting the server at port number 3000
+2018-11-16 18:21:48 info: Successfully connected to database
+2018-11-16 18:21:59 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:22:02 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:22:23 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:22:23 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:22:40 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:23:07 info: Starting the server at port number 3000
+2018-11-16 18:23:07 info: Successfully connected to database
+2018-11-16 18:23:18 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:23:21 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:23:41 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:23:42 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:24:03 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:24:36 info: Starting the server at port number 3000
+2018-11-16 18:24:36 info: Successfully connected to database
+2018-11-16 18:24:47 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:24:50 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:25:11 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:25:11 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:25:27 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:25:39 info: Starting the server at port number 3000
+2018-11-16 18:25:39 info: Successfully connected to database
+2018-11-16 18:25:50 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:25:53 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:26:13 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:26:13 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:26:28 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:26:47 info: Starting the server at port number 3000
+2018-11-16 18:26:47 info: Successfully connected to database
+2018-11-16 18:26:58 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:27:01 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:27:22 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:27:22 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:27:25 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:27:44 info: Starting the server at port number 3000
+2018-11-16 18:27:44 info: Successfully connected to database
+2018-11-16 18:27:55 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:27:58 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:28:19 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:28:19 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:28:25 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:28:58 info: Starting the server at port number 3000
+2018-11-16 18:28:58 info: Successfully connected to database
+2018-11-16 18:29:10 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:29:12 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:29:33 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:29:33 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:29:39 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:30:11 info: Starting the server at port number 3000
+2018-11-16 18:30:11 info: Successfully connected to database
+2018-11-16 18:30:22 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:30:24 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:30:45 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:30:45 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:30:52 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:41:09 info: Starting the server at port number 3000
+2018-11-16 18:41:09 info: Successfully connected to database
+2018-11-16 18:41:20 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:41:23 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:43:12 info: Starting the server at port number 3000
+2018-11-16 18:43:12 info: Successfully connected to database
+2018-11-16 18:43:23 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:43:26 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:44:47 info: Starting the server at port number 3000
+2018-11-16 18:44:47 info: Successfully connected to database
+2018-11-16 18:44:58 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:45:01 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:45:50 info: Starting the server at port number 3000
+2018-11-16 18:45:50 info: Successfully connected to database
+2018-11-16 18:46:01 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:46:04 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:46:35 info: Starting the server at port number 3000
+2018-11-16 18:46:35 info: Successfully connected to database
+2018-11-16 18:46:46 info: Starting the server at port number 3000
+2018-11-16 18:46:46 info: Successfully connected to database
+2018-11-16 18:46:49 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:46:50 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:48:09 info: Starting the server at port number 3000
+2018-11-16 18:48:09 info: Successfully connected to database
+2018-11-16 18:48:12 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:48:13 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:49:31 info: Starting the server at port number 3000
+2018-11-16 18:49:31 info: Successfully connected to database
+2018-11-16 18:49:34 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:49:35 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:49:58 info: Starting the server at port number 3000
+2018-11-16 18:49:58 info: Successfully connected to database
+2018-11-16 18:50:01 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:50:02 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:50:54 info: Starting the server at port number 3000
+2018-11-16 18:50:54 info: Successfully connected to database
+2018-11-16 18:50:56 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:50:57 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 18:51:21 info: Starting the server at port number 3000
+2018-11-16 18:51:21 info: Successfully connected to database
+2018-11-16 18:52:29 info: Starting the server at port number 3000
+2018-11-16 18:52:29 info: Successfully connected to database
+2018-11-16 18:52:45 info: Starting the server at port number 3000
+2018-11-16 18:52:45 info: Successfully connected to database
+2018-11-16 18:52:56 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 18:52:59 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 18:53:20 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 18:53:20 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 18:53:28 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:06:36 info: Starting the server at port number 3000
+2018-11-16 19:06:36 info: Successfully connected to database
+2018-11-16 19:06:38 info: Starting the server at port number 3000
+2018-11-16 19:06:38 info: Successfully connected to database
+2018-11-16 19:06:49 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:06:52 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:07:13 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:07:13 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:07:20 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:14:10 info: Starting the server at port number 3000
+2018-11-16 19:14:10 info: Successfully connected to database
+2018-11-16 19:14:22 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:14:25 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:14:46 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:14:46 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:14:53 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:14:55 info: [object Object]
+2018-11-16 19:15:55 info: Starting the server at port number 3000
+2018-11-16 19:15:55 info: Successfully connected to database
+2018-11-16 19:16:06 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:16:08 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:16:29 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:16:29 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:16:36 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:16:38 info: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-16 19:24:34 info: Starting the server at port number 3000
+2018-11-16 19:24:34 info: Successfully connected to database
+2018-11-16 19:24:45 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:24:48 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:25:09 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:25:09 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:25:16 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:25:17 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:25:18 info: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-16 19:27:20 info: Starting the server at port number 3000
+2018-11-16 19:27:20 info: Successfully connected to database
+2018-11-16 19:27:31 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:27:34 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:27:55 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:27:55 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:28:02 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:28:02 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:28:13 info: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-16 19:34:27 info: Starting the server at port number 3000
+2018-11-16 19:34:27 info: Successfully connected to database
+2018-11-16 19:34:38 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:34:41 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:34:46 info: Starting the server at port number 3000
+2018-11-16 19:34:46 info: Successfully connected to database
+2018-11-16 19:34:57 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:35:00 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:35:21 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:35:21 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:35:28 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:35:29 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:35:30 info: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-16 19:39:12 info: Starting the server at port number 3000
+2018-11-16 19:39:12 info: Successfully connected to database
+2018-11-16 19:39:24 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:39:26 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:39:48 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:39:48 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:39:55 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:39:55 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:39:57 info: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-16 19:40:40 info: Starting the server at port number 3000
+2018-11-16 19:40:40 info: Successfully connected to database
+2018-11-16 19:40:52 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:40:54 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:41:15 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:41:15 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:41:23 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:41:23 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:41:25 info: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-16 19:44:29 info: Starting the server at port number 3000
+2018-11-16 19:44:29 info: Successfully connected to database
+2018-11-16 19:44:41 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:44:44 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:45:04 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:45:04 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:45:11 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:45:12 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:45:13 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-16 19:49:39 info: Starting the server at port number 3000
+2018-11-16 19:49:39 info: Successfully connected to database
+2018-11-16 19:49:50 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:49:53 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:50:14 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:50:14 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:50:22 info: Starting the server at port number 3000
+2018-11-16 19:50:22 info: Successfully connected to database
+2018-11-16 19:50:34 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:51:04 info: Starting the server at port number 3000
+2018-11-16 19:51:04 info: Successfully connected to database
+2018-11-16 19:51:15 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:51:18 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:51:39 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:51:39 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:51:47 info: Starting the server at port number 3000
+2018-11-16 19:51:47 info: Successfully connected to database
+2018-11-16 19:52:14 info: Starting the server at port number 3000
+2018-11-16 19:52:14 info: Successfully connected to database
+2018-11-16 19:52:26 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:52:28 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:52:50 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:52:50 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:52:58 info: Starting the server at port number 3000
+2018-11-16 19:52:58 info: Successfully connected to database
+2018-11-16 19:53:09 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:53:12 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:53:22 info: Starting the server at port number 3000
+2018-11-16 19:53:22 info: Successfully connected to database
+2018-11-16 19:53:33 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 19:53:36 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 19:53:56 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 19:53:56 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-16 19:54:03 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-16 19:54:04 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-16 19:54:06 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}

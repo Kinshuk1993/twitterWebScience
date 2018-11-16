@@ -19,6 +19,8 @@ var {
 } = require('minhash');
 //create object for lsh
 var index = new LshIndex();
+//include plotly graph
+var plotly = require('plotly')("kinshukb", "o4ZxVuiWSEGM2jAQud16")
 
 exports.kMeansClustering = function () {
     async.waterfall([
@@ -97,6 +99,7 @@ exports.kMeansClustering = function () {
                         });
                 }
             });
+            // callback(null, totalTweets);
         },
         //3. Function to find all keyword filtered tweets from db
         function (totalTweets, callback) {
@@ -135,6 +138,7 @@ exports.kMeansClustering = function () {
                         });
                 }
             });
+            // callback(null, totalTweets);
         },
         //4. Function to find all geo tweets from db
         function (totalTweets, callback) {
@@ -173,6 +177,7 @@ exports.kMeansClustering = function () {
                         });
                 }
             });
+            // callback(null, totalTweets);
         },
         //5. Function to work with minhash lsh and create hashes and indexes
         function (totalTweets, callback) {
@@ -216,6 +221,8 @@ exports.kMeansClustering = function () {
         function (totalTweets, mArr, callback) {
             //store all clusters for each sentence
             var allMatches = [];
+            //variable to store unique clusters
+            var allMatchesUnique = [];
             //loop through all indexes formed
             async.forEachSeries(mArr, function (eachM, callback) {
                     //find clusters
@@ -231,15 +238,93 @@ exports.kMeansClustering = function () {
                         //log error
                         logger.error('Error matches in forming clusters based on minhash LSH: ' + errFinal);
                         //go to next function
-                        callback(null, totalTweets);
+                        callback(null, totalTweets, allMatchesUnique);
                     } else {
                         //convert the arrays to JSON strings and use a Set to get unique values
                         var set = new Set(allMatches.map(JSON.stringify));
                         //convert back to array of arrays again
-                        var allMatchesUnique = Array.from(set).map(JSON.parse);
+                        allMatchesUnique = Array.from(set).map(JSON.parse);
+                        logger.info('kMeansClustering: Going to function 6 to form the cluster graph');
                         //go to next function
-                        callback(null, totalTweets);
+                        callback(null, totalTweets, allMatchesUnique);
                     }
+                });
+        },
+        //7. Function to gather data to plot the graph
+        function (totalTweets, allMatchesUnique, callback) {
+            var one = [],
+                two = [],
+                threeTo4 = [],
+                fiveTo9 = [],
+                tenTo19 = [],
+                twentyTo49 = [],
+                moreThan50 = [];
+            async.forEachSeries(allMatchesUnique, function (eachMatch, callback) {
+                    if (eachMatch.length >= 1 && eachMatch.length < 2) {
+                        one.push(eachMatch);
+                        callback();
+                    } else if (eachMatch.length >= 2 && eachMatch.length < 3) {
+                        two.push(eachMatch);
+                        callback();
+                    } else if (eachMatch.length >= 3 && eachMatch.length < 5) {
+                        threeTo4.push(eachMatch);
+                        callback();
+                    } else if (eachMatch.length >= 5 && eachMatch.length < 10) {
+                        fiveTo9.push(eachMatch);
+                        callback();
+                    } else if (eachMatch.length >= 10 && eachMatch.length < 20) {
+                        tenTo19.push(eachMatch);
+                        callback();
+                    } else if (eachMatch.length >= 20 && eachMatch.length < 50) {
+                        twentyTo49.push(eachMatch);
+                        callback();
+                    } else {
+                        moreThan50.push(eachMatch);
+                        callback();
+                    }
+                },
+                function (err) {
+                    var xVal = ['1', '2', '3-4', '5-9', '10-19', '20-49', 'More than equal to 50'];
+                    var yVal = [one.length, two.length, threeTo4.length, fiveTo9.length, tenTo19.length, twentyTo49.length, moreThan50.length];
+
+                    var data = [{
+                        x: xVal,
+                        y: yVal,
+                        type: 'bar',
+                        text: yVal.map(String),
+                        textposition: 'auto',
+                        hoverinfo: 'none',
+                        marker: {
+                            color: 'rgb(158,202,225)',
+                            opacity: 0.6,
+                            line: {
+                                color: 'rgb(8,48,107)',
+                                width: 1.5
+                            }
+                        }
+                    }];
+                    var layout = {
+                        title: "Number of clusters in Ranges",
+                        fileopt: "overwrite",
+                        filename: "bar-direct-labels",
+                        font: {
+                            family: "Raleway, sans-serif"
+                        },
+                        bargap: 0.05
+                    };
+                    plotly.plot(data, layout, function (err, msg) {
+                        if (err) {
+                            logger.error('Error in plotting graph for number of clusters');
+                            //go to the next function
+                            callback(null, totalTweets);
+                        } else {
+                            //log the output to logger and final output file
+                            logger.info(JSON.stringify(msg));
+                            output.info(JSON.stringify(msg));
+                            //go to the next function
+                            callback(null, totalTweets);
+                        }
+                    });
                 });
         }
     ], function (err, result) {
