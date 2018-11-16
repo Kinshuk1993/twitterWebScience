@@ -429,3 +429,276 @@
 2018-11-16 09:19:52 info: kMeansClustering: Going to function 5 to write data to file
 2018-11-16 09:20:01 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
 2018-11-16 09:22:13 info: Python result: Final Count:  17572
+2018-11-16 14:47:47 info: Starting the server at port number 3000
+2018-11-16 14:47:47 info: Successfully connected to database
+2018-11-16 14:47:53 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 14:47:55 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 14:48:06 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 14:48:06 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 14:51:23 info: Starting the server at port number 3000
+2018-11-16 14:51:23 info: Successfully connected to database
+2018-11-16 14:51:29 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 14:51:31 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 14:51:42 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 14:51:42 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 14:51:54 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 14:52:00 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/temp.txt'
+2018-11-16 14:53:31 info: Starting the server at port number 3000
+2018-11-16 14:53:31 info: Successfully connected to database
+2018-11-16 14:53:37 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 14:53:39 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 14:53:50 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 14:53:50 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 14:54:01 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 14:54:03 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/temp.txt'
+2018-11-16 14:57:17 info: Starting the server at port number 3000
+2018-11-16 14:57:17 info: Successfully connected to database
+2018-11-16 14:57:23 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 14:57:24 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 14:57:40 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 14:57:40 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 14:57:48 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 14:57:50 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/temp.txt'
+2018-11-16 14:59:54 info: Starting the server at port number 3000
+2018-11-16 14:59:54 info: Successfully connected to database
+2018-11-16 15:00:01 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:00:02 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:00:13 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:00:13 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:00:22 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 15:00:24 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/temp.txt'
+2018-11-16 15:01:45 info: Starting the server at port number 3000
+2018-11-16 15:01:45 info: Successfully connected to database
+2018-11-16 15:01:52 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:01:53 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:02:05 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:02:05 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:02:13 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 15:02:15 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/temp.txt'
+2018-11-16 15:05:53 info: Starting the server at port number 3000
+2018-11-16 15:05:53 info: Successfully connected to database
+2018-11-16 15:05:59 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:06:01 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:06:13 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:06:13 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:06:45 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 15:06:47 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/temp.txt'
+2018-11-16 15:08:50 info: Starting the server at port number 3000
+2018-11-16 15:08:50 info: Successfully connected to database
+2018-11-16 15:08:56 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:08:58 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:09:09 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:09:09 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:09:32 info: Starting the server at port number 3000
+2018-11-16 15:09:32 info: Successfully connected to database
+2018-11-16 15:09:38 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:09:40 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:09:51 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:09:51 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:09:58 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 15:09:59 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/temp.txt'
+2018-11-16 15:12:22 info: Starting the server at port number 3000
+2018-11-16 15:12:22 info: Successfully connected to database
+2018-11-16 15:12:29 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:12:30 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:12:42 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:12:42 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:12:48 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 15:12:50 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/temp.txt'
+2018-11-16 15:22:22 info: Starting the server at port number 3000
+2018-11-16 15:22:22 info: Successfully connected to database
+2018-11-16 15:22:29 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:22:30 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:22:41 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:22:41 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:22:48 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller/tweetsText.csv'
+2018-11-16 15:23:55 info: Starting the server at port number 3000
+2018-11-16 15:23:55 info: Successfully connected to database
+2018-11-16 15:24:02 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:24:03 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:24:15 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:24:15 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:24:18 error: Error in python: Error: OSError: [Errno 22] Invalid argument: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller\tweetsText.csv'
+2018-11-16 15:24:39 info: Starting the server at port number 3000
+2018-11-16 15:24:39 info: Successfully connected to database
+2018-11-16 15:24:46 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:24:47 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:24:59 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:24:59 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:25:02 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\UofG-Projects\\WebScienceProject\\twitter\\crawl-server\\controller\\tweetsText.csv'
+2018-11-16 15:28:07 info: Starting the server at port number 3000
+2018-11-16 15:28:07 info: Successfully connected to database
+2018-11-16 15:28:13 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:28:15 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:28:26 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:28:26 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:28:29 error: Error in python: Error: FileNotFoundError: [Errno 2] No such file or directory: 'tweetsText.csv'
+2018-11-16 15:29:00 info: Starting the server at port number 3000
+2018-11-16 15:29:00 info: Successfully connected to database
+2018-11-16 15:29:07 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:29:08 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:29:19 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:29:19 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:29:23 error: Error in python: Error: TypeError: "delimiter" must be a 1-character string
+2018-11-16 15:32:43 info: Starting the server at port number 3000
+2018-11-16 15:32:43 info: Successfully connected to database
+2018-11-16 15:32:49 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:32:51 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:33:02 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:33:02 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:33:08 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 15:33:12 error: Error in python: Error: UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 31: character maps to <undefined>
+2018-11-16 15:40:12 info: Starting the server at port number 3000
+2018-11-16 15:40:12 info: Successfully connected to database
+2018-11-16 15:40:18 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:40:20 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:40:32 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:40:32 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:40:39 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 15:41:56 info: Python result: Line count:  16861,Final Count:  16861
+2018-11-16 15:44:55 info: Starting the server at port number 3000
+2018-11-16 15:44:55 info: Successfully connected to database
+2018-11-16 15:45:01 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 15:45:03 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 15:45:14 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 15:45:14 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 15:45:20 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 15:46:38 info: Python result: Line count:  16861,Final Count:  16861
+2018-11-16 16:00:20 info: Starting the server at port number 3000
+2018-11-16 16:00:20 info: Successfully connected to database
+2018-11-16 16:00:31 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:00:34 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:00:55 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:00:55 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:04:13 info: Starting the server at port number 3000
+2018-11-16 16:04:13 info: Successfully connected to database
+2018-11-16 16:04:24 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:04:27 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:04:47 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:04:47 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:07:05 info: Starting the server at port number 3000
+2018-11-16 16:07:05 info: Successfully connected to database
+2018-11-16 16:07:17 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:07:20 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:07:41 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:07:41 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:08:29 info: Starting the server at port number 3000
+2018-11-16 16:08:29 info: Successfully connected to database
+2018-11-16 16:08:40 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:08:43 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:09:04 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:09:05 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:10:54 info: Starting the server at port number 3000
+2018-11-16 16:10:54 info: Successfully connected to database
+2018-11-16 16:11:05 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:11:08 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:11:28 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:11:28 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:14:24 info: Starting the server at port number 3000
+2018-11-16 16:14:24 info: Successfully connected to database
+2018-11-16 16:14:35 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:14:38 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:14:58 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:14:58 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:17:50 info: Starting the server at port number 3000
+2018-11-16 16:17:50 info: Successfully connected to database
+2018-11-16 16:18:01 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:18:04 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:18:24 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:18:24 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:34:18 info: Starting the server at port number 3000
+2018-11-16 16:34:18 info: Successfully connected to database
+2018-11-16 16:34:30 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:34:33 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:34:54 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:34:54 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:40:26 info: Starting the server at port number 3000
+2018-11-16 16:40:26 info: Successfully connected to database
+2018-11-16 16:40:37 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:40:40 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:41:01 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:41:01 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:41:55 info: Starting the server at port number 3000
+2018-11-16 16:41:55 info: Successfully connected to database
+2018-11-16 16:42:09 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:42:12 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:42:33 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:42:33 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:44:42 info: Starting the server at port number 3000
+2018-11-16 16:44:42 info: Successfully connected to database
+2018-11-16 16:44:54 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:44:56 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:45:17 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:45:17 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:47:18 info: Starting the server at port number 3000
+2018-11-16 16:47:18 info: Successfully connected to database
+2018-11-16 16:47:29 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:47:32 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:47:53 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:47:53 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:48:17 info: Starting the server at port number 3000
+2018-11-16 16:48:17 info: Successfully connected to database
+2018-11-16 16:48:28 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:48:31 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:48:52 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:48:52 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:49:29 info: Starting the server at port number 3000
+2018-11-16 16:49:29 info: Successfully connected to database
+2018-11-16 16:49:40 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:49:43 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:50:04 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:50:04 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:55:46 info: Starting the server at port number 3000
+2018-11-16 16:55:47 info: Successfully connected to database
+2018-11-16 16:55:58 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:56:00 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:56:21 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:56:21 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 16:59:09 info: Starting the server at port number 3000
+2018-11-16 16:59:09 info: Successfully connected to database
+2018-11-16 16:59:21 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 16:59:24 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 16:59:45 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 16:59:45 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 17:04:31 info: Starting the server at port number 3000
+2018-11-16 17:04:31 info: Successfully connected to database
+2018-11-16 17:04:42 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 17:04:45 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 17:05:06 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 17:05:06 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 17:06:04 info: Starting the server at port number 3000
+2018-11-16 17:06:04 info: Successfully connected to database
+2018-11-16 17:06:16 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 17:06:18 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 17:06:39 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 17:06:39 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 17:07:32 info: Starting the server at port number 3000
+2018-11-16 17:07:32 info: Successfully connected to database
+2018-11-16 17:07:43 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 17:07:46 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 17:08:06 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 17:08:06 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 17:10:57 info: Starting the server at port number 3000
+2018-11-16 17:10:57 info: Successfully connected to database
+2018-11-16 17:11:08 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 17:11:11 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 17:11:32 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 17:11:32 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 17:14:01 info: Starting the server at port number 3000
+2018-11-16 17:14:01 info: Successfully connected to database
+2018-11-16 17:14:12 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 17:14:15 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 17:14:36 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 17:14:36 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 17:16:06 info: Starting the server at port number 3000
+2018-11-16 17:16:06 info: Successfully connected to database
+2018-11-16 17:16:18 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 17:16:20 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 17:16:41 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 17:16:41 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 17:23:49 info: Starting the server at port number 3000
+2018-11-16 17:23:49 info: Successfully connected to database
+2018-11-16 17:24:00 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 17:24:03 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 17:24:23 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 17:24:23 info: kMeansClustering: Going to function 5 to write data to file
