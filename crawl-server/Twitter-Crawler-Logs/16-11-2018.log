@@ -1,0 +1,431 @@
+2018-11-16 04:34:09 info: Starting the server at port number 3000
+2018-11-16 04:34:09 info: Successfully connected to database
+2018-11-16 04:37:37 info: Starting the server at port number 3000
+2018-11-16 04:37:37 info: Successfully connected to database
+2018-11-16 04:39:03 info: Starting the server at port number 3000
+2018-11-16 04:39:03 info: Successfully connected to database
+2018-11-16 04:39:20 info: Starting the server at port number 3000
+2018-11-16 04:39:20 info: Successfully connected to database
+2018-11-16 04:40:46 info: Starting the server at port number 3000
+2018-11-16 04:40:47 info: Successfully connected to database
+2018-11-16 04:45:18 info: Starting the server at port number 3000
+2018-11-16 04:45:18 info: Successfully connected to database
+2018-11-16 04:47:46 info: Starting the server at port number 3000
+2018-11-16 04:47:46 info: Successfully connected to database
+2018-11-16 04:48:42 info: Starting the server at port number 3000
+2018-11-16 04:48:42 info: Successfully connected to database
+2018-11-16 04:49:23 info: Starting the server at port number 3000
+2018-11-16 04:49:23 info: Successfully connected to database
+2018-11-16 04:49:39 info: Starting the server at port number 3000
+2018-11-16 04:49:39 info: Successfully connected to database
+2018-11-16 04:49:55 info: Starting the server at port number 3000
+2018-11-16 04:49:55 info: Successfully connected to database
+2018-11-16 04:53:32 info: Starting the server at port number 3000
+2018-11-16 04:53:32 info: Successfully connected to database
+2018-11-16 04:55:14 info: Starting the server at port number 3000
+2018-11-16 04:55:14 info: Successfully connected to database
+2018-11-16 04:57:44 info: Starting the server at port number 3000
+2018-11-16 04:57:44 info: Successfully connected to database
+2018-11-16 04:58:43 info: Starting the server at port number 3000
+2018-11-16 04:58:43 info: Successfully connected to database
+2018-11-16 04:59:10 info: Starting the server at port number 3000
+2018-11-16 04:59:10 info: Successfully connected to database
+2018-11-16 05:01:37 info: Starting the server at port number 3000
+2018-11-16 05:01:37 info: Successfully connected to database
+2018-11-16 05:01:41 info: kMeansClustering: Going to function 3
+2018-11-16 05:03:00 info: Starting the server at port number 3000
+2018-11-16 05:03:00 info: Successfully connected to database
+2018-11-16 05:03:03 info: kMeansClustering: Going to function 2
+2018-11-16 05:04:24 info: Starting the server at port number 3000
+2018-11-16 05:04:24 info: Successfully connected to database
+2018-11-16 05:04:27 info: kMeansClustering: Going to function 2
+2018-11-16 05:04:28 info: kMeansClustering: Going to function 3
+2018-11-16 05:07:33 info: Starting the server at port number 3000
+2018-11-16 05:07:33 info: Successfully connected to database
+2018-11-16 05:07:36 info: kMeansClustering: Going to function 2
+2018-11-16 05:07:37 info: kMeansClustering: Going to function 3
+2018-11-16 05:07:53 info: Starting the server at port number 3000
+2018-11-16 05:07:53 info: Successfully connected to database
+2018-11-16 05:07:56 info: kMeansClustering: Going to function 2
+2018-11-16 05:07:57 info: kMeansClustering: Going to function 3
+2018-11-16 05:08:04 info: kMeansClustering: Going to function 4
+2018-11-16 05:08:04 info: kMeansClustering: Going to function 2
+2018-11-16 05:08:42 info: Starting the server at port number 3000
+2018-11-16 05:08:42 info: Successfully connected to database
+2018-11-16 05:08:45 info: kMeansClustering: Going to function 2
+2018-11-16 05:08:46 info: kMeansClustering: Going to function 3
+2018-11-16 05:08:53 info: kMeansClustering: Going to function 4
+2018-11-16 05:08:53 info: kMeansClustering: Going to function 2
+2018-11-16 05:13:20 info: Starting the server at port number 3000
+2018-11-16 05:13:20 info: Successfully connected to database
+2018-11-16 05:13:24 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:13:25 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:13:32 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:13:32 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:39:12 info: Starting the server at port number 3000
+2018-11-16 05:39:12 info: Successfully connected to database
+2018-11-16 05:39:16 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:39:17 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:39:23 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:39:23 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:41:37 info: Starting the server at port number 3000
+2018-11-16 05:41:37 info: Successfully connected to database
+2018-11-16 05:41:41 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:41:42 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:41:48 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:41:48 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:49:05 info: Starting the server at port number 3000
+2018-11-16 05:49:05 info: Successfully connected to database
+2018-11-16 05:49:08 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:49:09 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:49:16 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:49:16 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:49:59 info: Starting the server at port number 3000
+2018-11-16 05:49:59 info: Successfully connected to database
+2018-11-16 05:50:03 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:50:04 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:50:10 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:50:10 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:50:30 info: Starting the server at port number 3000
+2018-11-16 05:50:30 info: Successfully connected to database
+2018-11-16 05:50:34 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:50:35 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:50:41 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:50:41 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:51:49 info: Starting the server at port number 3000
+2018-11-16 05:51:49 info: Successfully connected to database
+2018-11-16 05:51:52 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:51:53 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:52:00 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:52:00 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:53:08 info: Starting the server at port number 3000
+2018-11-16 05:53:08 info: Successfully connected to database
+2018-11-16 05:53:12 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:53:13 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:53:19 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:53:19 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:53:35 info: Starting the server at port number 3000
+2018-11-16 05:53:35 info: Successfully connected to database
+2018-11-16 05:53:39 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:53:40 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:53:46 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:53:46 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:55:44 info: Starting the server at port number 3000
+2018-11-16 05:55:44 info: Successfully connected to database
+2018-11-16 05:55:47 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:55:48 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:55:55 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:55:55 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:57:41 info: Starting the server at port number 3000
+2018-11-16 05:57:41 info: Successfully connected to database
+2018-11-16 05:57:45 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:57:46 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:57:52 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:57:52 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 05:59:27 info: Starting the server at port number 3000
+2018-11-16 05:59:27 info: Successfully connected to database
+2018-11-16 05:59:31 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 05:59:31 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 05:59:38 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 05:59:38 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:02:34 info: Starting the server at port number 3000
+2018-11-16 06:02:34 info: Successfully connected to database
+2018-11-16 06:02:38 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:02:39 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:02:45 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:02:45 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:10:21 info: Starting the server at port number 3000
+2018-11-16 06:10:21 info: Successfully connected to database
+2018-11-16 06:10:25 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:10:26 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:10:32 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:10:32 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:11:32 info: Starting the server at port number 3000
+2018-11-16 06:11:32 info: Successfully connected to database
+2018-11-16 06:11:36 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:11:37 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:11:43 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:11:43 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:11:59 info: Starting the server at port number 3000
+2018-11-16 06:11:59 info: Successfully connected to database
+2018-11-16 06:12:02 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:12:03 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:12:10 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:12:10 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:12:34 info: Starting the server at port number 3000
+2018-11-16 06:12:34 info: Successfully connected to database
+2018-11-16 06:12:37 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:12:38 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:12:44 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:12:44 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:14:31 info: Starting the server at port number 3000
+2018-11-16 06:14:31 info: Successfully connected to database
+2018-11-16 06:14:34 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:14:35 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:14:42 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:14:42 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:15:10 info: Starting the server at port number 3000
+2018-11-16 06:15:10 info: Successfully connected to database
+2018-11-16 06:15:14 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:15:15 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:15:21 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:15:21 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:15:49 info: Starting the server at port number 3000
+2018-11-16 06:15:49 info: Successfully connected to database
+2018-11-16 06:15:53 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:15:54 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:16:00 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:16:00 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:16:25 info: Starting the server at port number 3000
+2018-11-16 06:16:25 info: Successfully connected to database
+2018-11-16 06:16:29 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:16:30 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:16:36 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:16:36 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:17:54 info: Starting the server at port number 3000
+2018-11-16 06:17:54 info: Successfully connected to database
+2018-11-16 06:17:57 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:17:58 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:18:05 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:18:05 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:26:48 info: Starting the server at port number 3000
+2018-11-16 06:26:48 info: Successfully connected to database
+2018-11-16 06:26:52 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:26:53 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:27:02 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:27:02 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:29:22 info: Starting the server at port number 3000
+2018-11-16 06:29:22 info: Successfully connected to database
+2018-11-16 06:29:25 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:29:26 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:29:33 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:29:33 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:33:02 info: Starting the server at port number 3000
+2018-11-16 06:33:02 info: Successfully connected to database
+2018-11-16 06:33:06 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:33:07 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:33:13 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:33:13 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:38:03 info: Starting the server at port number 3000
+2018-11-16 06:38:03 info: Successfully connected to database
+2018-11-16 06:38:07 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:38:08 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:38:14 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:38:14 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 06:58:46 info: Starting the server at port number 3000
+2018-11-16 06:58:46 info: Successfully connected to database
+2018-11-16 06:58:50 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 06:58:51 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 06:58:57 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 06:58:57 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:01:02 info: Starting the server at port number 3000
+2018-11-16 07:01:02 info: Successfully connected to database
+2018-11-16 07:01:05 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:01:07 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:01:13 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:01:13 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:06:04 info: Starting the server at port number 3000
+2018-11-16 07:06:04 info: Successfully connected to database
+2018-11-16 07:06:08 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:06:09 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:06:15 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:06:15 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:07:03 info: Starting the server at port number 3000
+2018-11-16 07:07:03 info: Successfully connected to database
+2018-11-16 07:07:07 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:07:08 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:07:14 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:07:14 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:09:13 info: Starting the server at port number 3000
+2018-11-16 07:09:13 info: Successfully connected to database
+2018-11-16 07:09:16 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:09:17 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:09:24 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:09:24 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:13:47 info: Starting the server at port number 3000
+2018-11-16 07:13:47 info: Successfully connected to database
+2018-11-16 07:13:50 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:13:51 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:13:57 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:13:57 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:24:13 info: Starting the server at port number 3000
+2018-11-16 07:24:13 info: Successfully connected to database
+2018-11-16 07:24:17 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:24:18 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:24:24 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:24:24 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:25:56 info: Starting the server at port number 3000
+2018-11-16 07:25:56 info: Successfully connected to database
+2018-11-16 07:26:00 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:26:01 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:26:07 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:26:07 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:27:34 info: Starting the server at port number 3000
+2018-11-16 07:27:34 info: Successfully connected to database
+2018-11-16 07:27:37 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:27:38 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:27:45 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:27:45 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 07:28:00 info: Starting the server at port number 3000
+2018-11-16 07:28:00 info: Successfully connected to database
+2018-11-16 07:28:04 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 07:28:05 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 07:28:12 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 07:28:12 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 08:00:25 info: Starting the server at port number 3000
+2018-11-16 08:00:25 info: Successfully connected to database
+2018-11-16 08:01:00 info: Starting the server at port number 3000
+2018-11-16 08:01:00 info: Successfully connected to database
+2018-11-16 08:03:41 info: Starting the server at port number 3000
+2018-11-16 08:03:41 info: Successfully connected to database
+2018-11-16 08:03:48 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:03:49 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:04:01 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:04:01 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 08:10:03 info: Starting the server at port number 3000
+2018-11-16 08:10:03 info: Successfully connected to database
+2018-11-16 08:10:09 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:10:11 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:10:22 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:10:22 info: kMeansClustering: Going to function 5 to cluster data
+2018-11-16 08:15:05 info: Starting the server at port number 3000
+2018-11-16 08:15:05 info: Successfully connected to database
+2018-11-16 08:15:11 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:15:13 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:15:24 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:15:24 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:16:25 info: Starting the server at port number 3000
+2018-11-16 08:16:25 info: Successfully connected to database
+2018-11-16 08:16:31 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:16:33 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:16:44 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:16:44 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:21:06 info: Starting the server at port number 3000
+2018-11-16 08:21:06 info: Successfully connected to database
+2018-11-16 08:21:12 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:21:14 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:21:25 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:21:25 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:30:38 info: Starting the server at port number 3000
+2018-11-16 08:30:38 info: Successfully connected to database
+2018-11-16 08:30:45 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:30:46 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:30:57 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:30:57 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:33:15 info: Starting the server at port number 3000
+2018-11-16 08:33:15 info: Successfully connected to database
+2018-11-16 08:33:21 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:33:22 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:33:34 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:33:34 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:35:46 info: Starting the server at port number 3000
+2018-11-16 08:35:46 info: Successfully connected to database
+2018-11-16 08:35:52 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:35:54 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:36:05 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:36:05 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:37:52 info: Starting the server at port number 3000
+2018-11-16 08:37:52 info: Successfully connected to database
+2018-11-16 08:37:58 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:38:00 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:38:11 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:38:11 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:39:22 info: Starting the server at port number 3000
+2018-11-16 08:39:22 info: Successfully connected to database
+2018-11-16 08:39:28 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:39:30 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:39:41 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:39:41 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:40:30 info: Starting the server at port number 3000
+2018-11-16 08:40:31 info: Successfully connected to database
+2018-11-16 08:40:37 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:40:39 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:40:50 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:40:50 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:41:24 info: Starting the server at port number 3000
+2018-11-16 08:41:24 info: Successfully connected to database
+2018-11-16 08:41:30 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:41:32 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:41:43 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:41:43 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:43:23 info: Starting the server at port number 3000
+2018-11-16 08:43:23 info: Successfully connected to database
+2018-11-16 08:43:29 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:43:31 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:43:42 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:43:42 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:43:59 info: Starting the server at port number 3000
+2018-11-16 08:44:00 info: Successfully connected to database
+2018-11-16 08:44:06 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:44:08 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:44:19 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:44:19 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:46:42 info: Starting the server at port number 3000
+2018-11-16 08:46:42 info: Successfully connected to database
+2018-11-16 08:46:48 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:46:50 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:47:01 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:47:01 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:49:54 info: Starting the server at port number 3000
+2018-11-16 08:49:54 info: Successfully connected to database
+2018-11-16 08:50:01 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:50:02 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:50:14 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:50:14 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:50:58 info: Starting the server at port number 3000
+2018-11-16 08:50:58 info: Successfully connected to database
+2018-11-16 08:51:05 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:51:06 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:51:17 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:51:17 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:51:51 info: Starting the server at port number 3000
+2018-11-16 08:51:51 info: Successfully connected to database
+2018-11-16 08:52:05 info: Starting the server at port number 3000
+2018-11-16 08:52:05 info: Successfully connected to database
+2018-11-16 08:52:11 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:52:13 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:52:24 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:52:24 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 08:57:27 info: Starting the server at port number 3000
+2018-11-16 08:57:27 info: Successfully connected to database
+2018-11-16 08:57:33 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 08:57:35 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 08:57:46 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 08:57:46 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 09:01:14 info: Starting the server at port number 3000
+2018-11-16 09:01:14 info: Successfully connected to database
+2018-11-16 09:01:20 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 09:01:22 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 09:01:33 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 09:01:33 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 09:01:33 info: Successfully Written to File.
+2018-11-16 09:10:17 info: Starting the server at port number 3000
+2018-11-16 09:10:17 info: Successfully connected to database
+2018-11-16 09:10:23 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 09:10:25 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 09:10:36 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 09:10:36 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 09:14:02 info: Starting the server at port number 3000
+2018-11-16 09:14:02 info: Successfully connected to database
+2018-11-16 09:14:08 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 09:14:10 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 09:14:21 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 09:14:21 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 09:15:48 info: Starting the server at port number 3000
+2018-11-16 09:15:48 info: Successfully connected to database
+2018-11-16 09:15:55 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 09:15:56 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 09:16:08 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 09:16:08 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 09:19:11 info: Starting the server at port number 3000
+2018-11-16 09:19:12 info: Successfully connected to database
+2018-11-16 09:19:18 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 09:19:20 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 09:19:32 info: Starting the server at port number 3000
+2018-11-16 09:19:32 info: Successfully connected to database
+2018-11-16 09:19:39 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-16 09:19:40 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-16 09:19:52 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-16 09:19:52 info: kMeansClustering: Going to function 5 to write data to file
+2018-11-16 09:20:01 info: kMeansClustering: Successfully written to file: Going to function 6 to execute python script
+2018-11-16 09:22:13 info: Python result: Final Count:  17572
