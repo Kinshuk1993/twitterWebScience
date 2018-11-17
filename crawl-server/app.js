@@ -144,7 +144,7 @@ app.listen(3000, () => {
 // analytics.countGeoTaggedTweetsAndOverlappingData();
 // analytics.totalRedundantDataInCollections();
 // analytics.totalRetweetsQuotesCount();
-clustering.kMeansClustering();
+// clustering.kMeansClustering();
 
 
 

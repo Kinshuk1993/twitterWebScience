@@ -1,0 +1,582 @@
+2018-11-17 02:57:22 info: Starting the server at port number 3000
+2018-11-17 02:57:22 info: Successfully connected to database
+2018-11-17 02:57:41 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 02:57:46 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 02:58:31 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 02:58:31 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 02:58:41 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 02:58:41 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 02:58:43 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 02:58:46 info: Starting the server at port number 3000
+2018-11-17 02:58:46 info: Successfully connected to database
+2018-11-17 03:01:11 info: Starting the server at port number 3000
+2018-11-17 03:01:11 info: Successfully connected to database
+2018-11-17 03:01:14 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:01:15 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:01:15 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:01:17 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:01:18 info: Starting the server at port number 3000
+2018-11-17 03:01:18 info: Successfully connected to database
+2018-11-17 03:01:21 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:01:22 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:01:22 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:01:24 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:01:26 info: Starting the server at port number 3000
+2018-11-17 03:01:26 info: Successfully connected to database
+2018-11-17 03:02:18 info: Starting the server at port number 3000
+2018-11-17 03:02:18 info: Successfully connected to database
+2018-11-17 03:02:22 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:02:23 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:02:23 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:02:24 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:02:25 info: Starting the server at port number 3000
+2018-11-17 03:02:25 info: Successfully connected to database
+2018-11-17 03:03:25 info: Starting the server at port number 3000
+2018-11-17 03:03:25 info: Successfully connected to database
+2018-11-17 03:03:54 info: Starting the server at port number 3000
+2018-11-17 03:03:54 info: Successfully connected to database
+2018-11-17 03:03:57 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:03:58 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:03:58 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:04:00 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:04:35 info: Starting the server at port number 3000
+2018-11-17 03:04:35 info: Successfully connected to database
+2018-11-17 03:04:39 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:04:40 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:04:40 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:04:41 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:08:29 info: Starting the server at port number 3000
+2018-11-17 03:08:29 info: Successfully connected to database
+2018-11-17 03:08:32 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:08:33 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:08:33 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:08:35 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:08:36 info: Starting the server at port number 3000
+2018-11-17 03:08:36 info: Successfully connected to database
+2018-11-17 03:08:40 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:08:40 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:08:40 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:08:42 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:08:43 info: Starting the server at port number 3000
+2018-11-17 03:08:43 info: Successfully connected to database
+2018-11-17 03:11:44 info: Starting the server at port number 3000
+2018-11-17 03:11:44 info: Successfully connected to database
+2018-11-17 03:11:47 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:11:48 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:11:48 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:11:50 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:12:22 info: Starting the server at port number 3000
+2018-11-17 03:12:22 info: Successfully connected to database
+2018-11-17 03:12:25 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:12:26 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:12:26 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:12:28 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:12:28 info: Starting the server at port number 3000
+2018-11-17 03:12:28 info: Successfully connected to database
+2018-11-17 03:13:48 info: Starting the server at port number 3000
+2018-11-17 03:13:48 info: Successfully connected to database
+2018-11-17 03:13:52 info: Starting the server at port number 3000
+2018-11-17 03:13:52 info: Successfully connected to database
+2018-11-17 03:13:55 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:13:56 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:13:56 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:13:58 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:13:59 info: Starting the server at port number 3000
+2018-11-17 03:13:59 info: Successfully connected to database
+2018-11-17 03:15:22 info: Starting the server at port number 3000
+2018-11-17 03:15:22 info: Successfully connected to database
+2018-11-17 03:15:25 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:15:26 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:15:26 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:15:28 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:16:19 info: Starting the server at port number 3000
+2018-11-17 03:16:19 info: Successfully connected to database
+2018-11-17 03:16:23 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:16:24 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:16:24 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:16:25 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:16:27 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:19:14 info: Starting the server at port number 3000
+2018-11-17 03:19:14 info: Successfully connected to database
+2018-11-17 03:19:17 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:19:18 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:19:18 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:19:21 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:19:23 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:20:11 info: Starting the server at port number 3000
+2018-11-17 03:20:11 info: Successfully connected to database
+2018-11-17 03:20:14 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:20:15 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:20:15 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:20:17 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:20:19 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:23:13 info: Starting the server at port number 3000
+2018-11-17 03:23:13 info: Successfully connected to database
+2018-11-17 03:23:16 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:23:17 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:23:17 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:23:18 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:25:25 info: Starting the server at port number 3000
+2018-11-17 03:25:25 info: Successfully connected to database
+2018-11-17 03:25:25 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:25:25 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:25:25 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:25:27 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:25:27 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:28:04 info: Starting the server at port number 3000
+2018-11-17 03:28:04 info: Successfully connected to database
+2018-11-17 03:28:05 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:28:05 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:28:05 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:28:06 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:28:07 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:28:42 info: Starting the server at port number 3000
+2018-11-17 03:28:42 info: Successfully connected to database
+2018-11-17 03:28:43 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:28:43 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:28:43 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:28:44 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:28:45 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:29:37 info: Starting the server at port number 3000
+2018-11-17 03:29:38 info: Successfully connected to database
+2018-11-17 03:29:38 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:29:38 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:29:38 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:29:40 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:29:40 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:31:57 info: Starting the server at port number 3000
+2018-11-17 03:31:58 info: Successfully connected to database
+2018-11-17 03:31:58 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:31:58 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:31:58 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:32:00 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:32:00 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:33:12 info: Starting the server at port number 3000
+2018-11-17 03:33:12 info: Successfully connected to database
+2018-11-17 03:33:12 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:33:12 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:33:12 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:33:14 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:33:14 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:33:33 info: Starting the server at port number 3000
+2018-11-17 03:33:33 info: Successfully connected to database
+2018-11-17 03:33:33 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:33:33 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:33:33 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:33:35 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:33:35 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:34:25 info: Starting the server at port number 3000
+2018-11-17 03:34:25 info: Successfully connected to database
+2018-11-17 03:34:25 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:34:25 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:34:25 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:34:27 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:34:28 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:34:49 info: Starting the server at port number 3000
+2018-11-17 03:34:49 info: Successfully connected to database
+2018-11-17 03:34:49 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:34:49 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:34:49 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:34:51 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:34:51 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:35:49 info: Starting the server at port number 3000
+2018-11-17 03:35:49 info: Successfully connected to database
+2018-11-17 03:35:49 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:35:49 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:35:49 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:35:51 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:35:52 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:36:29 info: Starting the server at port number 3000
+2018-11-17 03:36:29 info: Successfully connected to database
+2018-11-17 03:36:30 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:36:30 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:36:30 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:36:32 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:36:32 info: Starting the server at port number 3000
+2018-11-17 03:36:32 info: Successfully connected to database
+2018-11-17 03:36:33 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:36:33 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:36:33 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:36:35 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:36:35 info: Starting the server at port number 3000
+2018-11-17 03:36:35 info: Successfully connected to database
+2018-11-17 03:36:36 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:36:36 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:36:36 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:36:38 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:36:38 info: Starting the server at port number 3000
+2018-11-17 03:36:38 info: Successfully connected to database
+2018-11-17 03:36:39 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:36:39 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:36:39 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:36:41 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:36:41 info: Starting the server at port number 3000
+2018-11-17 03:36:41 info: Successfully connected to database
+2018-11-17 03:36:41 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:36:41 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:36:41 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:36:43 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:36:44 info: Starting the server at port number 3000
+2018-11-17 03:36:44 info: Successfully connected to database
+2018-11-17 03:36:44 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:36:44 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:36:44 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:36:46 info: Starting the server at port number 3000
+2018-11-17 03:36:46 info: Successfully connected to database
+2018-11-17 03:36:47 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:36:47 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:36:47 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:36:48 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:36:48 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:36:52 info: Starting the server at port number 3000
+2018-11-17 03:36:52 info: Successfully connected to database
+2018-11-17 03:36:53 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:36:53 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:36:53 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:36:55 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:36:55 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:37:03 info: Starting the server at port number 3000
+2018-11-17 03:37:03 info: Successfully connected to database
+2018-11-17 03:37:03 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:37:03 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:37:03 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:37:05 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:37:05 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:38:20 info: Starting the server at port number 3000
+2018-11-17 03:38:20 info: Successfully connected to database
+2018-11-17 03:38:21 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:38:21 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:38:21 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:38:22 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:38:22 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:42:20 info: Starting the server at port number 3000
+2018-11-17 03:42:20 info: Successfully connected to database
+2018-11-17 03:42:20 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:42:20 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:42:20 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:42:22 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:42:22 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:44:32 info: Starting the server at port number 3000
+2018-11-17 03:44:32 info: Successfully connected to database
+2018-11-17 03:44:33 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:44:33 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:44:33 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:44:34 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:44:34 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:44:54 info: Starting the server at port number 3000
+2018-11-17 03:44:54 info: Successfully connected to database
+2018-11-17 03:44:55 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:44:55 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:44:55 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:44:56 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:44:56 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:45:12 info: Starting the server at port number 3000
+2018-11-17 03:45:12 info: Successfully connected to database
+2018-11-17 03:45:12 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:45:13 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:45:13 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:45:14 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:45:14 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:45:42 info: Starting the server at port number 3000
+2018-11-17 03:45:42 info: Successfully connected to database
+2018-11-17 03:45:43 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:45:43 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:45:43 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:45:44 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:45:44 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:52:20 info: Starting the server at port number 3000
+2018-11-17 03:52:20 info: Successfully connected to database
+2018-11-17 03:52:21 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:52:21 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:52:21 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:52:23 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:52:23 info: Starting the server at port number 3000
+2018-11-17 03:52:23 info: Successfully connected to database
+2018-11-17 03:52:23 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:52:23 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:52:23 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:53:10 info: Starting the server at port number 3000
+2018-11-17 03:53:10 info: Successfully connected to database
+2018-11-17 03:53:10 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:53:10 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:53:10 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:53:12 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:53:12 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:53:36 info: Starting the server at port number 3000
+2018-11-17 03:53:36 info: Successfully connected to database
+2018-11-17 03:53:36 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:53:36 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:53:36 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:53:38 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:53:38 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:53:56 info: Starting the server at port number 3000
+2018-11-17 03:53:56 info: Successfully connected to database
+2018-11-17 03:53:56 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:53:56 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:53:56 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:53:58 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:53:58 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:54:37 info: Starting the server at port number 3000
+2018-11-17 03:54:37 info: Successfully connected to database
+2018-11-17 03:54:37 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:54:37 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:54:37 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:54:39 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:54:39 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:54:43 info: Starting the server at port number 3000
+2018-11-17 03:54:43 info: Successfully connected to database
+2018-11-17 03:54:43 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:54:43 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:54:43 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:54:45 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:54:45 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:55:26 info: Starting the server at port number 3000
+2018-11-17 03:55:26 info: Successfully connected to database
+2018-11-17 03:55:26 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:55:26 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:55:26 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:55:30 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:55:30 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:56:13 info: Starting the server at port number 3000
+2018-11-17 03:56:13 info: Successfully connected to database
+2018-11-17 03:56:13 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:56:13 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:56:13 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:56:15 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:56:15 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:57:19 info: Starting the server at port number 3000
+2018-11-17 03:57:19 info: Successfully connected to database
+2018-11-17 03:57:19 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:57:19 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:57:19 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:57:21 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:57:21 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:58:01 info: Starting the server at port number 3000
+2018-11-17 03:58:01 info: Successfully connected to database
+2018-11-17 03:58:01 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:58:01 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:58:01 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:58:03 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:58:03 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:58:27 info: Starting the server at port number 3000
+2018-11-17 03:58:27 info: Successfully connected to database
+2018-11-17 03:58:27 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:58:27 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:58:27 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:58:29 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:58:29 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:58:57 info: Starting the server at port number 3000
+2018-11-17 03:58:57 info: Successfully connected to database
+2018-11-17 03:58:57 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:58:57 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:58:57 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:58:59 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:58:59 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:59:22 info: Starting the server at port number 3000
+2018-11-17 03:59:22 info: Successfully connected to database
+2018-11-17 03:59:22 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:59:22 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:59:22 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:59:24 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:59:24 info: Going to next function to build graph for place and user geo information
+2018-11-17 03:59:42 info: Starting the server at port number 3000
+2018-11-17 03:59:42 info: Successfully connected to database
+2018-11-17 03:59:42 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 03:59:42 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 03:59:42 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 03:59:44 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 03:59:44 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:00:36 info: Starting the server at port number 3000
+2018-11-17 04:00:36 info: Successfully connected to database
+2018-11-17 04:00:36 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:00:36 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:00:36 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:00:38 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:00:38 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:00:46 info: Starting the server at port number 3000
+2018-11-17 04:00:46 info: Successfully connected to database
+2018-11-17 04:00:46 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:00:46 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:00:46 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:00:48 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:00:48 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:01:00 info: Starting the server at port number 3000
+2018-11-17 04:01:00 info: Successfully connected to database
+2018-11-17 04:01:00 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:01:00 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:01:00 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:01:02 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:01:02 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:01:22 info: Starting the server at port number 3000
+2018-11-17 04:01:22 info: Successfully connected to database
+2018-11-17 04:01:22 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:01:22 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:01:22 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:01:25 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:01:26 info: Starting the server at port number 3000
+2018-11-17 04:01:26 info: Successfully connected to database
+2018-11-17 04:01:26 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:01:26 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:01:26 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:01:51 info: Starting the server at port number 3000
+2018-11-17 04:01:51 info: Successfully connected to database
+2018-11-17 04:01:51 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:01:51 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:01:51 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:01:53 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:01:53 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:02:08 info: Starting the server at port number 3000
+2018-11-17 04:02:08 info: Successfully connected to database
+2018-11-17 04:02:09 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:02:09 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:02:09 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:02:10 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:02:10 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:02:19 info: Starting the server at port number 3000
+2018-11-17 04:02:19 info: Successfully connected to database
+2018-11-17 04:02:19 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:02:19 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:02:19 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:02:21 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:02:21 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:03:07 info: Starting the server at port number 3000
+2018-11-17 04:03:07 info: Successfully connected to database
+2018-11-17 04:03:07 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:03:07 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:03:07 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:03:09 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:03:09 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:03:26 info: Starting the server at port number 3000
+2018-11-17 04:03:27 info: Successfully connected to database
+2018-11-17 04:03:27 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:03:27 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:03:27 info: kMeansClustering: Going to function 6 to form the cluster graph
+2018-11-17 04:03:33 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:03:33 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:05:05 info: Starting the server at port number 3000
+2018-11-17 04:05:05 info: Successfully connected to database
+2018-11-17 04:05:19 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:05:22 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:05:47 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:05:47 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:05:55 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:05:55 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:05:57 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:05:57 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:07:24 info: Starting the server at port number 3000
+2018-11-17 04:07:24 info: Successfully connected to database
+2018-11-17 04:07:38 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:07:42 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:08:07 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:08:07 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:08:15 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:08:15 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:08:17 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:08:17 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:11:41 info: Starting the server at port number 3000
+2018-11-17 04:11:41 info: Successfully connected to database
+2018-11-17 04:11:54 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:11:58 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:12:24 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:12:24 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:12:31 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:12:31 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:12:33 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:12:33 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:12:33 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:16:19 info: Starting the server at port number 3000
+2018-11-17 04:16:19 info: Successfully connected to database
+2018-11-17 04:17:29 info: Starting the server at port number 3000
+2018-11-17 04:17:29 info: Successfully connected to database
+2018-11-17 04:17:42 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:17:46 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:18:11 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:18:11 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:18:19 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:18:19 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:18:21 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:18:21 info: Going to next function to find the use geo-enabled tweets
+2018-11-17 04:18:21 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:19:15 info: Starting the server at port number 3000
+2018-11-17 04:19:15 info: Successfully connected to database
+2018-11-17 04:19:29 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:19:32 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:19:57 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:19:57 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:20:05 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:20:05 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:20:07 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:20:07 info: Going to next function to find the use geo-enabled tweets
+2018-11-17 04:20:07 info: Going to next function to build graph for place and user geo information
+2018-11-17 04:23:07 info: Starting the server at port number 3000
+2018-11-17 04:23:07 info: Successfully connected to database
+2018-11-17 04:23:21 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:23:24 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:23:49 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:23:50 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:23:57 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:23:57 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:23:59 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:23:59 info: Going to next function to find the use geo-enabled tweets
+2018-11-17 04:25:44 info: Starting the server at port number 3000
+2018-11-17 04:25:44 info: Successfully connected to database
+2018-11-17 04:25:57 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:26:01 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:26:26 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:26:26 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:26:34 info: Starting the server at port number 3000
+2018-11-17 04:26:34 info: Successfully connected to database
+2018-11-17 04:26:38 info: Starting the server at port number 3000
+2018-11-17 04:26:38 info: Successfully connected to database
+2018-11-17 04:26:52 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:26:55 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:27:21 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:27:21 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:27:29 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:27:30 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:27:31 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:27:32 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-17 04:34:05 info: Starting the server at port number 3000
+2018-11-17 04:34:05 info: Successfully connected to database
+2018-11-17 04:34:19 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:34:22 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:34:47 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:34:47 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:34:55 info: Starting the server at port number 3000
+2018-11-17 04:34:55 info: Successfully connected to database
+2018-11-17 04:35:07 info: Starting the server at port number 3000
+2018-11-17 04:35:07 info: Successfully connected to database
+2018-11-17 04:35:21 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:35:24 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:35:50 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:35:50 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:35:57 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:35:57 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:35:59 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:35:59 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-17 04:36:01 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:36:02 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:37:51 info: Starting the server at port number 3000
+2018-11-17 04:37:51 info: Successfully connected to database
+2018-11-17 04:38:05 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:38:08 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:38:34 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:38:34 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:38:42 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:38:43 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:38:44 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:38:44 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-17 04:38:46 info: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-17 04:38:47 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-17 04:40:58 info: Starting the server at port number 3000
+2018-11-17 04:40:58 info: Successfully connected to database
+2018-11-17 04:41:12 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-17 04:41:15 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-17 04:41:41 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-17 04:41:41 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-17 04:41:49 info: kMeansClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-17 04:41:49 info: kMeansClustering: Going to function 7 to form the cluster graph
+2018-11-17 04:41:51 info: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-17 04:41:51 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-17 04:41:53 info: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-17 04:41:54 info: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
