@@ -28,28 +28,36 @@ exports.totalRetweetsQuotesCount = function () {
     async.waterfall([
             //1. Count the number of retweets via rest API
             function (callback) {
-                TweetsDB.tweetsREST.find({
-                    'retweeted': true
-                }, function (err, retweetedTweets) {
+                TweetsDB.tweetsREST.find({}, function (err, tweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding retweets in REST collection: ' + err);
+                        logger.error('totalRetweetsQuotesCount: Error in finding tweets for finding retweets in REST collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, totalRetweetedTweets);
                     } else {
-                        if (retweetedTweets.length != 0) {
-                            //log the success found message only if any retweet found
-                            logger.info('totalRetweetsQuotesCount: Retweeted tweets found in REST colletion: ' + retweetedTweets.length);
-                            //add retweeted tweets
-                            totalRetweetedTweets = totalRetweetedTweets + retweetedTweets.length;
-                            //continue to the next function
-                            callback(null, totalRetweetedTweets);
-                        } else {
-                            //log not found message iff no quote tweet found
-                            logger.info('totalRetweetsQuotesCount: No retweeted tweets found in REST collection.');
-                            //continue to the next function
-                            callback(null, totalRetweetedTweets);
-                        }
+                        async.forEachSeries(tweets, function (eachTweet, callback) {
+                                var subStringForRT = JSON.parse(JSON.stringify(eachTweet)).text.substring(0, 2);
+                                if (subStringForRT === "RT") {
+                                    //increment retweeted tweets
+                                    totalRetweetedTweets = totalRetweetedTweets + 1;
+                                    //continue to the next function
+                                    callback();
+                                } else {
+                                    //if no retweet found, go to next tweet in collection
+                                    callback();
+                                }
+                            },
+                            function (errFinal) {
+                                if (errFinal) {
+                                    //log the error
+                                    logger.error('Error in async of finding retweets in REST collection: ' + JSON.stringify(errFinal));
+                                    // continue to the next function
+                                    callback(null, totalRetweetedTweets);
+                                } else {
+                                    // continue to the next function
+                                    callback(null, totalRetweetedTweets);
+                                }
+                            });
                     }
                 });
             },
@@ -60,7 +68,7 @@ exports.totalRetweetsQuotesCount = function () {
                 }, function (err, quotedTweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in REST API collection: ' + err);
+                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in REST API collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, retweetedTweets, totalQuoteTweets);
                     } else {
@@ -82,28 +90,36 @@ exports.totalRetweetsQuotesCount = function () {
             },
             //3. Count the number of retweets via keyword filter stream
             function (totalRetweetedTweets, totalQuoteTweets, callback) {
-                TweetsDB.tweetsSTREAMKeywordFilter.find({
-                    'retweeted': true
-                }, function (err, retweetedTweets) {
+                TweetsDB.tweetsSTREAMKeywordFilter.find({}, function (err, tweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding retweets in keyword filter stream collection: ' + err);
+                        logger.error('totalRetweetsQuotesCount: Error in finding tweets for finding retweets in keyword filter collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, totalRetweetedTweets, totalQuoteTweets);
                     } else {
-                        if (retweetedTweets.length != 0) {
-                            //log the success found message only if any retweet found
-                            logger.info('totalRetweetsQuotesCount: Retweeted tweets found in keyword filter stream colletion: ' + retweetedTweets.length);
-                            //add retweeted tweets
-                            totalRetweetedTweets = totalRetweetedTweets + retweetedTweets.length;
-                            //continue to the next function
-                            callback(null, totalRetweetedTweets, totalQuoteTweets);
-                        } else {
-                            //log not found message iff no quote tweet found
-                            logger.info('totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.');
-                            //continue to the next function
-                            callback(null, totalRetweetedTweets, totalQuoteTweets);
-                        }
+                        async.forEachSeries(tweets, function (eachTweet, callback) {
+                                var subStringForRT = JSON.parse(JSON.stringify(eachTweet)).text.substring(0, 2);
+                                if (subStringForRT === "RT") {
+                                    //increment retweeted tweets
+                                    totalRetweetedTweets = totalRetweetedTweets + 1;
+                                    //continue to the next function
+                                    callback();
+                                } else {
+                                    //if no retweet found, go to next tweet in collection
+                                    callback();
+                                }
+                            },
+                            function (errFinal) {
+                                if (errFinal) {
+                                    //log the error
+                                    logger.error('Error in async of finding retweets in keyword filter collection: ' + JSON.stringify(errFinal));
+                                    // continue to the next function
+                                    callback(null, totalRetweetedTweets, totalQuoteTweets);
+                                } else {
+                                    // continue to the next function
+                                    callback(null, totalRetweetedTweets, totalQuoteTweets);
+                                }
+                            });
                     }
                 });
             },
@@ -114,7 +130,7 @@ exports.totalRetweetsQuotesCount = function () {
                 }, function (err, quotedTweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in keyword filter stream collection: ' + err);
+                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in keyword filter stream collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, retweetedTweets, totalQuoteTweets);
                     } else {
@@ -136,28 +152,36 @@ exports.totalRetweetsQuotesCount = function () {
             },
             //5. Count the number of retweets via no filter stream
             function (totalRetweetedTweets, totalQuoteTweets, callback) {
-                TweetsDB.tweetsSTREAMNoFilter.find({
-                    'retweeted': true
-                }, function (err, retweetedTweets) {
+                TweetsDB.tweetsSTREAMNoFilter.find({}, function (err, tweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding retweets in no filter stream collection: ' + err);
+                        logger.error('totalRetweetsQuotesCount: Error in finding tweets for finding retweets in no filter collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, totalRetweetedTweets, totalQuoteTweets);
                     } else {
-                        if (retweetedTweets.length != 0) {
-                            //log the success found message only if any retweets found
-                            logger.info('totalRetweetsQuotesCount: Retweeted tweets found in no filter stream colletion: ' + retweetedTweets.length);
-                            //add retweeted tweets
-                            totalRetweetedTweets = totalRetweetedTweets + retweetedTweets.length;
-                            //continue to the next function
-                            callback(null, totalRetweetedTweets, totalQuoteTweets);
-                        } else {
-                            //log not found message iff no quote tweet found
-                            logger.info('totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.');
-                            //continue to the next function
-                            callback(null, totalRetweetedTweets, totalQuoteTweets);
-                        }
+                        async.forEachSeries(tweets, function (eachTweet, callback) {
+                                var subStringForRT = JSON.parse(JSON.stringify(eachTweet)).text.substring(0, 2);
+                                if (subStringForRT === "RT") {
+                                    //increment retweeted tweets
+                                    totalRetweetedTweets = totalRetweetedTweets + 1;
+                                    //continue to the next function
+                                    callback();
+                                } else {
+                                    //if no retweet found, go to next tweet in collection
+                                    callback();
+                                }
+                            },
+                            function (errFinal) {
+                                if (errFinal) {
+                                    //log the error
+                                    logger.error('Error in async of finding retweets in no filter collection: ' + JSON.stringify(errFinal));
+                                    // continue to the next function
+                                    callback(null, totalRetweetedTweets, totalQuoteTweets);
+                                } else {
+                                    // continue to the next function
+                                    callback(null, totalRetweetedTweets, totalQuoteTweets);
+                                }
+                            });
                     }
                 });
             },
@@ -190,28 +214,36 @@ exports.totalRetweetsQuotesCount = function () {
             },
             //7. Count the number of retweets via location filter stream
             function (totalRetweetedTweets, totalQuoteTweets, callback) {
-                TweetsDB.tweetsSTREAMLocationFilter.find({
-                    'retweeted': true
-                }, function (err, retweetedTweets) {
+                TweetsDB.tweetsSTREAMLocationFilter.find({}, function (err, tweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding retweets in location filter stream collection: ' + err);
+                        logger.error('totalRetweetsQuotesCount: Error in finding tweets for finding retweets in location filter collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, totalRetweetedTweets, totalQuoteTweets);
                     } else {
-                        if (retweetedTweets.length != 0) {
-                            //log the success found message only if any retweet found
-                            logger.info('totalRetweetsQuotesCount: Retweeted tweets found in location filter stream colletion: ' + retweetedTweets.length);
-                            //add retweeted tweets
-                            totalRetweetedTweets = totalRetweetedTweets + retweetedTweets.length;
-                            //continue to the next function
-                            callback(null, totalRetweetedTweets, totalQuoteTweets);
-                        } else {
-                            //log not found message iff no quote tweet found
-                            logger.info('totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.');
-                            //continue to the next function
-                            callback(null, totalRetweetedTweets, totalQuoteTweets);
-                        }
+                        async.forEachSeries(tweets, function (eachTweet, callback) {
+                                var subStringForRT = JSON.parse(JSON.stringify(eachTweet)).text.substring(0, 2);
+                                if (subStringForRT === "RT") {
+                                    //increment retweeted tweets
+                                    totalRetweetedTweets = totalRetweetedTweets + 1;
+                                    //continue to the next function
+                                    callback();
+                                } else {
+                                    //if no retweet found, go to next tweet in collection
+                                    callback();
+                                }
+                            },
+                            function (errFinal) {
+                                if (errFinal) {
+                                    //log the error
+                                    logger.error('Error in async of finding retweets in location filter collection: ' + JSON.stringify(errFinal));
+                                    // continue to the next function
+                                    callback(null, totalRetweetedTweets, totalQuoteTweets);
+                                } else {
+                                    // continue to the next function
+                                    callback(null, totalRetweetedTweets, totalQuoteTweets);
+                                }
+                            });
                     }
                 });
             },
@@ -222,7 +254,7 @@ exports.totalRetweetsQuotesCount = function () {
                 }, function (err, quotedTweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in location filter stream collection: ' + err);
+                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in location filter stream collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, retweetedTweets, totalQuoteTweets);
                     } else {

@@ -14,7 +14,7 @@ var twitAuth = new twit({
     access_token_secret: keys.access_secret_token
 });
 //Commenting out for now - using it during Dev for testing
-var clustering = require('./controller/clustering');
+var clustering = require('../controller/clustering');
 
 //include logger config
 var logger = require('../logger-config/log-config');

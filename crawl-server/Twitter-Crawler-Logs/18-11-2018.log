@@ -1,0 +1,57 @@
+2018-11-18 06:00:56 info: Starting the server at port number 3000
+2018-11-18 06:00:56 info: Successfully connected to database
+2018-11-18 06:01:02 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 262
+2018-11-18 06:01:02 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-18 06:01:04 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 2807
+2018-11-18 06:01:04 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-18 06:01:05 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 1328
+2018-11-18 06:01:05 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-18 06:01:05 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 11
+2018-11-18 06:01:05 info: Total retweeted tweets present in all the collections is: 1762
+2018-11-18 06:01:05 info: Total quoted tweets present in all the collections is: 4408
+2018-11-18 06:01:30 info: Starting the server at port number 3000
+2018-11-18 06:01:30 info: Successfully connected to database
+2018-11-18 06:01:32 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 262
+2018-11-18 06:01:32 info: totalRetweetsQuotesCount: No retweeted tweets found in keyword filter stream collection.
+2018-11-18 06:01:34 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 2807
+2018-11-18 06:01:34 info: totalRetweetsQuotesCount: No retweeted tweets found in no filter stream collection.
+2018-11-18 06:01:35 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 1328
+2018-11-18 06:01:35 info: totalRetweetsQuotesCount: No retweeted tweets found in location filter stream collection.
+2018-11-18 06:01:35 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 11
+2018-11-18 06:01:35 info: Total retweeted tweets present in all the collections is: 1762
+2018-11-18 06:01:35 info: Total quoted tweets present in all the collections is: 4408
+2018-11-18 06:06:52 info: Starting the server at port number 3000
+2018-11-18 06:06:52 info: Successfully connected to database
+2018-11-18 06:06:54 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 262
+2018-11-18 06:09:15 info: Starting the server at port number 3000
+2018-11-18 06:09:15 info: Successfully connected to database
+2018-11-18 06:09:16 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 262
+2018-11-18 06:09:20 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 2807
+2018-11-18 06:09:22 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 1328
+2018-11-18 06:09:22 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 11
+2018-11-18 06:09:22 info: Total retweeted tweets present in all the collections is: 5286
+2018-11-18 06:09:22 info: Total quoted tweets present in all the collections is: 4408
+2018-11-18 06:10:10 info: Starting the server at port number 3000
+2018-11-18 06:10:10 info: Successfully connected to database
+2018-11-18 06:10:12 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 262
+2018-11-18 06:10:25 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 2807
+2018-11-18 06:10:32 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 1328
+2018-11-18 06:10:32 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 11
+2018-11-18 06:10:32 info: Total retweeted tweets present in all the collections is: 18007
+2018-11-18 06:10:32 info: Total quoted tweets present in all the collections is: 4408
+2018-11-18 06:11:21 info: Starting the server at port number 3000
+2018-11-18 06:11:21 info: Successfully connected to database
+2018-11-18 06:11:23 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 262
+2018-11-18 06:11:36 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 2807
+2018-11-18 06:11:44 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 1328
+2018-11-18 06:11:44 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 11
+2018-11-18 06:11:44 info: Total retweeted tweets present in all the collections is: 18007
+2018-11-18 06:11:44 info: Total quoted tweets present in all the collections is: 4408
+2018-11-18 06:13:08 info: Starting the server at port number 3000
+2018-11-18 06:13:08 info: Successfully connected to database
+2018-11-18 06:13:08 info: Number of tweets collected using REST API: 2806
+2018-11-18 06:13:08 info: Number of tweets collected using no filter stream: 10854
+2018-11-18 06:13:08 info: Number of tweets collected using keyword filter stream: 14446
+2018-11-18 06:13:08 info: Number of tweets collected using location filter stream: 64
+2018-11-18 06:13:08 info: Total number of tweets collected using REST and STREAM are: 28170
+2018-11-18 06:13:08 info: Total number of geo-tagged tweets collected using REST and STREAM are: 432
