@@ -20,8 +20,6 @@ var async = require('async');
 var path = require('path');
 //specify the log folder name
 var logDir = 'Twitter-Crawler-Logs';
-//get the log directory
-var logFile = path.resolve(__dirname + "/" + logDir);
 //include logger config
 var logger = require('./../logger-config/log-config');
 

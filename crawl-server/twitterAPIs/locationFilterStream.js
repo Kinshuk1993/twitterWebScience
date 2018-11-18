@@ -13,11 +13,11 @@ var twitAuth = new twit({
     access_token: keys.access_token,
     access_token_secret: keys.access_secret_token
 });
+//Commenting out for now - using it during Dev for testing
+var clustering = require('./controller/clustering');
 
 //include logger config
 var logger = require('../logger-config/log-config');
-//get keywor array
-var keywordArray = require('../controller/keywords');
 //include the analytics file to analyse the twitter data collected
 var analytics = require('../controller/analytics');
 
@@ -91,9 +91,10 @@ function stopLocationStream() {
     streamTwitterDataLocation.stop();
     //log stop success message
     logger.info('Location stream ended.');
-    //perform analytics on the data collected
+    /// //perform analytics on the data collected
     analytics.countTotalTweetsCollected();
     analytics.countGeoTaggedTweetsAndOverlappingData();
     analytics.totalRedundantDataInCollections();
     analytics.totalRetweetsQuotesCount();
+    clustering.kMeansClustering();
 };

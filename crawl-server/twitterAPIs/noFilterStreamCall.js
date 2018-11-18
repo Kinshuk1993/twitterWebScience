@@ -16,8 +16,6 @@ var twitAuth = new twit({
 
 //include logger config
 var logger = require('../logger-config/log-config');
-//get keywor array
-var keywordArray = require('../controller/keywords');
 
 /**
  * get a stream of tweets 
