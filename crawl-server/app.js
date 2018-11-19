@@ -139,11 +139,11 @@ app.listen(3000, () => {
  * collection of data using REST and STREAMS
  */
 //perform analytics on the data collected
-// analytics.countTotalTweetsCollected();
-// analytics.countGeoTaggedTweetsAndOverlappingData();
-// analytics.totalRedundantDataInCollections();
-// analytics.totalRetweetsQuotesCount();
-// clustering.minhashLshClustering();
+analytics.countTotalTweetsCollected();
+analytics.countGeoTaggedTweetsAndOverlappingData();
+analytics.totalRedundantDataInCollections();
+analytics.totalRetweetsQuotesCount();
+clustering.minhashLshClustering();
 
 
 /**
