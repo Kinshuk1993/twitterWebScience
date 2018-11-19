@@ -408,6 +408,7 @@ exports.minhashLshClustering = function () {
                             callback(null, totalTweets, allMatchesUnique);
                         }
                     });
+                    // callback(null, totalTweets, allMatchesUnique);
                 });
         },
         //8. Funciton to find geo-tagged and user profile geo information
@@ -543,6 +544,7 @@ exports.minhashLshClustering = function () {
                             callback(null, totalTweets, allMatchesUnique, newArrayGeoEnabled);
                         }
                     });
+                    // callback(null, totalTweets, allMatchesUnique, newArrayGeoEnabled);
                 });
         },
         //10. Function to build graph for user profile geo information
@@ -620,6 +622,7 @@ exports.minhashLshClustering = function () {
                             callback(null, totalTweets, allMatchesUnique);
                         }
                     });
+                    // callback(null, totalTweets, allMatchesUnique);
                 });
         },
         //11. Function to assign each tweet a location inside the cluster
@@ -955,8 +958,13 @@ exports.minhashLshClustering = function () {
                     callback(null, totalTweets, allMatchesUnique);
                 }
             });
+            // callback(null, totalTweets, allMatchesUnique);
         }
     ], function (err, result) {
         logger.info('End of the clustering analysis for all tweets saved in the database');
+        //close the program after 5 seconds
+        setTimeout((function() {  
+            return process.exit(22);
+        }), 5000);
     })
 }

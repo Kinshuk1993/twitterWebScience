@@ -74,17 +74,17 @@ app.get('/*', (req, res) => {
     res.send("Page not Found Error");
 });
 
-//call the REST API initially and then put it inside a callback loop
-getTweetsUsingREST.getTweetsREST('amazing');
+// //call the REST API initially and then put it inside a callback loop
+// getTweetsUsingREST.getTweetsREST('amazing');
 
-//get twitter data using streaming API - streaming without any filter
-getTweetsUsingNoFilterSTREAM.getTweetsSTREAMNoFilter();
+// //get twitter data using streaming API - streaming without any filter
+// getTweetsUsingNoFilterSTREAM.getTweetsSTREAMNoFilter();
 
-//get twitter data using streaming API - streaming with keyword filter
-getTweetsUsingKeywordFilterSTREAM.getTweetsSTREAMKeywordFilter();
+// //get twitter data using streaming API - streaming with keyword filter
+// getTweetsUsingKeywordFilterSTREAM.getTweetsSTREAMKeywordFilter();
 
-//get twitter data using streaming API - streaming location based
-getTweetsUsingLocationFilterSTREAM.getTweetsSTREAMLocationFilter();
+// //get twitter data using streaming API - streaming location based
+// getTweetsUsingLocationFilterSTREAM.getTweetsSTREAMLocationFilter();
 
 // // call the REST API every 5 minutes for a total duration of 1 hour
 // var intervalForRestCall = setInterval(function () {
@@ -135,7 +135,7 @@ app.listen(3000, () => {
  * previously collected, please do remove the below comments
  * to run analytics on collected data
  * 
- * ALSO, VERY - IMPORTANT: Comment out the Lines 74 till 127 to avoid
+ * ALSO, VERY - IMPORTANT: Comment out the Lines 77 till 125 to avoid
  * collection of data using REST and STREAMS
  */
 //perform analytics on the data collected

@@ -722,3 +722,159 @@
 2018-11-19 05:19:26 info: Going to next function 16
 2018-11-19 05:19:27 info: Message to check the graph for Evaluation of Method correctness of Geo Location Assignment: {"url":"https://plot.ly/~kinshukbhardwaj/2","message":"","warning":"","filename":"basic-bar","error":""}
 2018-11-19 05:19:27 info: End of the waterfall method: 28170
+2018-11-19 13:09:59 info: No keyword filter stream started
+2018-11-19 13:09:59 info: Keyword filter stream started
+2018-11-19 13:09:59 info: Location filter stream started
+2018-11-19 13:09:59 info: Starting the server at port number 3000
+2018-11-19 13:09:59 info: Successfully connected to database
+2018-11-19 13:09:59 info: Tweet without any keyword filter received by user: "neko_218"
+2018-11-19 13:09:59 info: Tweet by user "neko_218" with no filtering saved to database
+2018-11-19 13:10:00 info: Tweet without any keyword filter received by user: "LiorTayler"
+2018-11-19 13:10:00 info: Tweet without any keyword filter received by user: "AvalonGroove"
+2018-11-19 13:10:00 info: Tweet by user "LiorTayler" with no filtering saved to database
+2018-11-19 13:10:00 info: Tweet by user "AvalonGroove" with no filtering saved to database
+2018-11-19 13:10:00 info: Tweet without any keyword filter received by user: "take1011tintin"
+2018-11-19 13:10:00 info: Tweet without any keyword filter received by user: "AdamLaRock"
+2018-11-19 13:10:00 info: Tweet by user "take1011tintin" with no filtering saved to database
+2018-11-19 13:10:00 info: Tweet by user "AdamLaRock" with no filtering saved to database
+2018-11-19 13:10:00 info: Tweet without any keyword filter received by user: "tematatema"
+2018-11-19 13:10:00 info: Tweet by user "tematatema" with no filtering saved to database
+2018-11-19 13:10:00 info: Tweet without any keyword filter received by user: "VAcccont"
+2018-11-19 13:10:30 info: Starting the server at port number 3000
+2018-11-19 13:10:30 info: Successfully connected to database
+2018-11-19 13:10:46 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 13:10:49 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 13:13:01 info: Starting the server at port number 3000
+2018-11-19 13:13:01 info: Successfully connected to database
+2018-11-19 13:13:18 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 13:13:21 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 13:13:54 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 13:13:54 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 13:14:12 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 13:14:13 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 13:14:13 info: total cluster formed: 22831
+2018-11-19 13:14:13 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 13:14:13 info: Going to next function to assign location to the clusters formed using Minhash LSH
+2018-11-19 13:14:13 info: Going to next function 13
+2018-11-19 13:14:13 info: Going to next function to assign country code to the clusters formed using Minhash LSH
+2018-11-19 13:14:14 info: Going to next function 16
+2018-11-19 13:14:14 info: End of the clustering analysis for all tweets saved in the database
+2018-11-19 13:17:22 info: Starting the server at port number 3000
+2018-11-19 13:17:22 info: Successfully connected to database
+2018-11-19 13:17:38 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 13:17:42 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 13:18:13 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 13:18:13 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 13:18:30 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 13:18:31 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 13:18:31 info: total cluster formed: 22831
+2018-11-19 13:18:31 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 13:18:32 info: Going to next function to assign location to the clusters formed using Minhash LSH
+2018-11-19 13:18:32 info: Going to next function 13
+2018-11-19 13:18:32 info: Going to next function to assign country code to the clusters formed using Minhash LSH
+2018-11-19 13:18:32 info: Going to next function 16
+2018-11-19 13:18:32 info: End of the clustering analysis for all tweets saved in the database
+2018-11-19 13:21:00 info: Starting the server at port number 3000
+2018-11-19 13:21:00 info: Successfully connected to database
+2018-11-19 13:21:16 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 13:21:20 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 13:21:50 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 13:21:50 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 13:22:08 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 13:22:09 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 13:22:09 info: total cluster formed: 22831
+2018-11-19 13:22:11 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 13:22:11 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 13:22:13 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 13:22:14 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 13:22:14 info: Going to next function to assign location to the clusters formed using Minhash LSH
+2018-11-19 13:22:14 info: Going to next function 13
+2018-11-19 13:22:16 info: Message to check the graph for Assigning Geo-Location to All Clusters: {"url":"https://plot.ly/~kinshukbhardwaj/0","message":"High five! You successfully sent some data to your account on plotly. View your plot in your browser at https://plot.ly/~kinshukbhardwaj/0 or inside your plot.ly account where it is named 'simple-node-example'","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 13:22:16 info: Going to next function to assign country code to the clusters formed using Minhash LSH
+2018-11-19 13:22:16 info: Going to next function 16
+2018-11-19 13:22:18 info: Message to check the graph for Evaluation of Method correctness of Geo Location Assignment: {"url":"https://plot.ly/~kinshukbhardwaj/2","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 13:22:18 info: End of the clustering analysis for all tweets saved in the database
+2018-11-19 13:36:50 info: Starting the server at port number 3000
+2018-11-19 13:36:50 info: Successfully connected to database
+2018-11-19 13:36:50 info: Number of tweets from Glasgow using streaming are: 64
+2018-11-19 13:36:50 info: totalRedundantDataInCollections: Number of tweets from Glasgow using streaming are: 64
+2018-11-19 13:36:50 info: Number of geo tagged tweets collected using location filter stream: 64
+2018-11-19 13:36:50 info: Number of tweets collected using REST API: 2806
+2018-11-19 13:36:51 info: Number of tweets collected using no filter stream: 10861
+2018-11-19 13:36:53 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 262
+2018-11-19 13:36:53 info: Number of tweets collected using keyword filter stream: 14446
+2018-11-19 13:36:53 info: Number of tweets collected using location filter stream: 64
+2018-11-19 13:36:54 info: Total number of tweets collected using REST and STREAM are: 28177
+2018-11-19 13:36:54 info: Total number of geo-tagged tweets collected using REST and STREAM are: 432
+2018-11-19 13:37:10 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 13:37:14 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 13:37:25 info: Overlap record found between location streamed and no filter streamed data length: 1
+2018-11-19 13:37:25 info: totalRedundantDataInCollections: Duplicate tweet found between location and no filter stream: 1
+2018-11-19 13:37:27 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 2807
+2018-11-19 13:37:56 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 13:37:57 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 13:38:14 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 13:38:15 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 13:38:15 info: total cluster formed: 22831
+2018-11-19 13:38:15 info: Total overlapping data found between Geo-tagged and No Filter Streamed Data: 1
+2018-11-19 13:38:15 info: totalRedundantDataInCollections: Going to find data duplicate between location filtered data and REST API data
+2018-11-19 13:38:21 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 13:38:21 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 13:38:22 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 1329
+2018-11-19 13:38:22 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 11
+2018-11-19 13:38:22 info: Total retweeted tweets present in all the collections is: 18009
+2018-11-19 13:38:22 info: Total quoted tweets present in all the collections is: 4409
+2018-11-19 13:38:22 info: totalRedundantDataInCollections: Going to find data duplicate between location filtered data and keyword filtered stream data
+2018-11-19 13:38:22 info: totalRedundantDataInCollections: Finished finding duplicate tweets in all collections
+2018-11-19 13:38:22 info: Total redundant data present in all the collections is: 1
+2018-11-19 13:38:23 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 13:38:25 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 13:38:25 info: Going to next function to assign location to the clusters formed using Minhash LSH
+2018-11-19 13:38:25 info: Going to next function 13
+2018-11-19 13:38:26 info: Message to check the graph for Assigning Geo-Location to All Clusters: {"url":"https://plot.ly/~kinshukbhardwaj/0","message":"High five! You successfully sent some data to your account on plotly. View your plot in your browser at https://plot.ly/~kinshukbhardwaj/0 or inside your plot.ly account where it is named 'simple-node-example'","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 13:38:26 info: Going to next function to assign country code to the clusters formed using Minhash LSH
+2018-11-19 13:38:26 info: Going to next function 16
+2018-11-19 13:38:28 info: Message to check the graph for Evaluation of Method correctness of Geo Location Assignment: {"url":"https://plot.ly/~kinshukbhardwaj/2","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 13:38:28 info: End of the clustering analysis for all tweets saved in the database
+2018-11-19 13:39:31 info: Starting the server at port number 3000
+2018-11-19 13:39:31 info: Successfully connected to database
+2018-11-19 13:39:31 info: Number of tweets collected using REST API: 2806
+2018-11-19 13:39:31 info: Number of geo tagged tweets collected using location filter stream: 64
+2018-11-19 13:39:31 info: Number of tweets from Glasgow using streaming are: 64
+2018-11-19 13:39:31 info: totalRedundantDataInCollections: Number of tweets from Glasgow using streaming are: 64
+2018-11-19 13:39:31 info: Number of tweets collected using no filter stream: 10861
+2018-11-19 13:39:33 info: Number of tweets collected using keyword filter stream: 14446
+2018-11-19 13:39:33 info: totalRetweetsQuotesCount: Quote tweets found in REST colletion: 262
+2018-11-19 13:39:33 info: Number of tweets collected using location filter stream: 64
+2018-11-19 13:39:34 info: Total number of tweets collected using REST and STREAM are: 28177
+2018-11-19 13:39:34 info: Total number of geo-tagged tweets collected using REST and STREAM are: 432
+2018-11-19 13:39:50 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 13:39:55 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 13:40:06 info: totalRetweetsQuotesCount: Quote tweets found in keyword filter stream colletion: 2807
+2018-11-19 13:40:07 info: totalRedundantDataInCollections: Duplicate tweet found between location and no filter stream: 1
+2018-11-19 13:40:07 info: Overlap record found between location streamed and no filter streamed data length: 1
+2018-11-19 13:40:14 info: totalRedundantDataInCollections: Going to find data duplicate between location filtered data and REST API data
+2018-11-19 13:40:14 info: Total overlapping data found between Geo-tagged and No Filter Streamed Data: 1
+2018-11-19 13:40:15 info: totalRetweetsQuotesCount: Quote tweets found in no filter stream colletion: 1329
+2018-11-19 13:40:42 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 13:40:42 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 13:41:00 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 13:41:00 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 13:41:00 info: total cluster formed: 22831
+2018-11-19 13:41:01 info: totalRetweetsQuotesCount: Quote tweets found in location filter stream colletion: 11
+2018-11-19 13:41:01 info: Total retweeted tweets present in all the collections is: 18009
+2018-11-19 13:41:01 info: Total quoted tweets present in all the collections is: 4409
+2018-11-19 13:41:01 info: totalRedundantDataInCollections: Going to find data duplicate between location filtered data and keyword filtered stream data
+2018-11-19 13:41:01 info: totalRedundantDataInCollections: Finished finding duplicate tweets in all collections
+2018-11-19 13:41:01 info: Total redundant data present in all the collections is: 1
+2018-11-19 13:41:02 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 13:41:02 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 13:41:04 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 13:41:06 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 13:41:06 info: Going to next function to assign location to the clusters formed using Minhash LSH
+2018-11-19 13:41:06 info: Going to next function 13
+2018-11-19 13:41:08 info: Message to check the graph for Assigning Geo-Location to All Clusters: {"url":"https://plot.ly/~kinshukbhardwaj/0","message":"High five! You successfully sent some data to your account on plotly. View your plot in your browser at https://plot.ly/~kinshukbhardwaj/0 or inside your plot.ly account where it is named 'simple-node-example'","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 13:41:08 info: Going to next function to assign country code to the clusters formed using Minhash LSH
+2018-11-19 13:41:08 info: Going to next function 16
+2018-11-19 13:41:09 info: Message to check the graph for Evaluation of Method correctness of Geo Location Assignment: {"url":"https://plot.ly/~kinshukbhardwaj/2","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 13:41:09 info: End of the clustering analysis for all tweets saved in the database
