@@ -226,7 +226,6 @@ exports.minhashLshClustering = function () {
             async.forEachSeries(totalTweets, function (each, callback) {
                     //create array of words for each tweet text
                     var textSplit = each.text.split(' ');
-                    //variable to store important text only after removing the noise
                     //remove the noise of different languages
                     //remove arabic
                     var updatedText = removeNoise.removeStopwords(textSplit, removeNoise.ar);

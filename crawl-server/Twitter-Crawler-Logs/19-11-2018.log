@@ -1,3 +1,630 @@
+2018-11-19 00:34:36 info: Starting the server at port number 3000
+2018-11-19 00:34:36 info: Successfully connected to database
+2018-11-19 00:34:49 info: kMeansClustering: Going to function 2 to find rest tweets
+2018-11-19 00:34:53 info: kMeansClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 00:35:19 info: kMeansClustering: Going to function 4 to find geo tweets
+2018-11-19 00:35:19 info: kMeansClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 00:35:19 info: Starting the server at port number 3000
+2018-11-19 00:35:19 info: Successfully connected to database
+2018-11-19 00:37:29 info: Starting the server at port number 3000
+2018-11-19 00:37:29 info: Successfully connected to database
+2018-11-19 00:37:43 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 00:37:46 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 00:38:12 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 00:38:12 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 00:38:20 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 00:38:21 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 00:38:23 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 00:38:23 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 00:38:25 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 00:38:27 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 00:39:40 info: Starting the server at port number 3000
+2018-11-19 00:39:40 info: Successfully connected to database
+2018-11-19 00:39:54 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 00:39:57 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 00:40:23 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 00:40:23 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 00:40:31 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 00:40:31 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 00:40:33 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 00:40:33 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 00:40:35 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 00:40:36 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 00:40:46 info: Starting the server at port number 3000
+2018-11-19 00:40:46 info: Successfully connected to database
+2018-11-19 00:41:00 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 00:41:03 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 00:41:29 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 00:41:29 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 00:41:37 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 00:41:38 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 00:41:40 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 00:41:40 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 00:41:41 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 00:41:43 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 00:42:13 info: Starting the server at port number 3000
+2018-11-19 00:42:13 info: Successfully connected to database
+2018-11-19 00:42:27 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 00:42:30 info: minhashLshClustering: Going to function 3 to find keyword filtered tweets
+2018-11-19 00:42:55 info: minhashLshClustering: Going to function 4 to find geo tweets
+2018-11-19 00:42:55 info: minhashLshClustering: Going to function 5 to form indexes using minhash lsh
+2018-11-19 00:43:13 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 00:43:13 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 00:43:15 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 00:43:15 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 00:43:16 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 00:43:18 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 00:44:15 info: Starting the server at port number 3000
+2018-11-19 00:44:15 info: Successfully connected to database
+2018-11-19 00:58:38 info: Starting the server at port number 3000
+2018-11-19 00:58:38 info: Successfully connected to database
+2018-11-19 00:58:41 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 00:58:43 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 00:58:43 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 00:58:44 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 00:58:44 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 00:58:46 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 00:58:48 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 00:58:51 info: Starting the server at port number 3000
+2018-11-19 00:58:51 info: Successfully connected to database
+2018-11-19 01:00:51 info: Starting the server at port number 3000
+2018-11-19 01:00:51 info: Successfully connected to database
+2018-11-19 01:00:58 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:00:59 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:00:59 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:01:01 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:01:01 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:02:32 info: Starting the server at port number 3000
+2018-11-19 01:02:32 info: Successfully connected to database
+2018-11-19 01:02:35 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:02:37 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:02:37 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:02:39 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:02:39 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:02:40 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:02:42 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:03:21 info: Starting the server at port number 3000
+2018-11-19 01:03:21 info: Successfully connected to database
+2018-11-19 01:03:25 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:03:26 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:03:26 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:03:28 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:03:28 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:03:29 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:03:31 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:04:07 info: Starting the server at port number 3000
+2018-11-19 01:04:07 info: Successfully connected to database
+2018-11-19 01:04:11 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:04:12 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:04:12 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:04:14 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:04:14 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:04:16 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:04:17 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:07:05 info: Starting the server at port number 3000
+2018-11-19 01:07:05 info: Successfully connected to database
+2018-11-19 01:07:09 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:07:10 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:07:10 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:07:13 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:07:13 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:07:14 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:07:16 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:07:16 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:11:51 info: Starting the server at port number 3000
+2018-11-19 01:11:51 info: Successfully connected to database
+2018-11-19 01:11:55 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:11:56 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:11:56 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:11:58 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:11:58 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:12:00 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:12:03 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:12:03 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:12:03 info: End of the waterfall method: 2806
+2018-11-19 01:12:46 info: Starting the server at port number 3000
+2018-11-19 01:12:46 info: Successfully connected to database
+2018-11-19 01:12:50 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:12:51 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:12:51 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:12:53 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:12:53 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:12:55 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:12:56 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:13:00 info: Starting the server at port number 3000
+2018-11-19 01:13:00 info: Successfully connected to database
+2018-11-19 01:13:03 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:15:17 info: Starting the server at port number 3000
+2018-11-19 01:15:17 info: Successfully connected to database
+2018-11-19 01:15:20 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:15:22 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:15:22 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:15:23 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:15:23 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:15:25 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:15:26 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:15:30 info: Starting the server at port number 3000
+2018-11-19 01:15:30 info: Successfully connected to database
+2018-11-19 01:16:51 info: Starting the server at port number 3000
+2018-11-19 01:16:51 info: Successfully connected to database
+2018-11-19 01:16:55 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:16:56 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:16:56 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:16:58 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:16:58 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:16:59 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:17:02 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:17:02 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:17:02 info: End of the waterfall method: 2806
+2018-11-19 01:34:58 info: Starting the server at port number 3000
+2018-11-19 01:34:58 info: Successfully connected to database
+2018-11-19 01:35:01 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:35:03 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:35:03 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:35:07 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:35:07 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:35:10 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:35:12 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:35:12 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:35:12 info: End of the waterfall method: 2806
+2018-11-19 01:42:51 info: Starting the server at port number 3000
+2018-11-19 01:42:51 info: Successfully connected to database
+2018-11-19 01:42:55 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:42:56 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:42:56 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:42:56 info: total cluster formed: 2159
+2018-11-19 01:42:58 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:42:58 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:42:59 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:43:01 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:43:01 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:43:01 info: End of the waterfall method: 2806
+2018-11-19 01:43:33 info: Starting the server at port number 3000
+2018-11-19 01:43:33 info: Successfully connected to database
+2018-11-19 01:43:37 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:43:38 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:43:38 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:43:38 info: total cluster formed: 2159
+2018-11-19 01:43:40 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:43:40 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:43:41 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:43:43 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:43:44 info: Starting the server at port number 3000
+2018-11-19 01:43:44 info: Successfully connected to database
+2018-11-19 01:43:47 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:44:16 info: Starting the server at port number 3000
+2018-11-19 01:44:16 info: Successfully connected to database
+2018-11-19 01:44:20 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:44:21 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:44:21 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:44:21 info: total cluster formed: 2159
+2018-11-19 01:44:23 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:44:23 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:44:24 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:44:26 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:44:26 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:44:26 info: End of the waterfall method: 2806
+2018-11-19 01:46:46 info: Starting the server at port number 3000
+2018-11-19 01:46:46 info: Successfully connected to database
+2018-11-19 01:46:50 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:46:51 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:46:51 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:46:51 info: total cluster formed: 2159
+2018-11-19 01:46:53 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:46:53 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:46:54 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:46:56 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:46:59 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:46:59 info: End of the waterfall method: 2806
+2018-11-19 01:48:13 info: Starting the server at port number 3000
+2018-11-19 01:48:13 info: Successfully connected to database
+2018-11-19 01:48:17 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:48:18 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:48:18 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:48:18 info: total cluster formed: 2159
+2018-11-19 01:48:20 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:48:20 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:48:22 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:48:24 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:48:24 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:48:24 info: End of the waterfall method: 2806
+2018-11-19 01:49:10 info: Starting the server at port number 3000
+2018-11-19 01:49:10 info: Successfully connected to database
+2018-11-19 01:49:14 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:49:15 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:49:15 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:49:15 info: total cluster formed: 2159
+2018-11-19 01:49:17 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:49:17 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:49:18 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:49:19 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:49:20 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:49:20 info: End of the waterfall method: 2806
+2018-11-19 01:50:00 info: Starting the server at port number 3000
+2018-11-19 01:50:00 info: Successfully connected to database
+2018-11-19 01:50:04 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:50:05 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:50:05 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:50:05 info: total cluster formed: 2159
+2018-11-19 01:50:09 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:50:09 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:50:24 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:50:28 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:50:28 info: Starting the server at port number 3000
+2018-11-19 01:50:28 info: Successfully connected to database
+2018-11-19 01:52:00 info: Starting the server at port number 3000
+2018-11-19 01:52:00 info: Successfully connected to database
+2018-11-19 01:52:03 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:52:05 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:52:05 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:52:05 info: total cluster formed: 2159
+2018-11-19 01:52:09 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:52:09 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:52:13 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:52:14 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:52:15 info: Starting the server at port number 3000
+2018-11-19 01:52:15 info: Successfully connected to database
+2018-11-19 01:52:18 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:52:50 info: Starting the server at port number 3000
+2018-11-19 01:52:50 info: Successfully connected to database
+2018-11-19 01:52:53 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:52:55 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:52:55 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:52:55 info: total cluster formed: 2159
+2018-11-19 01:52:57 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:52:57 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:52:59 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:53:00 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:53:01 info: Starting the server at port number 3000
+2018-11-19 01:53:01 info: Successfully connected to database
+2018-11-19 01:53:39 info: Starting the server at port number 3000
+2018-11-19 01:53:39 info: Successfully connected to database
+2018-11-19 01:53:42 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:53:43 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:53:44 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:53:44 info: total cluster formed: 2159
+2018-11-19 01:53:45 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:53:45 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:53:47 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:53:49 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:54:25 info: Starting the server at port number 3000
+2018-11-19 01:54:25 info: Successfully connected to database
+2018-11-19 01:54:28 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:54:30 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:54:30 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:54:30 info: total cluster formed: 2159
+2018-11-19 01:54:31 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:54:31 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:54:33 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:54:34 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:54:34 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:54:34 info: End of the waterfall method: 2806
+2018-11-19 01:54:48 info: Starting the server at port number 3000
+2018-11-19 01:54:49 info: Successfully connected to database
+2018-11-19 01:54:52 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:54:53 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:54:54 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:54:54 info: total cluster formed: 2159
+2018-11-19 01:54:55 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:54:55 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:54:57 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:54:58 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:54:58 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:54:58 info: End of the waterfall method: 2806
+2018-11-19 01:56:07 info: Starting the server at port number 3000
+2018-11-19 01:56:07 info: Successfully connected to database
+2018-11-19 01:56:10 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:56:12 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:56:12 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:56:12 info: total cluster formed: 2159
+2018-11-19 01:56:14 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:56:14 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:56:15 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:56:17 info: Message to check the graph for user profile based geo information in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/6","message":"","warning":"","filename":"bar-direct-labels","error":""}
+2018-11-19 01:56:17 info: Starting the server at port number 3000
+2018-11-19 01:56:17 info: Successfully connected to database
+2018-11-19 01:56:21 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:57:18 info: Starting the server at port number 3000
+2018-11-19 01:57:18 info: Successfully connected to database
+2018-11-19 01:57:25 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:58:51 info: Starting the server at port number 3000
+2018-11-19 01:58:51 info: Successfully connected to database
+2018-11-19 01:58:57 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:58:59 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:58:59 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:58:59 info: total cluster formed: 2159
+2018-11-19 01:59:00 info: Message to check the graph for the size of clusters formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/2","message":"","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 01:59:00 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:59:04 info: Message to check the graph for the number of geo-tagged clusters in cluster formed by Minhash LSH: {"url":"https://plot.ly/~kinshukb/8","message":"","warning":"","filename":"basic-bar","error":""}
+2018-11-19 01:59:06 info: Starting the server at port number 3000
+2018-11-19 01:59:06 info: Successfully connected to database
+2018-11-19 01:59:08 info: Starting the server at port number 3000
+2018-11-19 01:59:08 info: Successfully connected to database
+2018-11-19 01:59:10 info: Starting the server at port number 3000
+2018-11-19 01:59:10 info: Successfully connected to database
+2018-11-19 01:59:11 info: Starting the server at port number 3000
+2018-11-19 01:59:11 info: Successfully connected to database
+2018-11-19 01:59:28 info: Starting the server at port number 3000
+2018-11-19 01:59:28 info: Successfully connected to database
+2018-11-19 01:59:34 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 01:59:36 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 01:59:36 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 01:59:36 info: total cluster formed: 2159
+2018-11-19 01:59:37 error: Error in plotting graph for number of clusters
+2018-11-19 01:59:37 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:59:37 error: Error in plotting graph for number of geo-tagged clusters in total clusters
+2018-11-19 01:59:38 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 01:59:38 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 01:59:38 info: End of the waterfall method: 2806
+2018-11-19 02:01:30 info: Starting the server at port number 3000
+2018-11-19 02:01:30 info: Successfully connected to database
+2018-11-19 02:01:33 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:01:35 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:01:35 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:01:35 info: total cluster formed: 2159
+2018-11-19 02:01:36 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:01:36 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:01:37 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:01:38 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:01:38 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:01:38 info: End of the waterfall method: 2806
+2018-11-19 02:02:05 info: Starting the server at port number 3000
+2018-11-19 02:02:05 info: Successfully connected to database
+2018-11-19 02:02:09 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:02:10 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:02:10 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:02:10 info: total cluster formed: 2159
+2018-11-19 02:02:11 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:02:11 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:02:12 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:02:13 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:02:13 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:02:13 info: End of the waterfall method: 2806
+2018-11-19 02:02:43 info: Starting the server at port number 3000
+2018-11-19 02:02:43 info: Successfully connected to database
+2018-11-19 02:02:47 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:02:48 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:02:48 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:02:48 info: total cluster formed: 2159
+2018-11-19 02:02:49 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:02:49 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:02:50 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:02:51 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:02:51 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:02:51 info: End of the waterfall method: 2806
+2018-11-19 02:03:17 info: Starting the server at port number 3000
+2018-11-19 02:03:17 info: Successfully connected to database
+2018-11-19 02:03:21 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:03:22 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:03:22 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:03:22 info: total cluster formed: 2159
+2018-11-19 02:03:23 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:03:23 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:03:24 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:03:25 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:03:28 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:03:28 info: End of the waterfall method: 2806
+2018-11-19 02:04:03 info: Starting the server at port number 3000
+2018-11-19 02:04:03 info: Successfully connected to database
+2018-11-19 02:04:07 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:04:08 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:04:08 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:04:08 info: total cluster formed: 2159
+2018-11-19 02:04:09 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:04:09 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:04:10 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:04:11 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:04:11 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:04:11 info: End of the waterfall method: 2806
+2018-11-19 02:07:00 info: Starting the server at port number 3000
+2018-11-19 02:07:00 info: Successfully connected to database
+2018-11-19 02:07:04 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:07:05 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:07:05 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:07:05 info: total cluster formed: 2159
+2018-11-19 02:07:06 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:07:06 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:07:07 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:07:08 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:07:08 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:07:08 info: End of the waterfall method: 2806
+2018-11-19 02:07:36 info: Starting the server at port number 3000
+2018-11-19 02:07:36 info: Successfully connected to database
+2018-11-19 02:07:40 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:07:41 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:07:41 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:07:41 info: total cluster formed: 2159
+2018-11-19 02:07:42 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:07:42 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:07:43 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:07:44 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:07:44 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:07:44 info: End of the waterfall method: 2806
+2018-11-19 02:08:59 info: Starting the server at port number 3000
+2018-11-19 02:08:59 info: Successfully connected to database
+2018-11-19 02:09:03 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:09:04 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:09:04 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:09:04 info: total cluster formed: 2159
+2018-11-19 02:09:05 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:09:05 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:09:06 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:09:07 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:09:07 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:09:07 info: End of the waterfall method: 2806
+2018-11-19 02:09:25 info: Starting the server at port number 3000
+2018-11-19 02:09:25 info: Successfully connected to database
+2018-11-19 02:09:29 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:09:30 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:09:30 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:09:30 info: total cluster formed: 2159
+2018-11-19 02:09:31 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:09:32 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:09:32 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:09:33 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:09:33 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:09:45 info: End of the waterfall method: 2806
+2018-11-19 02:11:30 info: Starting the server at port number 3000
+2018-11-19 02:11:30 info: Successfully connected to database
+2018-11-19 02:11:35 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:11:38 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:11:38 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:11:38 info: total cluster formed: 2159
+2018-11-19 02:11:40 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:11:40 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:11:41 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:11:42 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:11:42 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:11:42 info: End of the waterfall method: 2806
+2018-11-19 02:12:28 info: Starting the server at port number 3000
+2018-11-19 02:12:28 info: Successfully connected to database
+2018-11-19 02:12:32 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:12:33 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:12:33 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:12:33 info: total cluster formed: 2159
+2018-11-19 02:12:34 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:12:34 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:12:35 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:12:36 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:12:36 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:12:36 info: End of the waterfall method: 2806
+2018-11-19 02:13:56 info: Starting the server at port number 3000
+2018-11-19 02:13:56 info: Successfully connected to database
+2018-11-19 02:13:59 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:14:01 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:14:01 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:14:01 info: total cluster formed: 2159
+2018-11-19 02:14:02 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:14:02 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:14:03 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:14:04 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:14:04 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:14:04 info: End of the waterfall method: 2806
+2018-11-19 02:14:14 info: Starting the server at port number 3000
+2018-11-19 02:14:14 info: Successfully connected to database
+2018-11-19 02:14:17 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:14:19 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:14:19 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:14:19 info: total cluster formed: 2159
+2018-11-19 02:14:20 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:14:20 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:14:21 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:14:22 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:14:22 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:14:34 info: End of the waterfall method: 2806
+2018-11-19 02:15:36 info: Starting the server at port number 3000
+2018-11-19 02:15:36 info: Successfully connected to database
+2018-11-19 02:15:39 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 02:15:41 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 02:15:41 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 02:15:41 info: total cluster formed: 2159
+2018-11-19 02:15:42 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:15:42 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:15:43 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:15:44 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 02:15:44 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 02:15:44 info: End of the waterfall method: 2806
+2018-11-19 03:15:33 info: Starting the server at port number 3000
+2018-11-19 03:15:33 info: Successfully connected to database
+2018-11-19 03:15:36 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 03:15:38 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 03:15:38 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 03:15:38 info: total cluster formed: 2159
+2018-11-19 03:15:39 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:15:39 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 03:15:40 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:15:41 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:15:41 info: Going to next function to find glasgow clusters in the clusters formed using Minhash LSH
+2018-11-19 03:15:45 info: Going to next function 13
+2018-11-19 03:15:45 info: End of the waterfall method: 2806
+2018-11-19 03:46:52 info: Starting the server at port number 3000
+2018-11-19 03:46:52 info: Successfully connected to database
+2018-11-19 03:46:55 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 03:46:57 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 03:46:57 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 03:46:57 info: total cluster formed: 2159
+2018-11-19 03:46:58 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:46:58 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 03:46:59 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:47:00 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:47:11 info: Starting the server at port number 3000
+2018-11-19 03:47:11 info: Successfully connected to database
+2018-11-19 03:48:02 info: Starting the server at port number 3000
+2018-11-19 03:48:02 info: Successfully connected to database
+2018-11-19 03:48:06 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 03:48:08 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 03:48:08 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 03:48:08 info: total cluster formed: 2159
+2018-11-19 03:48:09 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:48:09 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 03:48:09 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:48:10 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:48:10 info: Going to next function to find glasgow clusters in the clusters formed using Minhash LSH
+2018-11-19 03:48:10 info: Going to next function 13
+2018-11-19 03:48:10 info: End of the waterfall method: 2806
+2018-11-19 03:57:23 info: Starting the server at port number 3000
+2018-11-19 03:57:23 info: Successfully connected to database
+2018-11-19 03:57:26 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 03:57:28 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 03:57:28 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 03:57:28 info: total cluster formed: 2159
+2018-11-19 03:57:29 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:57:29 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 03:57:30 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:57:31 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 03:57:31 info: Going to next function to find glasgow clusters in the clusters formed using Minhash LSH
+2018-11-19 03:57:31 info: Going to next function 13
+2018-11-19 03:57:31 info: End of the waterfall method: 2806
+2018-11-19 04:02:07 info: Starting the server at port number 3000
+2018-11-19 04:02:07 info: Successfully connected to database
+2018-11-19 04:02:10 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 04:02:12 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 04:02:12 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 04:02:12 info: total cluster formed: 2159
+2018-11-19 04:02:13 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:02:13 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 04:02:29 info: Starting the server at port number 3000
+2018-11-19 04:02:29 info: Successfully connected to database
+2018-11-19 04:02:33 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 04:02:34 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 04:02:34 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 04:02:34 info: total cluster formed: 2159
+2018-11-19 04:02:35 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:02:35 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 04:02:36 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:02:37 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:02:37 info: Going to next function to find glasgow clusters in the clusters formed using Minhash LSH
+2018-11-19 04:02:37 info: Going to next function 13
+2018-11-19 04:02:39 info: Message to check the graph for Assigning Geo-Location to All Clusters: {"url":"https://plot.ly/~kinshukbhardwaj/0","message":"High five! You successfully sent some data to your account on plotly. View your plot in your browser at https://plot.ly/~kinshukbhardwaj/0 or inside your plot.ly account where it is named 'simple-node-example'","warning":"","filename":"simple-node-example","error":""}
+2018-11-19 04:02:39 info: Starting the server at port number 3000
+2018-11-19 04:02:39 info: Successfully connected to database
+2018-11-19 04:04:19 info: Starting the server at port number 3000
+2018-11-19 04:04:19 info: Successfully connected to database
+2018-11-19 04:04:22 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 04:04:24 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 04:04:24 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 04:04:24 info: total cluster formed: 2159
+2018-11-19 04:04:25 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:04:25 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 04:04:26 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:04:27 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:04:27 info: Going to next function to find glasgow clusters in the clusters formed using Minhash LSH
+2018-11-19 04:04:27 info: Going to next function 13
+2018-11-19 04:04:27 info: End of the waterfall method: 2806
+2018-11-19 04:05:56 info: Starting the server at port number 3000
+2018-11-19 04:05:56 info: Successfully connected to database
+2018-11-19 04:05:59 info: minhashLshClustering: Going to function 2 to find rest tweets
+2018-11-19 04:06:01 info: minhashLshClustering: Going to function 6 to form clusters using minhash lsh
+2018-11-19 04:06:01 info: minhashLshClustering: Going to function 7 to form the cluster graph
+2018-11-19 04:06:01 info: total cluster formed: 2159
+2018-11-19 04:06:02 error: Error in plotting graph for number of clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:06:02 info: Going to next function to find geo-tagged and user profile geo information
+2018-11-19 04:06:03 error: Error in plotting graph for number of geo-tagged clusters in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:06:04 error: Error in plotting graph for user profile based geo information in total clusters: {"body":{"url":"","message":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud ).","warning":"","filename":"","error":"Hi there, you've reached the threshold of 100 combined image exports and chart saves per 24h period. If you need to raise your daily limit, please consider upgrading to a paid plan\n(see: https://plot.ly/products/cloud )."},"statusCode":200}
+2018-11-19 04:06:04 info: Going to next function to assign location to the clusters formed using Minhash LSH
+2018-11-19 04:06:04 info: Going to next function 13
+2018-11-19 04:06:04 info: End of the waterfall method: 2806
+
 2018-11-19 04:19:40 info: Starting the server at port number 3000
 2018-11-19 04:19:40 info: Successfully connected to database
 2018-11-19 04:19:43 info: minhashLshClustering: Going to function 2 to find rest tweets
