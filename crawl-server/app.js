@@ -74,17 +74,17 @@ app.get('/*', (req, res) => {
     res.send("Page not Found Error");
 });
 
-// //call the REST API initially and then put it inside a callback loop
-// getTweetsUsingREST.getTweetsREST('amazing');
+//call the REST API initially and then put it inside a callback loop
+getTweetsUsingREST.getTweetsREST('amazing');
 
-// //get twitter data using streaming API - streaming without any filter
-// getTweetsUsingNoFilterSTREAM.getTweetsSTREAMNoFilter();
+//get twitter data using streaming API - streaming without any filter
+getTweetsUsingNoFilterSTREAM.getTweetsSTREAMNoFilter();
 
-// //get twitter data using streaming API - streaming with keyword filter
-// getTweetsUsingKeywordFilterSTREAM.getTweetsSTREAMKeywordFilter();
+//get twitter data using streaming API - streaming with keyword filter
+getTweetsUsingKeywordFilterSTREAM.getTweetsSTREAMKeywordFilter();
 
-// //get twitter data using streaming API - streaming location based
-// getTweetsUsingLocationFilterSTREAM.getTweetsSTREAMLocationFilter();
+//get twitter data using streaming API - streaming location based
+getTweetsUsingLocationFilterSTREAM.getTweetsSTREAMLocationFilter();
 
 // // call the REST API every 5 minutes for a total duration of 1 hour
 // var intervalForRestCall = setInterval(function () {
@@ -143,7 +143,7 @@ app.listen(3000, () => {
 // analytics.countGeoTaggedTweetsAndOverlappingData();
 // analytics.totalRedundantDataInCollections();
 // analytics.totalRetweetsQuotesCount();
-clustering.minhashLshClustering();
+// clustering.minhashLshClustering();
 
 
 /**
