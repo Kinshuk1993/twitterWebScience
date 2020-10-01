@@ -31,7 +31,7 @@ exports.totalRetweetsQuotesCount = function () {
                 TweetsDB.tweetsREST.find({}, function (err, tweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding tweets for finding retweets in REST collection: ' + JSON.stringify(err));
+                        logger.error('totalRetweetsQuotesCount: ERROR in finding tweets for finding retweets in REST collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, totalRetweetedTweets);
                     } else {
@@ -50,7 +50,7 @@ exports.totalRetweetsQuotesCount = function () {
                             function (errFinal) {
                                 if (errFinal) {
                                     //log the error
-                                    logger.error('Error in async of finding retweets in REST collection: ' + JSON.stringify(errFinal));
+                                    logger.error('ERROR in async of finding retweets in REST collection: ' + JSON.stringify(errFinal));
                                     // continue to the next function
                                     callback(null, totalRetweetedTweets);
                                 } else {
@@ -68,7 +68,7 @@ exports.totalRetweetsQuotesCount = function () {
                 }, function (err, quotedTweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in REST API collection: ' + JSON.stringify(err));
+                        logger.error('totalRetweetsQuotesCount: ERROR in finding quote tweets in REST API collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, retweetedTweets, totalQuoteTweets);
                     } else {
@@ -93,7 +93,7 @@ exports.totalRetweetsQuotesCount = function () {
                 TweetsDB.tweetsSTREAMKeywordFilter.find({}, function (err, tweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding tweets for finding retweets in keyword filter collection: ' + JSON.stringify(err));
+                        logger.error('totalRetweetsQuotesCount: ERROR in finding tweets for finding retweets in keyword filter collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, totalRetweetedTweets, totalQuoteTweets);
                     } else {
@@ -112,7 +112,7 @@ exports.totalRetweetsQuotesCount = function () {
                             function (errFinal) {
                                 if (errFinal) {
                                     //log the error
-                                    logger.error('Error in async of finding retweets in keyword filter collection: ' + JSON.stringify(errFinal));
+                                    logger.error('ERROR in async of finding retweets in keyword filter collection: ' + JSON.stringify(errFinal));
                                     // continue to the next function
                                     callback(null, totalRetweetedTweets, totalQuoteTweets);
                                 } else {
@@ -130,7 +130,7 @@ exports.totalRetweetsQuotesCount = function () {
                 }, function (err, quotedTweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in keyword filter stream collection: ' + JSON.stringify(err));
+                        logger.error('totalRetweetsQuotesCount: ERROR in finding quote tweets in keyword filter stream collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, retweetedTweets, totalQuoteTweets);
                     } else {
@@ -155,7 +155,7 @@ exports.totalRetweetsQuotesCount = function () {
                 TweetsDB.tweetsSTREAMNoFilter.find({}, function (err, tweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding tweets for finding retweets in no filter collection: ' + JSON.stringify(err));
+                        logger.error('totalRetweetsQuotesCount: ERROR in finding tweets for finding retweets in no filter collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, totalRetweetedTweets, totalQuoteTweets);
                     } else {
@@ -174,7 +174,7 @@ exports.totalRetweetsQuotesCount = function () {
                             function (errFinal) {
                                 if (errFinal) {
                                     //log the error
-                                    logger.error('Error in async of finding retweets in no filter collection: ' + JSON.stringify(errFinal));
+                                    logger.error('ERROR in async of finding retweets in no filter collection: ' + JSON.stringify(errFinal));
                                     // continue to the next function
                                     callback(null, totalRetweetedTweets, totalQuoteTweets);
                                 } else {
@@ -192,7 +192,7 @@ exports.totalRetweetsQuotesCount = function () {
                 }, function (err, quotedTweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in no filter stream collection: ' + err);
+                        logger.error('totalRetweetsQuotesCount: ERROR in finding quote tweets in no filter stream collection: ' + err);
                         //continue to the next function
                         callback(null, retweetedTweets, totalQuoteTweets);
                     } else {
@@ -217,7 +217,7 @@ exports.totalRetweetsQuotesCount = function () {
                 TweetsDB.tweetsSTREAMLocationFilter.find({}, function (err, tweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding tweets for finding retweets in location filter collection: ' + JSON.stringify(err));
+                        logger.error('totalRetweetsQuotesCount: ERROR in finding tweets for finding retweets in location filter collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, totalRetweetedTweets, totalQuoteTweets);
                     } else {
@@ -236,7 +236,7 @@ exports.totalRetweetsQuotesCount = function () {
                             function (errFinal) {
                                 if (errFinal) {
                                     //log the error
-                                    logger.error('Error in async of finding retweets in location filter collection: ' + JSON.stringify(errFinal));
+                                    logger.error('ERROR in async of finding retweets in location filter collection: ' + JSON.stringify(errFinal));
                                     // continue to the next function
                                     callback(null, totalRetweetedTweets, totalQuoteTweets);
                                 } else {
@@ -254,7 +254,7 @@ exports.totalRetweetsQuotesCount = function () {
                 }, function (err, quotedTweets) {
                     if (err) {
                         //log the error
-                        logger.error('totalRetweetsQuotesCount: Error in finding quote tweets in location filter stream collection: ' + JSON.stringify(err));
+                        logger.error('totalRetweetsQuotesCount: ERROR in finding quote tweets in location filter stream collection: ' + JSON.stringify(err));
                         //continue to the next function
                         callback(null, retweetedTweets, totalQuoteTweets);
                     } else {
@@ -302,7 +302,7 @@ exports.totalRedundantDataInCollections = function () {
     TweetsDB.tweetsSTREAMLocationFilter.find({}, function (errFind, tweets) {
         if (errFind) {
             //log the error
-            logger.error('totalRedundantDataInCollections: Error in finding all location streamed data: ' + errFind);
+            logger.error('totalRedundantDataInCollections: ERROR in finding all location streamed data: ' + errFind);
         } else {
             //log the tweets array length found
             logger.info('totalRedundantDataInCollections: Number of tweets from Glasgow using streaming are: ' + tweets.length);
@@ -316,7 +316,7 @@ exports.totalRedundantDataInCollections = function () {
                                 }, function (err, duplicateTweet) {
                                     if (err) {
                                         //log the error
-                                        logger.error('totalRedundantDataInCollections: Error in finding in no filter stream collection: ' + err);
+                                        logger.error('totalRedundantDataInCollections: ERROR in finding in no filter stream collection: ' + err);
                                         //continue to the next iteration
                                         callback();
                                     } else {
@@ -341,7 +341,7 @@ exports.totalRedundantDataInCollections = function () {
                                 //handle error
                                 if (errAsyncDuplicate) {
                                     //log the error found
-                                    logger.error('totalRedundantDataInCollections: Error in async for finding overlap between location and no filter stream data: ' + errAsyncDuplicate);
+                                    logger.error('totalRedundantDataInCollections: ERROR in async for finding overlap between location and no filter stream data: ' + errAsyncDuplicate);
                                     //go to next function
                                     callback(null, totalRedundantTweetsInCollections);
                                 } else {
@@ -361,7 +361,7 @@ exports.totalRedundantDataInCollections = function () {
                                 }, function (err, duplicateTweet) {
                                     if (err) {
                                         //log the error
-                                        logger.error('totalRedundantDataInCollections: Error in finding duplicate in REST API collection: ' + err);
+                                        logger.error('totalRedundantDataInCollections: ERROR in finding duplicate in REST API collection: ' + err);
                                         //continue to the next iteration
                                         callback();
                                     } else {
@@ -386,7 +386,7 @@ exports.totalRedundantDataInCollections = function () {
                                 //handle error
                                 if (errAsyncDuplicate) {
                                     //log the error found
-                                    logger.error('totalRedundantDataInCollections: Error in async for finding overlap between location and REST API data: ' + errAsyncDuplicate);
+                                    logger.error('totalRedundantDataInCollections: ERROR in async for finding overlap between location and REST API data: ' + errAsyncDuplicate);
                                     //go to next function
                                     callback(null, totalRedundantTweetsInCollections);
                                 } else {
@@ -406,7 +406,7 @@ exports.totalRedundantDataInCollections = function () {
                                 }, function (err, duplicateTweet) {
                                     if (err) {
                                         //log the error
-                                        logger.error('totalRedundantDataInCollections: Error in finding duplicate in keyword filtered stream data collection: ' + err);
+                                        logger.error('totalRedundantDataInCollections: ERROR in finding duplicate in keyword filtered stream data collection: ' + err);
                                         //continue to the next iteration
                                         callback();
                                     } else {
@@ -431,7 +431,7 @@ exports.totalRedundantDataInCollections = function () {
                                 //handle error
                                 if (errAsyncDuplicate) {
                                     //log the error found
-                                    logger.error('totalRedundantDataInCollections: Error in async for finding overlap between location and keyword filtered stream data: ' + errAsyncDuplicate);
+                                    logger.error('totalRedundantDataInCollections: ERROR in async for finding overlap between location and keyword filtered stream data: ' + errAsyncDuplicate);
                                     //go to next function
                                     callback(null, totalRedundantTweetsInCollections);
                                 } else {
@@ -462,7 +462,7 @@ exports.countGeoTaggedTweetsAndOverlappingData = function () {
     TweetsDB.tweetsSTREAMLocationFilter.countDocuments({}, function (error, count) {
         if (error) {
             //log the error
-            logger.error('Error in counting geo tagged tweets collected via location filter stream: ' + JSON.stringify(error));
+            logger.error('ERROR in counting geo tagged tweets collected via location filter stream: ' + JSON.stringify(error));
         } else {
             //assign count to geoTaggedGlasgowTweets
             geoTaggedGlasgowTweets = count;
@@ -480,7 +480,7 @@ exports.countGeoTaggedTweetsAndOverlappingData = function () {
     TweetsDB.tweetsSTREAMLocationFilter.find({}, function (errFind, tweets) {
         if (errFind) {
             //log the error
-            logger.error('Error in finding all location streamed data: ' + errFind);
+            logger.error('ERROR in finding all location streamed data: ' + errFind);
         } else {
             //log the tweets array length found
             logger.info('Number of tweets from Glasgow using streaming are: ' + tweets.length);
@@ -492,7 +492,7 @@ exports.countGeoTaggedTweetsAndOverlappingData = function () {
                     }, function (err, overlapFound) {
                         if (err) {
                             //log the error
-                            logger.error('Error in finding in no filter stream collection: ' + err);
+                            logger.error('ERROR in finding in no filter stream collection: ' + err);
                             //continue to the next iteration
                             callback();
                         } else {
@@ -517,7 +517,7 @@ exports.countGeoTaggedTweetsAndOverlappingData = function () {
                     //handle error
                     if (errAsyncOverlap) {
                         //log the error found
-                        logger.error('Error in async for finding overlap between location and no filter stream data: ' + errAsyncOverlap);
+                        logger.error('ERROR in async for finding overlap between location and no filter stream data: ' + errAsyncOverlap);
                     } else {
                         //log the final output
                         logger.info('Total overlapping data found between Geo-tagged and No Filter Streamed Data: ' + totalOverlapTweetsLocationNoFilterStream);
@@ -535,7 +535,7 @@ exports.countTotalTweetsCollected = function () {
                 TweetsDB.tweetsREST.countDocuments({}, function (error, count) {
                     if (error) {
                         //log the error
-                        logger.error('Error in counting tweets collected via REST API: ' + JSON.stringify(error));
+                        logger.error('ERROR in counting tweets collected via REST API: ' + JSON.stringify(error));
                         //go to the next function in series
                         callback(null, totalTweetsCount, totalGeoTaggedTweets);
                     } else {
@@ -550,7 +550,7 @@ exports.countTotalTweetsCollected = function () {
                         }, function (errFind, geoTaggedTweets) {
                             if (errFind) {
                                 //log the error
-                                logger.error('Error in finding tweets with place as not null for REST API calls: ' + errFind);
+                                logger.error('ERROR in finding tweets with place as not null for REST API calls: ' + errFind);
                                 //go to the next function in series
                                 callback(null, totalTweetsCount, totalGeoTaggedTweets);
                             } else {
@@ -568,7 +568,7 @@ exports.countTotalTweetsCollected = function () {
                 TweetsDB.tweetsSTREAMNoFilter.countDocuments({}, function (error, count) {
                     if (error) {
                         //log the error
-                        logger.error('Error in counting tweets collected via no filter stream: ' + JSON.stringify(error));
+                        logger.error('ERROR in counting tweets collected via no filter stream: ' + JSON.stringify(error));
                         //go to the next function in series
                         callback(null, totalTweetsCount, totalGeoTaggedTweets);
                     } else {
@@ -583,7 +583,7 @@ exports.countTotalTweetsCollected = function () {
                         }, function (errFind, geoTaggedTweets) {
                             if (errFind) {
                                 //log the error
-                                logger.error('Error in finding tweets with place as not null via no filter stream: ' + errFind);
+                                logger.error('ERROR in finding tweets with place as not null via no filter stream: ' + errFind);
                                 //go to the next function in series
                                 callback(null, totalTweetsCount, totalGeoTaggedTweets);
                             } else {
@@ -601,7 +601,7 @@ exports.countTotalTweetsCollected = function () {
                 TweetsDB.tweetsSTREAMKeywordFilter.countDocuments({}, function (error, count) {
                     if (error) {
                         //log the error
-                        logger.error('Error in counting tweets collected via keyword filter stream: ' + JSON.stringify(error));
+                        logger.error('ERROR in counting tweets collected via keyword filter stream: ' + JSON.stringify(error));
                         //go to the next function in series
                         callback(null, totalTweetsCount, totalGeoTaggedTweets);
                     } else {
@@ -616,7 +616,7 @@ exports.countTotalTweetsCollected = function () {
                         }, function (errFind, geoTaggedTweets) {
                             if (errFind) {
                                 //log the error
-                                logger.error('Error in finding tweets with place as not null via keyword filter stream: ' + errFind);
+                                logger.error('ERROR in finding tweets with place as not null via keyword filter stream: ' + errFind);
                                 //go to the next function in series
                                 callback(null, totalTweetsCount, totalGeoTaggedTweets);
                             } else {
@@ -634,7 +634,7 @@ exports.countTotalTweetsCollected = function () {
                 TweetsDB.tweetsSTREAMLocationFilter.countDocuments({}, function (error, count) {
                     if (error) {
                         //log the error
-                        logger.error('Error in counting tweets collected via location filter stream: ' + JSON.stringify(error));
+                        logger.error('ERROR in counting tweets collected via location filter stream: ' + JSON.stringify(error));
                         //go to the next function in series
                         callback(null, totalTweetsCount, totalGeoTaggedTweets);
                     } else {
@@ -649,7 +649,7 @@ exports.countTotalTweetsCollected = function () {
                         }, function (errFind, geoTaggedTweets) {
                             if (errFind) {
                                 //log the error
-                                logger.error('Error in finding tweets with place as not null via location filter stream: ' + errFind);
+                                logger.error('ERROR in finding tweets with place as not null via location filter stream: ' + errFind);
                                 //go to the next function in series
                                 callback(null, totalTweetsCount, totalGeoTaggedTweets);
                             } else {
