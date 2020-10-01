@@ -135,8 +135,8 @@ app.listen(3000, () => {
  * previously collected, please do remove the below comments
  * to run analytics on collected data
  * 
- * ALSO, VERY - IMPORTANT: Comment out the Lines 77 till 125 to avoid
- * collection of data using REST and STREAMS
+ * IMPORTANT NOTE: Un-comment out the Lines 77 till 125 to
+ * perform the collection of twitter data using REST and STREAMS
  */
 //perform analytics on the data collected
 analytics.countTotalTweetsCollected();
@@ -149,7 +149,7 @@ clustering.minhashLshClustering();
 /**
  * 
  * #############################################################################################################################################################################
- * IMPORTANT NOTE: Possibility that the data being received from twitter is NOT JSON FORMATTED
+ * IMPORTANT NOTE: There is a possibility that the data received from twitter is NOT JSON FORMATTED
  * Hence have to convert it when processing it via JSON.stringify() and JSON.parse()
  * #############################################################################################################################################################################
  * Current data stats for twitterCrawlerDB:
