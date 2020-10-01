@@ -22,7 +22,7 @@ Software Requirements:
 3. MongoDB Version: v4.0.3
 
 Command to export mongodb data to bson and json files:
-1. mongodump --db <db name> --out <path to backup>
+1. mongodump --db <DB_NAME> --out <path to backup>
 2. Taken from the link: https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb
 3. Example Command: mongodump --db sampleData --out D:\MongoDB-Backup
 
