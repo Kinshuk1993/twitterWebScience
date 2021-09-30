@@ -1,4 +1,4 @@
-This project is for the twitter crawler for a Twitter Crawler
+This project is for the twitter crawler for a Twitter Crawler written using Javascript
 
 1. To start the application, open a command prompt inside the directory crawl-server.
 2. To run the application in normal mode, navigate to crawl-server directory and run the command "node app.js" or "node app" in Command Prompt Window
