@@ -13,7 +13,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.4",
     "minhash": "0.0.9",
-    "mongoose": "^5.7.5",
+    "mongoose": "^5.13.15",
     "plotly": "^1.0.6",
     "stopword": "^0.1.13",
     "twit": "^2.2.11",
