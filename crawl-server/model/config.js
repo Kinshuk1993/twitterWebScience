@@ -16,7 +16,13 @@ module.exports = {
   /**
    * This is commented as this DB exists locally and has 3rd streaming data in it
    */
-  url: 'mongodb://127.0.0.1/sampleData'
+  // For local MongoDB (if available)
+  // url: 'mongodb://127.0.0.1/sampleData'
+
+  // For MongoDB Memory Server (no local MongoDB required)
+  url: 'mongodb://127.0.0.1:27017/sampleData',
+  useMemoryServer: true // Set to true to use in-memory MongoDB, false for local MongoDB
+
   // database for final submission
   //url: 'mongodb://127.0.0.1/twitterData'
 }

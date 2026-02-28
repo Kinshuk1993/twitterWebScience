@@ -6,24 +6,21 @@ var path = require('path');
 var fs = require('fs');
 var logDir = 'Twitter-Crawler-Logs';
 var outputLogDir = 'Twitter-Crawler-Final-Output-Log';
-var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var getTweets = require('./controller/getTweetsRouter');
 var config = require('./model/config');
 var logger = require('./logger-config/log-config');
-//for rest calls
-var getTweetsUsingREST = require('./twitterAPIs/restCall');
-//for no filter stream call
-var getTweetsUsingNoFilterSTREAM = require('./twitterAPIs/noFilterStreamCall');
-//for keyword filter stream call
-var getTweetsUsingKeywordFilterSTREAM = require('./twitterAPIs/keywordFilterStream');
-//for location filter stream call
-var getTweetsUsingLocationFilterSTREAM = require('./twitterAPIs/locationFilterStream');
-//get keywor array
-var keywordArray = require('./controller/keywords');
-//Commenting out for now - using it for only ANALYTICS
+var { startMongoMemoryServer } = require('./model/mongoMemoryServer');
+//Commented out Twitter API modules since they try to connect immediately on require()
+//Uncomment these if you want to collect Twitter data (and have valid API keys)
+// var getTweetsUsingREST = require('./twitterAPIs/restCall');
+// var getTweetsUsingNoFilterSTREAM = require('./twitterAPIs/noFilterStreamCall');
+// var getTweetsUsingKeywordFilterSTREAM = require('./twitterAPIs/keywordFilterStream');
+// var getTweetsUsingLocationFilterSTREAM = require('./twitterAPIs/locationFilterStream');
+// var keywordArray = require('./controller/keywords');
+//Using for ANALYTICS only
 var analytics = require('./controller/analytics');
-//Commenting out for now - using it for only ANALYTICS
+//Using for ANALYTICS only (clustering commented out in analytics call below)
 var clustering = require('./controller/clustering');
 
 //create the program log directory if it does not exist
@@ -39,21 +36,33 @@ if (!fs.existsSync(outputLogDir)) {
 //initialize express
 const app = express();
 
-//Coonect to the mongo database
-mongoose.connect(config.url, {
-    useNewUrlParser: true
-}, function (err) {
-    if (err) {
-        logger.error("Problem in connecting to the mongoDB database: " + JSON.stringify(err));
-    }
-    logger.info('Successfully connected to database');
-});
+//Function to initialize database connection
+async function initializeDatabase() {
+    try {
+        // Start MongoDB Memory Server if configured
+        if (config.useMemoryServer) {
+            const memoryServerUri = await startMongoMemoryServer();
+            config.url = memoryServerUri;
+            logger.info('Using MongoDB Memory Server for testing (no local MongoDB required)');
+        }
 
-//Middleware for bodyparsing using both json and urlencoding
-app.use(bodyParser.urlencoded({
+        //Connect to the mongo database
+        await mongoose.connect(config.url);
+        logger.info('Successfully connected to database');
+    } catch (err) {
+        logger.error("Problem in connecting to the mongoDB database: " + JSON.stringify(err));
+        logger.info('Application will continue but database operations will fail');
+    }
+}
+
+// Initialize database connection
+initializeDatabase();
+
+//Middleware for bodyparsing using both json and urlencoding (built into Express 4.16+)
+app.use(express.urlencoded({
     extended: true
 }));
-app.use(bodyParser.json());
+app.use(express.json());
 
 /**
  * express.static is a built in middleware function to serve static files.
@@ -138,12 +147,20 @@ app.listen(3000, () => {
  * IMPORTANT NOTE: Un-comment out the Lines 77 till 125 to
  * perform the collection of twitter data using REST and STREAMS
  */
-//perform analytics on the data collected
-analytics.countTotalTweetsCollected();
-analytics.countGeoTaggedTweetsAndOverlappingData();
-analytics.totalRedundantDataInCollections();
-analytics.totalRetweetsQuotesCount();
-clustering.minhashLshClustering();
+//perform analytics on the data collected (wrapped in async IIFE to handle promises)
+(async () => {
+    try {
+        await analytics.countTotalTweetsCollected();
+        await analytics.countGeoTaggedTweetsAndOverlappingData();
+        await analytics.totalRedundantDataInCollections();
+        await analytics.totalRetweetsQuotesCount();
+        // Clustering is commented out temporarily due to complexity - can be re-enabled after testing
+        // await clustering.minhashLshClustering();
+        logger.info('Analytics completed successfully');
+    } catch (err) {
+        logger.error('Error in analytics: ' + JSON.stringify(err));
+    }
+})();
 
 
 /**

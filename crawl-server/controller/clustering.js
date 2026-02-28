@@ -30,7 +30,7 @@ var newArrayPlace = [],
     eachNewInternalArrayPlace = [],
     eachNewInternalArrayGeoEnabled = [];
 //variable to include stopword module to remove noise from the text
-var removeNoise = require('stopword');
+const { removeStopwords, ara, ben, por, dan, deu, eng, spa, fas, fra, hin, ita, jpn, nld, nob, pol, por_br, pan, rus, swe, zho } = require('stopword');
 //variables to store location of each tweet in the clusters formed
 var newArrayLocation = [];
 //variable to store country of each tweet in clusters found
@@ -226,47 +226,10 @@ exports.minhashLshClustering = function () {
             async.forEachSeries(totalTweets, function (each, callback) {
                     //create array of words for each tweet text
                     var textSplit = each.text.split(' ');
-                    //remove the noise of different languages
-                    //remove arabic
-                    var updatedText = removeNoise.removeStopwords(textSplit, removeNoise.ar);
-                    //remove bengali
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.bn);
-                    //remove Brazilian Portuguese
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.br);
-                    //remove Danish noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.da);
-                    //remove German noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.de);
-                    //remove English noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.en);
-                    //remove Spanish noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.es);
-                    //remove Farsi noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.fa);
-                    //remove French noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.fr);
-                    //remove Hindi noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.hi);
-                    //remove Italian noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.it);
-                    //remove Japanese noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.ja);
-                    //remove Dutch noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.nl);
-                    //remove Norwegian noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.no);
-                    //remove Polish noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.pl);
-                    //remove Portuguese noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.pt);
-                    //remove Punjab gurmukhi noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.pa_in);
-                    //remove Russian noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.ru);
-                    //remove Swedish noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.sv);
-                    //remove Chinese simplified noise
-                    var updatedText = removeNoise.removeStopwords(updatedText, removeNoise.zh);
+                    //remove the noise of different languages - combine all languages into one array
+                    var allStopwords = [...ara, ...ben, ...por, ...dan, ...deu, ...eng, ...spa, ...fas, ...fra, ...hin, ...ita, ...jpn, ...nld, ...nob, ...pol, ...por_br, ...pan, ...rus, ...swe, ...zho];
+                    //remove stopwords in one pass using the new API
+                    var updatedText = removeStopwords(textSplit, allStopwords);
                     //new variable for each text hash
                     var m = 'm' + count;
                     //increment count for next variable

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm outdated:*)",
+      "Bash(npm install)",
+      "Bash(npm audit fix:*)",
+      "Bash(timeout:*)",
+      "Bash(node app.js)",
+      "Bash(ping:*)",
+      "Bash(nul)",
+      "Bash(move analytics.js analytics_old.js)",
+      "Bash(move analytics_new.js analytics.js)",
+      "Bash(git checkout:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
